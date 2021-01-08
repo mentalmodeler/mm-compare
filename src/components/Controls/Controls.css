@@ -1,0 +1,12 @@
+.controls {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.controls__load-url > input[type=button] {
+    margin-right: 10px;
+}
+
+.controls__load-local > input[type=button] {
+    margin-right: 25px;
+}
