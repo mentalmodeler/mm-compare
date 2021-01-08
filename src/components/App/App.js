@@ -9,11 +9,11 @@ function App() {
     const [results, setResults] = useState({});
 
     return (
-      <div className="MMCompare">
-        <Controls modelsJSON={modelsJSON} setModelsJSON={setModelsJSON} />
-        <Models modelsJSON={modelsJSON} setResults={setResults} />
-        <Results results={results} />
-      </div>
+        <div className="MMCompare">
+            <Controls modelsJSON={modelsJSON} setModelsJSON={setModelsJSON} />
+            <Models modelsJSON={modelsJSON} setResults={setResults} />
+            <Results results={results} />
+        </div>
     );
 }
 

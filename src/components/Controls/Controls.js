@@ -9,22 +9,17 @@ function Controls({modelsJSON, setModelsJSON}) {
 
     const handleLoadURL = async () => {
         const json = await loadAndParseURL(inputURL.current.value);
-
         setModelsJSON([...modelsJSON, json]);
     };
 
     const loadAndParseLocalModels = evt => {
         const fileList = evt.target.files;
-
-        if(fileList && fileList.length > 0) {
+        if (fileList && fileList.length > 0) {
             const files = Array.from(fileList);
-
             files.forEach(async f => {
                 const json = await loadAndParse(f);
-
                 setModelsJSON([...modelsJSON, json]);
             });
-
         }
     };
 
