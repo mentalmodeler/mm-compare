@@ -1,15 +1,25 @@
 import './Controls.css';
-import {useRef} from 'react';
+import {useContext, useRef} from 'react';
 import {loadAndParse, loadAndParseURL} from 'mm-modules';
 
-function Controls({modelsJSON, setModelsJSON}) {
-    const inputFile = useRef();
-    const inputURL = useRef();
+import {AppContext} from '../App/App';
+
+
+
+function Controls() { // {modelsJSON, setModelsJSON}) {
+    const inputFile = useRef(null);
+    const inputURL = useRef('');
+    const {dispatch} = useContext(AppContext);
     const handleLoadLocal = () => inputFile.current.click();
 
     const handleLoadURL = async () => {
         const json = await loadAndParseURL(inputURL.current.value);
-        setModelsJSON([...modelsJSON, json]);
+        dispatch({
+            action: {
+                type: 'addJSON',
+                json
+            }
+        });
     };
 
     const loadAndParseLocalModels = evt => {
@@ -18,13 +28,18 @@ function Controls({modelsJSON, setModelsJSON}) {
             const files = Array.from(fileList);
             files.forEach(async f => {
                 const json = await loadAndParse(f);
-                setModelsJSON([...modelsJSON, json]);
+                dispatch({
+                    action: {
+                        type: 'addJSON',
+                        json
+                    }
+                });
             });
         }
     };
 
     const handleCompare = () => console.log("compare models...");
-
+    
     return (
         <div className="controls">
             <div className="controls__load">
