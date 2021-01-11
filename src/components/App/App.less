@@ -1,0 +1,78 @@
+@import '../../shared.less';
+
+.MMCompare {
+    // display: flex;
+    // flex-direction: column;
+    // margin: 25px;
+    .background();
+}
+
+.header {
+    &__primary {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 24px;
+        background-color: @dark-darkest;
+
+        .logo {
+            background-color: @dark-darkest;
+            letter-spacing: -.5px;
+            display: flex;
+            align-items: flex-start;
+            color: @white;
+            padding: 16px;
+            font-size: 24px;
+            line-height: 24px;
+            font-weight: 500;
+                    
+            > :last-child {
+                color: @blue;
+                font-weight: 700;
+            }
+        }
+    }
+    &__mode-select {
+        padding-left: 24px;
+        display: flex;
+        align-items: center;
+
+        &-mode {
+            color: @blue;
+            font-size: 24px;
+            line-height: 28px;
+            height: 100%;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            > span {
+                margin: 0 8px;
+            }
+
+            &:first-child {
+                margin-right: 32px;
+            }
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                height: 4px;
+                background-color: @blue;    
+            }
+
+            &--selected::before {
+
+            }
+        }
+    }
+    &__secondary {
+        background-color: @dark;
+        padding:16px 24px;
+        display: flex;
+        justify-content: flex-end;
+    }
+}

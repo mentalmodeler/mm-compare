@@ -48,12 +48,26 @@ function App() {
     return (
         <AppContext.Provider value={{state, setState, dispatch: setState}}>
             <div className="MMCompare">
-                {mode === 'load' && (
-                    <>
-                        <Controls />
-                        <Models />
-                    </>
-                )}
+            <header className="header">
+                <div className="header__primary">
+                    <div className={"logo"}>
+                        <span>{'MentalModeler'}</span>
+                        <span>{'COMPARE'}</span>
+                    </div>
+                    <div className="header__mode-select">
+                        <div className="header__mode-select-mode">
+                            <span>{'Files'}</span>
+                        </div>
+                        <div className="header__mode-select-mode">
+                            <span>{'Compare'}</span>
+                        </div>
+                    </div>
+                </div>
+                <div className="header__secondary">
+                    {mode === 'load' && (<Controls />)}
+                    {mode === 'compare' && (null)}
+                </div>
+            </header>
                 {mode === 'result' && (
                     <Results results={results} />
                 )}

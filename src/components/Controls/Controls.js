@@ -48,6 +48,7 @@ function Controls() { // {modelsJSON, setModelsJSON}) {
                         type="button"
                         onClick={handleLoadLocal}
                         value="Load from Local"
+                        className="btn btn-ghost"
                     />
                     <input 
                         type="file" 
@@ -60,22 +61,25 @@ function Controls() { // {modelsJSON, setModelsJSON}) {
                 </span>
                 <span className="controls__load-url">
                     <input 
+                        type="text" 
+                        ref={inputURL}
+                        className="input"
+                        placeholder="Enter URL here"
+                    />
+                    <input 
                         type="button" 
                         onClick={handleLoadURL}
                         value="Load from URL" 
-                    />
-                    <input 
-                        type="text" 
-                        ref={inputURL}
+                        className="btn btn-ghost"
                     />
                 </span>
             </div>
-            <input
+            {/* <input
                 type="button"
                 className="controls__compare"
                 onClick={handleCompare}
                 value="Compare"
-            />
+            /> */}
         </div>
     );
 }

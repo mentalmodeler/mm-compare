@@ -1,5 +1,106 @@
+.btn {
+  outline: none !important;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: #CED0D6;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 200ms ease, transform 200ms ease;
+}
+.btn:hover {
+  background-color: #eaebed;
+}
+.btn:active {
+  transform: translateY(1px) scale(0.98);
+  transition-duration: 0ms;
+}
+.btn-ghost {
+  background-color: #222429;
+  border: 1px solid #00C7FF;
+  color: #00C7FF;
+  font-weight: 500;
+  transition: background-color 200ms ease, transform 200ms ease;
+}
+.btn-ghost:hover {
+  background-color: #000000;
+}
+.input {
+  margin-right: 8px;
+  padding: 9px 11px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  color: #dedede;
+  background-color: #000;
+}
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #00C7FF;
+}
 .MMCompare {
-    display: flex;
-    flex-direction: column;
-    margin: 25px;
+  min-height: 100vh;
+  background-color: #f6f7f8;
+  background: repeating-linear-gradient(45deg, #f6f7f8, #f6f7f8 3px, #f2f3f4 3px, #f2f3f4 6px);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.header__primary {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 24px;
+  background-color: #222429;
+}
+.header__primary .logo {
+  background-color: #222429;
+  letter-spacing: -0.5px;
+  display: flex;
+  align-items: flex-start;
+  color: #fff;
+  padding: 16px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.header__primary .logo > :last-child {
+  color: #00C7FF;
+  font-weight: 700;
+}
+.header__mode-select {
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+}
+.header__mode-select-mode {
+  color: #00C7FF;
+  font-size: 24px;
+  line-height: 28px;
+  height: 100%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.header__mode-select-mode > span {
+  margin: 0 8px;
+}
+.header__mode-select-mode:first-child {
+  margin-right: 32px;
+}
+.header__mode-select-mode::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 4px;
+  background-color: #00C7FF;
+}
+.header__secondary {
+  background-color: #373c42;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: flex-end;
 }
