@@ -2,6 +2,7 @@
   "name": "mm-compare",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://mentalmodeler.github.io/mm-compare",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -16,7 +17,7 @@
   "scripts": {
     "start": "npm run build-css && run-p -ncr watch-css start-js",
     "start-js": "react-scripts start",
-    "build": "run-s -n build-css build-js",
+    "build": "run-s -n build-css build-js && rm -rf docs && mv build docs",
     "build-js": "react-scripts build",
     "test": "run-s -n build-css test-js",
     "test-js": "react-scripts test --env=jsdom",

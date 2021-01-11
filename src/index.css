@@ -1,3 +1,45 @@
+.btn {
+  outline: none !important;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: #CED0D6;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: background-color 200ms ease, transform 200ms ease;
+}
+.btn:hover {
+  background-color: #eaebed;
+}
+.btn:active {
+  transform: translateY(1px) scale(0.98);
+  transition-duration: 0ms;
+}
+.btn-ghost {
+  background-color: #222429;
+  border: 1px solid #00C7FF;
+  color: #00C7FF;
+  font-weight: 500;
+  transition: background-color 200ms ease, transform 200ms ease;
+}
+.btn-ghost:hover {
+  background-color: #000000;
+}
+.input {
+  margin-right: 8px;
+  padding: 9px 11px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  color: #dedede;
+  background-color: #000;
+}
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #00C7FF;
+}
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif !important;
