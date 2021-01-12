@@ -46,15 +46,3 @@
   outline: none;
   box-shadow: 0 0 0 1px #00C7FF;
 }
-body {
-  margin: 0;
-  font-family: 'Roboto', Helvetica Neue, sans-serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-* {
-  box-sizing: border-box;
-}
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-}
