@@ -6,7 +6,7 @@ import {AppContext} from '../App/App';
 
 
 
-function Controls() { // {modelsJSON, setModelsJSON}) {
+function Controls() {
     const inputFile = useRef(null);
     const inputURL = useRef('');
     const {dispatch} = useContext(AppContext);
@@ -42,44 +42,36 @@ function Controls() { // {modelsJSON, setModelsJSON}) {
     
     return (
         <div className="controls">
-            <div className="controls__load">
-                <span className="controls__load-local">
-                    <input 
-                        type="button"
-                        onClick={handleLoadLocal}
-                        value="Load from Local"
-                        className="btn btn-ghost"
-                    />
-                    <input 
-                        type="file" 
-                        multiple={true}
-                        ref={inputFile}
-                        style={{display:"none"}}
-                        onChange={loadAndParseLocalModels}
-                        value=""
-                    />
-                </span>
-                <span className="controls__load-url">
-                    <input 
-                        type="text" 
-                        ref={inputURL}
-                        className="input"
-                        placeholder="Enter URL here"
-                    />
-                    <input 
-                        type="button" 
-                        onClick={handleLoadURL}
-                        value="Load from URL" 
-                        className="btn btn-ghost"
-                    />
-                </span>
+            <div className="controls__load-local">
+                <input 
+                    type="button"
+                    onClick={handleLoadLocal}
+                    value="Load from Local"
+                    className="btn btn-ghost"
+                />
+                <input 
+                    type="file" 
+                    multiple={true}
+                    ref={inputFile}
+                    style={{display:"none"}}
+                    onChange={loadAndParseLocalModels}
+                    value=""
+                />
             </div>
-            {/* <input
-                type="button"
-                className="controls__compare"
-                onClick={handleCompare}
-                value="Compare"
-            /> */}
+            <div className="controls__load-url">
+                <input 
+                    type="text" 
+                    ref={inputURL}
+                    className="input"
+                    placeholder="Enter URL here"
+                />
+                <input 
+                    type="button" 
+                    onClick={handleLoadURL}
+                    value="Load from URL" 
+                    className="btn btn-ghost"
+                />
+            </div>
         </div>
     );
 }

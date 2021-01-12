@@ -1,10 +1,19 @@
 @import '../../shared.less';
 
 .MMCompare {
-    // display: flex;
-    // flex-direction: column;
-    // margin: 25px;
-    .background();
+    min-height: 100vh;
+    @light: #f6f7f8;
+    @dark: #dddedf; // #f2f3f4;
+	background-color: @light;
+	background: repeating-linear-gradient(
+	  45deg,
+	  @light,
+	  @light 3px,
+	  @dark 3px,
+	  @dark 6px
+	);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .header {
@@ -45,6 +54,9 @@
             display: flex;
             align-items: center;
             position: relative;
+            user-select: none;
+            cursor: pointer;
+            transition: background-color 200ms ease;
 
             > span {
                 margin: 0 8px;
@@ -60,19 +72,36 @@
                 left: 0;
                 bottom: 0;
                 right: 0;
-                height: 4px;
-                background-color: @blue;    
+                height: 0;
+                background-color: @blue;
+                opacity: 0;
+                z-index: 1;
+                transition: opacity 200ms ease;  
             }
 
-            &--selected::before {
+            &:hover {
+                &::before {
+                    height: 4px;
+                    opacity: 1;
+                }
+            }
 
+            &--selected {
+                &::before {
+                    height: 4px;
+                    opacity: 1;
+                }
             }
         }
     }
     &__secondary {
         background-color: @dark;
-        padding:16px 24px;
+        padding: 16px;
         display: flex;
-        justify-content: flex-end;
     }
 }
+
+.main {
+    padding: 32px;
+}
+

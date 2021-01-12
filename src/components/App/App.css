@@ -7,7 +7,6 @@
   background-color: #CED0D6;
   border: none;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   transition: background-color 200ms ease, transform 200ms ease;
 }
 .btn:hover {
@@ -16,6 +15,13 @@
 .btn:active {
   transform: translateY(1px) scale(0.98);
   transition-duration: 0ms;
+  box-shadow: none;
+}
+.btn[disabled] {
+  opacity: 0.5;
+  transition: none !important;
+  transform: none !important;
+  cursor: not-allowed;
 }
 .btn-ghost {
   background-color: #222429;
@@ -43,7 +49,7 @@
 .MMCompare {
   min-height: 100vh;
   background-color: #f6f7f8;
-  background: repeating-linear-gradient(45deg, #f6f7f8, #f6f7f8 3px, #f2f3f4 3px, #f2f3f4 6px);
+  background: repeating-linear-gradient(45deg, #f6f7f8, #f6f7f8 3px, #dddedf 3px, #dddedf 6px);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -82,6 +88,9 @@
   display: flex;
   align-items: center;
   position: relative;
+  user-select: none;
+  cursor: pointer;
+  transition: background-color 200ms ease;
 }
 .header__mode-select-mode > span {
   margin: 0 8px;
@@ -95,12 +104,25 @@
   left: 0;
   bottom: 0;
   right: 0;
-  height: 4px;
+  height: 0;
   background-color: #00C7FF;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 200ms ease;
+}
+.header__mode-select-mode:hover::before {
+  height: 4px;
+  opacity: 1;
+}
+.header__mode-select-mode--selected::before {
+  height: 4px;
+  opacity: 1;
 }
 .header__secondary {
   background-color: #373c42;
-  padding: 16px 24px;
+  padding: 16px;
   display: flex;
-  justify-content: flex-end;
+}
+.main {
+  padding: 32px;
 }

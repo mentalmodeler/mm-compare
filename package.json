@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "classnames": "^2.2.6",
     "mm-modules": "file:../mm-modules",
     "node-less-chokidar": "^0.4.1",
     "npm-run-all": "^4.1.5",
@@ -17,6 +18,7 @@
   "scripts": {
     "start": "npm run build-css && run-p -ncr watch-css start-js",
     "start-js": "react-scripts start",
+    "deploy": "run-s -n build-css build-js && rm -rf docs && mv build docs && git add docs && git commit -m \"task: deploy site\" && git push origin ui-work",
     "build": "run-s -n build-css build-js && rm -rf docs && mv build docs",
     "build-js": "react-scripts build",
     "test": "run-s -n build-css test-js",

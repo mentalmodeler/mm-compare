@@ -1,8 +1,11 @@
-import './App.css';
 import React, {useReducer} from 'react';
+import classnames from 'classnames';
+
 import Controls from '../Controls/Controls';
 import Models from '../Models/Models';
 import Results from '../Results/Results';
+
+import './App.css';
 
 export const AppContext = React.createContext({
     modelsJSON: [],
@@ -32,7 +35,8 @@ function App() {
             } else if (action.type === 'removeModel') {
                 updatedState = {
                     ...updatedState,
-                    modelsJSON: updatedState.modelsJSON.filter((model) => model.id !== action.id)
+                    modelsJSON: updatedState.modelsJSON.filter((model) => model.id !== action.id),
+                    ...(updatedState.canonical === action.id && {canonical: null})
                 };
             } 
         }
@@ -41,36 +45,57 @@ function App() {
         modelsJSON: [],
         results: {},
         canonical: null,
-        mode: 'load',
+        mode: 'files',
     });
-    console.log('state:', state);
     const {modelsJSON, mode, results} = state;
     return (
         <AppContext.Provider value={{state, setState, dispatch: setState}}>
             <div className="MMCompare">
-            <header className="header">
-                <div className="header__primary">
-                    <div className={"logo"}>
-                        <span>{'MentalModeler'}</span>
-                        <span>{'COMPARE'}</span>
-                    </div>
-                    <div className="header__mode-select">
-                        <div className="header__mode-select-mode">
-                            <span>{'Files'}</span>
+                <header className="header">
+                    <div className="header__primary">
+                        <div className={"logo"}>
+                            <span>{'MentalModeler'}</span>
+                            <span>{'COMPARE'}</span>
                         </div>
-                        <div className="header__mode-select-mode">
-                            <span>{'Compare'}</span>
+                        <div className="header__mode-select">
+                            <div
+                                className={classnames('header__mode-select-mode', {
+                                    'header__mode-select-mode--selected': mode === 'files'
+                                })}
+                                onClick={() => setState({mode: 'files'})}
+                            >
+                                <span>{'Files'}</span>
+                            </div>
+                            <div
+                                className={classnames('header__mode-select-mode', {
+                                    'header__mode-select-mode--selected': mode === 'compare'
+                                })}
+                                onClick={() => setState({mode: 'compare'})}
+                            >
+                                <span>{'Compare'}</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="header__secondary">
-                    {mode === 'load' && (<Controls />)}
-                    {mode === 'compare' && (null)}
-                </div>
-            </header>
-                {mode === 'result' && (
-                    <Results results={results} />
-                )}
+                    <div className="header__secondary">
+                        {mode === 'files' && (<Controls />)}
+                        {mode === 'compare' && (
+                            <input 
+                                type="button"
+                                // onClick={handleLoadLocal}
+                                value="Run comparision"
+                                className="btn btn-ghost"
+                            />
+                        )}
+                    </div>
+                </header>
+                <main className="main">
+                    {mode === 'files' && (
+                        <Models />
+                    )}
+                    {mode === 'compare' && (
+                        <Results results={results} />
+                    )}
+                </main>
             </div>
         </AppContext.Provider>
     );

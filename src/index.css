@@ -7,7 +7,6 @@
   background-color: #CED0D6;
   border: none;
   cursor: pointer;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
   transition: background-color 200ms ease, transform 200ms ease;
 }
 .btn:hover {
@@ -16,6 +15,13 @@
 .btn:active {
   transform: translateY(1px) scale(0.98);
   transition-duration: 0ms;
+  box-shadow: none;
+}
+.btn[disabled] {
+  opacity: 0.5;
+  transition: none !important;
+  transform: none !important;
+  cursor: not-allowed;
 }
 .btn-ghost {
   background-color: #222429;
@@ -42,9 +48,12 @@
 }
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Roboto', Helvetica Neue, sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
