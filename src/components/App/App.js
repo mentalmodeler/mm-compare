@@ -19,8 +19,8 @@ function App() {
     const [state, setState] = useReducer((oldState, newState) => {
         let updatedState = {...oldState, ...newState};
         const {action} = newState;
+
         if (action && action.type) {
-            // if needed, we can use this
             if (action.type === 'addJSON') {
                 updatedState = {
                     ...updatedState,
@@ -40,6 +40,7 @@ function App() {
                 };
             } 
         }
+
         return updatedState;
     }, {
         modelsJSON: [],
@@ -47,7 +48,9 @@ function App() {
         canonical: null,
         mode: 'files',
     });
-    const {modelsJSON, mode, results} = state;
+
+    const {mode, results} = state;
+
     return (
         <AppContext.Provider value={{state, setState, dispatch: setState}}>
             <div className="MMCompare">

@@ -4,8 +4,6 @@ import {loadAndParse, loadAndParseURL} from 'mm-modules';
 
 import {AppContext} from '../App/App';
 
-
-
 function Controls() {
     const inputFile = useRef(null);
     const inputURL = useRef('');
