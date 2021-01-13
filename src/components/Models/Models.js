@@ -7,7 +7,7 @@ import './Models.css';
 
 function Models() {
     const {state, setState, dispatch} = useContext(AppContext);
-    const {modelsJSON, canonical} = state;
+    const {modelsJSON, canonicalId} = state;
 
     return (
         <div className="models">
@@ -31,9 +31,9 @@ function Models() {
                             <div className="model__controls">
                                 <button
                                     className={classnames('canonical-btn', {
-                                        'canonical-btn--selected': id === canonical
+                                        'canonical-btn--selected': id === canonicalId
                                     })}
-                                    onClick={() => setState({canonical: id})}
+                                    onClick={() => setState({canonicalId: id})}
                                 >
                                     <span>{'Canonical'}</span>
                                 </button>

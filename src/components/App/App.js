@@ -1,7 +1,8 @@
 import React, {useReducer} from 'react';
 import classnames from 'classnames';
 
-import Controls from '../Controls/Controls';
+import Compare from '../Controls/Compare';
+import FileControls from '../Controls/FileControls';
 import Models from '../Models/Models';
 import Results from '../Results/Results';
 
@@ -36,20 +37,26 @@ function App() {
                 updatedState = {
                     ...updatedState,
                     modelsJSON: updatedState.modelsJSON.filter((model) => model.id !== action.id),
-                    ...(updatedState.canonical === action.id && {canonical: null})
+                    ...(updatedState.canonical === action.id && {canonicalId: null})
                 };
             } 
+            else if (action.type === 'addResults') {
+                updatedState = {
+                    ...updatedState,
+                    results: action.results,
+                };
+            }
         }
 
         return updatedState;
     }, {
         modelsJSON: [],
         results: {},
-        canonical: null,
+        canonicalId: null,
         mode: 'files',
     });
 
-    const {mode, results} = state;
+    const {mode} = state;
 
     return (
         <AppContext.Provider value={{state, setState, dispatch: setState}}>
@@ -80,24 +87,13 @@ function App() {
                         </div>
                     </div>
                     <div className="header__secondary">
-                        {mode === 'files' && (<Controls />)}
-                        {mode === 'compare' && (
-                            <input 
-                                type="button"
-                                // onClick={handleLoadLocal}
-                                value="Run comparision"
-                                className="btn btn-ghost"
-                            />
-                        )}
+                        {mode === 'files' && (<FileControls />)}
+                        {mode === 'compare' && (<Compare /> )}
                     </div>
                 </header>
                 <main className="main">
-                    {mode === 'files' && (
-                        <Models />
-                    )}
-                    {mode === 'compare' && (
-                        <Results results={results} />
-                    )}
+                    {mode === 'files' && (<Models />)}
+                    {mode === 'compare' && (<Results />)}
                 </main>
             </div>
         </AppContext.Provider>

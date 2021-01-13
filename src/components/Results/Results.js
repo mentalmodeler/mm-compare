@@ -1,6 +1,14 @@
+import {useContext} from 'react';
+import {AppContext} from '../App/App';
+
 import './Results.css';
 
-function Results({results}) {
+function Results() {
+    const {state} = useContext(AppContext);
+    const {results} = state;
+
+    // console.log("render these results:\n", results);
+
     return (
         <div className="results">
             <h1>Results</h1>

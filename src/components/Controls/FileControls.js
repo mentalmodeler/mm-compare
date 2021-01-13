@@ -1,10 +1,10 @@
-import './Controls.css';
+import './FileControls.css';
 import {useContext, useRef} from 'react';
 import {loadAndParse, loadAndParseURL} from 'mm-modules';
 
 import {AppContext} from '../App/App';
 
-function Controls() {
+function FileControls() {
     const inputFile = useRef(null);
     const inputURL = useRef('');
     const {dispatch} = useContext(AppContext);
@@ -36,8 +36,6 @@ function Controls() {
         }
     };
 
-    const handleCompare = () => console.log("compare models...");
-    
     return (
         <div className="controls">
             <div className="controls__load-local">
@@ -74,4 +72,4 @@ function Controls() {
     );
 }
 
-export default Controls;
+export default FileControls;
