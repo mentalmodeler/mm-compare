@@ -21,7 +21,7 @@ function Compare() {
     };
 
     const compare = (model, canonical) => {
-        const {author, modelName} = model.info;
+        const {author, name: modelName} = model.info;
         const normalize = name => name.toLowerCase().trim(); 
         const getNode = ({name, id}) => ({name: name, id: id}); 
 
