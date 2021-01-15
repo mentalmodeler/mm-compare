@@ -60,12 +60,14 @@ function FileControls() {
                     ref={inputURL}
                     className="input"
                     placeholder="Enter URL here"
+                    disabled
                 />
                 <input 
                     type="button" 
                     onClick={handleLoadURL}
                     value="Load from URL" 
                     className="btn btn-ghost"
+                    disabled
                 />
             </div>
         </div>

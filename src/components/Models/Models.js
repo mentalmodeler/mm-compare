@@ -7,13 +7,14 @@ import './Models.css';
 
 function Models() {
     const {state, setState, dispatch} = useContext(AppContext);
-    const {modelsJSON, canonicalId} = state;
+    const {modelsJSON, canonicalId, results = {}} = state;
 
     return (
         <div className="models">
             {modelsJSON.map((json, i) => {
                 const {info, id} = json || {info: {}};
                 const {author, date, name} = info;
+                const result = results[id];
                 return (
                     <div className="model-wrapper" key={`model-${i}`}>
                         <div className="model">
@@ -28,6 +29,24 @@ function Models() {
                                     {date ? new Intl.DateTimeFormat('en-US', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }).format(new Date(date)) : '[Date]'}
                                 </div>
                             </div>
+                            {result && (
+                                <div className="model__score">
+                                    <div className="model__score-value">
+                                        {`Score: ${result.score}`}
+                                    </div>
+                                    <div className="model__score-result">
+                                        <button
+                                            className="link-btn"
+                                            onClick={() => setState({
+                                                mode: 'result',
+                                                viewResultId: id
+                                            })}
+                                        >
+                                            {'View result'}
+                                        </button>
+                                    </div>
+                                </div>
+                            )}
                             <div className="model__controls">
                                 <button
                                     className={classnames('canonical-btn', {
@@ -35,10 +54,10 @@ function Models() {
                                     })}
                                     onClick={() => setState({canonicalId: id})}
                                 >
-                                    <span>{'Canonical'}</span>
+                                    <span>{'Reference'}</span>
                                 </button>
                                 <button
-                                    className="delete-btn"
+                                    className="link-btn"
                                     onClick={() => dispatch({
                                         action: {
                                             type: 'removeModel',

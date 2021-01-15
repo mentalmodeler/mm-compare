@@ -4,7 +4,8 @@ import classnames from 'classnames';
 import Compare from '../Controls/Compare';
 import FileControls from '../Controls/FileControls';
 import Models from '../Models/Models';
-import Results from '../Results/Results';
+import Result from '../Result/Result';
+import appReducer from '../../appReducer';
 
 import './App.css';
 
@@ -12,50 +13,17 @@ export const AppContext = React.createContext({
     modelsJSON: [],
     results: {},
     canonical: null,
+    mode: 'files',
 });
 
-const makeId = () => `id-${Math.random().toString(16).slice(2)}`;
-
 function App() {
-    const [state, setState] = useReducer((oldState, newState) => {
-        let updatedState = {...oldState, ...newState};
-        const {action} = newState;
-
-        if (action && action.type) {
-            if (action.type === 'addJSON') {
-                updatedState = {
-                    ...updatedState,
-                    modelsJSON: [
-                        ...updatedState.modelsJSON,
-                        {
-                            ...action.json,
-                            ...(!action.json.id && {id: makeId()})
-                        }
-                    ]
-                }
-            } else if (action.type === 'removeModel') {
-                updatedState = {
-                    ...updatedState,
-                    modelsJSON: updatedState.modelsJSON.filter((model) => model.id !== action.id),
-                    ...(updatedState.canonical === action.id && {canonicalId: null})
-                };
-            } 
-            else if (action.type === 'addResults') {
-                updatedState = {
-                    ...updatedState,
-                    results: action.results,
-                };
-            }
-        }
-
-        return updatedState;
-    }, {
+    const [state, setState] = useReducer(appReducer, {
         modelsJSON: [],
         results: {},
         canonicalId: null,
+        viewResultId: null,
         mode: 'files',
     });
-
     const {mode} = state;
 
     return (
@@ -64,22 +32,17 @@ function App() {
                 <header className="header">
                     <div className="header__primary">
                         <div className={"logo"}>
-                            <span>{'MentalModeler'}</span>
-                            <span>{'COMPARE'}</span>
+                            <span>{'MentalModeler'}</span><span>{'COMPARE'}</span>
                         </div>
                         <div className="header__mode-select">
                             <div
-                                className={classnames('header__mode-select-mode', {
-                                    'header__mode-select-mode--selected': mode === 'files'
-                                })}
+                                className={classnames('header__mode-select-mode', {'header__mode-select-mode--selected': mode === 'files'})}
                                 onClick={() => setState({mode: 'files'})}
                             >
                                 <span>{'Files'}</span>
                             </div>
                             <div
-                                className={classnames('header__mode-select-mode', {
-                                    'header__mode-select-mode--selected': mode === 'compare'
-                                })}
+                                className={classnames('header__mode-select-mode', {'header__mode-select-mode--selected': mode === 'compare'})}
                                 onClick={() => setState({mode: 'compare'})}
                             >
                                 <span>{'Compare'}</span>
@@ -89,11 +52,27 @@ function App() {
                     <div className="header__secondary">
                         {mode === 'files' && (<FileControls />)}
                         {mode === 'compare' && (<Compare /> )}
+                        <input
+                            style={{marginLeft: '16px'}}
+                            type="button"
+                            onClick={() => setState({action: {type: 'compare'}})}
+                            value="Compare"
+                            className="btn btn-ghost"
+                            disabled={!state.canonicalId}
+                        />
+                        <input
+                            style={{marginLeft: '16px'}}
+                            type="button"
+                            onClick={() => setState({mode: 'result'})}
+                            value="View result"
+                            className="btn btn-ghost"
+                        />
                     </div>
                 </header>
                 <main className="main">
                     {mode === 'files' && (<Models />)}
-                    {mode === 'compare' && (<Results />)}
+                    {mode === 'compare' && (null)}
+                    {mode === 'result' && (<Result />)}
                 </main>
             </div>
         </AppContext.Provider>

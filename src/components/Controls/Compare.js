@@ -7,6 +7,7 @@ function Compare() {
 
     const runComparison = () => {
         const canonical = modelsJSON.find(model => model.id === canonicalId);
+        console.log('canonicalId):', canonicalId,'\ncanonical:', canonical);
         const modelsToCompare = modelsJSON.filter(model => model.id !== canonicalId);
         let results = [];
 
@@ -21,7 +22,6 @@ function Compare() {
     };
 
     const compare = (model, canonical) => {
-        const {author, name: modelName} = model.info;
         const normalize = name => name.toLowerCase().trim(); 
         const getNode = ({name, id}) => ({name: name, id: id}); 
 
@@ -96,8 +96,7 @@ function Compare() {
         const score = correctlySignedRelationships.length - (extraRelationships.length + missingRelationships.length);
 
         return {
-            author: author || '[Author]',
-            name: modelName || '[Name]',
+            id: model.id,
             score: score,
             nodes: {
                 extra: extraNodes,

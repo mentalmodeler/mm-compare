@@ -1,3 +1,9 @@
+.background-stripes {
+  background-color: #f6f7f8;
+  background: repeating-linear-gradient(45deg, #f6f7f8, #f6f7f8 3px, #e2e3e4 3px, #e2e3e4 6px);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .btn {
   outline: none !important;
   padding: 8px 12px;
@@ -23,6 +29,21 @@
   transform: none !important;
   cursor: not-allowed;
 }
+.btn[disabled]:hover,
+.btn[disabled]:active {
+  opacity: 0.5;
+  transition: none !important;
+  transform: none !important;
+  background-color: #CED0D6;
+  border: none;
+  cursor: not-allowed;
+}
+input.input[disabled] {
+  opacity: 0.5;
+  transition: none !important;
+  transform: none !important;
+  cursor: not-allowed;
+}
 .btn-ghost {
   background-color: #222429;
   border: 1px solid #00C7FF;
@@ -32,6 +53,15 @@
 }
 .btn-ghost:hover {
   background-color: #000000;
+}
+.btn-ghost[disabled]:hover,
+.btn-ghost[disabled]:active {
+  opacity: 0.5;
+  transition: none !important;
+  transform: none !important;
+  background-color: #222429;
+  border: 1px solid #00C7FF;
+  cursor: not-allowed;
 }
 .input {
   margin-right: 8px;
@@ -49,7 +79,7 @@
 .MMCompare {
   min-height: 100vh;
   background-color: #f6f7f8;
-  background: repeating-linear-gradient(45deg, #f6f7f8, #f6f7f8 3px, #dddedf 3px, #dddedf 6px);
+  background: repeating-linear-gradient(45deg, #f6f7f8, #f6f7f8 3px, #e2e3e4 3px, #e2e3e4 6px);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
