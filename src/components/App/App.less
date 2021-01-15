@@ -2,18 +2,7 @@
 
 .MMCompare {
     min-height: 100vh;
-    @light: #f6f7f8;
-    @dark: #dddedf; // #f2f3f4;
-	background-color: @light;
-	background: repeating-linear-gradient(
-	  45deg,
-	  @light,
-	  @light 3px,
-	  @dark 3px,
-	  @dark 6px
-	);
-	background-repeat: no-repeat;
-    background-attachment: fixed;
+    .background-stripes();
 }
 
 .header {
