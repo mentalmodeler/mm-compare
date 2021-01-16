@@ -8,7 +8,7 @@ import './Models.css';
 function Models() {
     const {state, setState, dispatch} = useContext(AppContext);
     const {modelsJSON, canonicalId, results = {}} = state;
-
+    console.log('modelsJSON:', modelsJSON);
     return (
         <div className="models">
             {modelsJSON.map((json, i) => {

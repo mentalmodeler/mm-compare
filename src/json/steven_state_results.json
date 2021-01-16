@@ -1,0 +1,4519 @@
+{
+    "modelsJSON": [
+        {
+            "info": {
+                "name": "Best model ever",
+                "author": "Dr. Steven Gray",
+                "description": "",
+                "version": "",
+                "date": ""
+            },
+            "groupNames": {},
+            "concepts": [
+                {
+                    "id": "188338681714",
+                    "name": "People dying or getting sick",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "462",
+                    "y": "355",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "159641825586",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.11",
+                            "name": ""
+                        },
+                        {
+                            "id": "149216775749",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        },
+                        {
+                            "id": "196313714421",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.36",
+                            "name": ""
+                        },
+                        {
+                            "id": "104095433527",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.41",
+                            "name": ""
+                        },
+                        {
+                            "id": "163216478675",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.63",
+                            "name": ""
+                        },
+                        {
+                            "id": "169913761824",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.68",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "131139771981",
+                    "name": "People recovering",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "454",
+                    "y": "148",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "149216775749",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.49",
+                            "name": ""
+                        },
+                        {
+                            "id": "196313714421",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.39",
+                            "name": ""
+                        },
+                        {
+                            "id": "140888439015",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "149216775749",
+                    "name": "My support of government recommendations and regulations",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "178",
+                    "y": "234",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "196313714421",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.75",
+                            "name": ""
+                        },
+                        {
+                            "id": "104095433527",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.42",
+                            "name": ""
+                        },
+                        {
+                            "id": "119907787667",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.64",
+                            "name": ""
+                        },
+                        {
+                            "id": "182808600336",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.79",
+                            "name": ""
+                        },
+                        {
+                            "id": "147129742013",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        },
+                        {
+                            "id": "169913761824",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "196313714421",
+                    "name": "My personal risk of becoming infected",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "742",
+                    "y": "230",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "159641825586",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.08",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "159641825586",
+                    "name": "Me feeling worry and fear ",
+                    "notes": "",
+                    "units": "",
+                    "group": "2",
+                    "x": "337",
+                    "y": "485",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "149216775749",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.53",
+                            "name": ""
+                        },
+                        {
+                            "id": "147129742013",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.62",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "104095433527",
+                    "name": "Me feeling sympathy, sadness, anger",
+                    "notes": "",
+                    "units": "",
+                    "group": "2",
+                    "x": "153",
+                    "y": "421",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "172015175525",
+                    "name": "Gathering in large groups ",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "819",
+                    "y": "102",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "188338681714",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        },
+                        {
+                            "id": "196313714421",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "133229883397",
+                    "name": "Wearing masks properly ",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "890",
+                    "y": "325",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "196313714421",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.28",
+                            "name": ""
+                        },
+                        {
+                            "id": "188338681714",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.53",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "185199940546",
+                    "name": "Following social distancing ",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "745",
+                    "y": "388",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "196313714421",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.35",
+                            "name": ""
+                        },
+                        {
+                            "id": "188338681714",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.44",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "119907787667",
+                    "name": "Country splitting because of their views",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "0",
+                    "y": "137",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "159641825586",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.46",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "105670874106",
+                    "name": "Taking the virus seriously ",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "215",
+                    "y": "100",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "149216775749",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.62",
+                            "name": ""
+                        },
+                        {
+                            "id": "119907787667",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.72",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "185461701267",
+                    "name": "Sneezing / coughing",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "617",
+                    "y": "18",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "188338681714",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        },
+                        {
+                            "id": "196313714421",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "169913761824",
+                    "name": "Fatality rate ",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "888",
+                    "y": "485",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "159641825586",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.55",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "140888439015",
+                    "name": "People building immunity to the virus ",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "874",
+                    "y": "29",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "189769772046",
+                    "name": "Overall Economic Health",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "0",
+                    "y": "347",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "149216775749",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.46",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "163216478675",
+                    "name": "Everyone's safety",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "557",
+                    "y": "458",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "149216775749",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.67",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "147129742013",
+                    "name": "Mandating people follow safety guidelines ",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "18",
+                    "y": "486",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "182808600336",
+                    "name": "Shutdown of non-essential businesses, schools, public transportation \n",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "404",
+                    "y": "23",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                }
+            ],
+            "scenarios": [
+                {
+                    "name": "Scenario",
+                    "concepts": []
+                }
+            ],
+            "id": "id-a62d74e6785d2"
+        },
+        {
+            "info": {
+                "name": "Cool things this summer",
+                "author": "Jennifer Hansen",
+                "description": "",
+                "version": "",
+                "date": ""
+            },
+            "groupNames": {},
+            "concepts": [
+                {
+                    "id": "105790880664",
+                    "name": "People dying or getting sick",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "315",
+                    "y": "420",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "121057364523",
+                    "name": "People recovering ",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "173",
+                    "y": "203",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "160750471906",
+                    "name": "My personal risk of becoming infected ",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "4",
+                    "y": "141",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "130742826483",
+                    "name": "My support of government recommendations and regulations ",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "668",
+                    "y": "376",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "102360214792",
+                    "name": "Me feeling contempt, outrage, anger ",
+                    "notes": "",
+                    "units": "",
+                    "group": "2",
+                    "x": "709",
+                    "y": "225",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "130742826483",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        },
+                        {
+                            "id": "133089471168",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        },
+                        {
+                            "id": "196500234785",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "184150304649",
+                    "name": "Sneezing or coughing",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "28",
+                    "y": "360",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "160750471906",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.74",
+                            "name": ""
+                        },
+                        {
+                            "id": "105790880664",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.75",
+                            "name": ""
+                        },
+                        {
+                            "id": "121057364523",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.68",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "133089471168",
+                    "name": "Wearing masks properly",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "196",
+                    "y": "33",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "160750471906",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        },
+                        {
+                            "id": "105790880664",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "180973870348",
+                    "name": "Taking the virus seriously",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "707",
+                    "y": "24",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "121057364523",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.71",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "159757898414",
+                    "name": "Politicians emphasizing the severity of the virus ",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "377",
+                    "y": "192",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "196500234785",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "196500234785",
+                    "name": "Gathering in large groups",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "493",
+                    "y": "336",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "197330390713",
+                    "name": "Declaring a national lockdown",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "489",
+                    "y": "25",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "196500234785",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "scenarios": [
+                {
+                    "name": "Scenario",
+                    "concepts": []
+                }
+            ],
+            "id": "id-109c289e2d8d7"
+        },
+        {
+            "info": {
+                "name": "My favorite model",
+                "author": "Peter Billingsly",
+                "description": "",
+                "version": "",
+                "date": ""
+            },
+            "groupNames": {},
+            "concepts": [
+                {
+                    "id": "115413813534",
+                    "name": "people dying or getting sick",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "77",
+                    "y": "237",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "103236122058",
+                    "name": "people recovering",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "369",
+                    "y": "254",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "115413813534",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "147763004179",
+                    "name": "my personal risk of becoming infected",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "155",
+                    "y": "60",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "170289839780",
+                    "name": "me feeling worry, fear, helplessness",
+                    "notes": "",
+                    "units": "",
+                    "group": "2",
+                    "x": "457",
+                    "y": "140",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "156763661235",
+                    "name": "my support of government recommendations and regulations",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "277",
+                    "y": "333",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "172060642370",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.9",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.58",
+                            "name": ""
+                        },
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.53",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "144605138513",
+                    "name": "gathering in large groups",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "610",
+                    "y": "199",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.57",
+                            "name": ""
+                        },
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.69",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.64",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "172060642370",
+                    "name": "taking the virus seriously",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "615",
+                    "y": "459",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.98",
+                            "name": ""
+                        },
+                        {
+                            "id": "103236122058",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.48",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "188147558003",
+                    "name": "country splitting because of their views",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "63",
+                    "y": "341",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "172060642370",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.69",
+                            "name": ""
+                        },
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.65",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "126146737939",
+                    "name": "wearing masks properly",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "256",
+                    "y": "159",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "103236122058",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.45",
+                            "name": ""
+                        },
+                        {
+                            "id": "115413813534",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.62",
+                            "name": ""
+                        },
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.97",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "196864198395",
+                    "name": "shutdown of non essential businesses",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "26",
+                    "y": "133",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.84",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.65",
+                            "name": ""
+                        },
+                        {
+                            "id": "199742686580",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.57",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "109468582497",
+                    "name": "everyone's safety",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "725",
+                    "y": "346",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "164349318507",
+                    "name": "spreading the virus",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "656",
+                    "y": "69",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.68",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.85",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "113388004139",
+                    "name": "developing a vaccine",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "834",
+                    "y": "196",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.65",
+                            "name": ""
+                        },
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.36",
+                            "name": ""
+                        },
+                        {
+                            "id": "103236122058",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.52",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "199742686580",
+                    "name": "individual freedom to choose how to behave",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "579",
+                    "y": "297",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.59",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "125960179278",
+                    "name": "following social distancing",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "47",
+                    "y": "439",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.78",
+                            "name": ""
+                        },
+                        {
+                            "id": "115413813534",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.48",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "178311343572",
+                    "name": "declaring a national lockdown",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "386",
+                    "y": "483",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.76",
+                            "name": ""
+                        },
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.59",
+                            "name": ""
+                        },
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.82",
+                            "name": ""
+                        },
+                        {
+                            "id": "199742686580",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.71",
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "scenarios": [
+                {
+                    "name": "Scenario",
+                    "concepts": []
+                }
+            ],
+            "id": "id-66691381ffb58"
+        },
+        {
+            "info": {
+                "name": "Bifurcation of Fortnite gamers",
+                "author": "Sally Mae Johnson",
+                "description": "",
+                "version": "",
+                "date": ""
+            },
+            "groupNames": {},
+            "concepts": [
+                {
+                    "id": "115413813534",
+                    "name": "people dying or getting sick",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "77",
+                    "y": "237",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "103236122058",
+                    "name": "people recovering",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "369",
+                    "y": "254",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "115413813534",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "147763004179",
+                    "name": "my personal risk of becoming infected",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "155",
+                    "y": "60",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "170289839780",
+                    "name": "me feeling worry, fear, helplessness",
+                    "notes": "",
+                    "units": "",
+                    "group": "2",
+                    "x": "457",
+                    "y": "140",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "156763661235",
+                    "name": "my support of government recommendations and regulations",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "277",
+                    "y": "333",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "172060642370",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.9",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.58",
+                            "name": ""
+                        },
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.53",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "144605138513",
+                    "name": "gathering in large groups",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "610",
+                    "y": "199",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.57",
+                            "name": ""
+                        },
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.69",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.64",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "172060642370",
+                    "name": "taking the virus seriously",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "615",
+                    "y": "459",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.98",
+                            "name": ""
+                        },
+                        {
+                            "id": "103236122058",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.48",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "188147558003",
+                    "name": "country splitting because of their views",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "63",
+                    "y": "341",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "172060642370",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.69",
+                            "name": ""
+                        },
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.65",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "126146737939",
+                    "name": "wearing masks properly",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "256",
+                    "y": "159",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "103236122058",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.45",
+                            "name": ""
+                        },
+                        {
+                            "id": "115413813534",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.62",
+                            "name": ""
+                        },
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.97",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "196864198395",
+                    "name": "shutdown of non essential businesses",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "26",
+                    "y": "133",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.84",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.65",
+                            "name": ""
+                        },
+                        {
+                            "id": "199742686580",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.57",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "109468582497",
+                    "name": "everyone's safety",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "725",
+                    "y": "346",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "164349318507",
+                    "name": "spreading the virus",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "656",
+                    "y": "69",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.68",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.85",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "113388004139",
+                    "name": "developing a vaccine",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "834",
+                    "y": "196",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.65",
+                            "name": ""
+                        },
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.36",
+                            "name": ""
+                        },
+                        {
+                            "id": "103236122058",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.52",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "199742686580",
+                    "name": "individual freedom to choose how to behave",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "579",
+                    "y": "297",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.59",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "125960179278",
+                    "name": "following social distancing",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "47",
+                    "y": "439",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.78",
+                            "name": ""
+                        },
+                        {
+                            "id": "115413813534",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.48",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "178311343572",
+                    "name": "declaring a national lockdown",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "386",
+                    "y": "483",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.76",
+                            "name": ""
+                        },
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.59",
+                            "name": ""
+                        },
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.82",
+                            "name": ""
+                        },
+                        {
+                            "id": "199742686580",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.71",
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "scenarios": [
+                {
+                    "name": "Scenario",
+                    "concepts": []
+                }
+            ],
+            "id": "id-068ca4bf80689"
+        }
+    ],
+    "results": {
+        "id-109c289e2d8d7": {
+            "id": "id-109c289e2d8d7",
+            "score": -43,
+            "nodes": {
+                "extra": [
+                    {
+                        "name": "Me feeling contempt, outrage, anger ",
+                        "id": "102360214792"
+                    },
+                    {
+                        "name": "Sneezing or coughing",
+                        "id": "184150304649"
+                    },
+                    {
+                        "name": "Politicians emphasizing the severity of the virus ",
+                        "id": "159757898414"
+                    },
+                    {
+                        "name": "Declaring a national lockdown",
+                        "id": "197330390713"
+                    }
+                ],
+                "missing": [
+                    {
+                        "name": "Me feeling worry and fear ",
+                        "id": "159641825586"
+                    },
+                    {
+                        "name": "Me feeling sympathy, sadness, anger",
+                        "id": "104095433527"
+                    },
+                    {
+                        "name": "Following social distancing ",
+                        "id": "185199940546"
+                    },
+                    {
+                        "name": "Country splitting because of their views",
+                        "id": "119907787667"
+                    },
+                    {
+                        "name": "Sneezing / coughing",
+                        "id": "185461701267"
+                    },
+                    {
+                        "name": "Fatality rate ",
+                        "id": "169913761824"
+                    },
+                    {
+                        "name": "People building immunity to the virus ",
+                        "id": "140888439015"
+                    },
+                    {
+                        "name": "Overall Economic Health",
+                        "id": "189769772046"
+                    },
+                    {
+                        "name": "Everyone's safety",
+                        "id": "163216478675"
+                    },
+                    {
+                        "name": "Mandating people follow safety guidelines ",
+                        "id": "147129742013"
+                    },
+                    {
+                        "name": "Shutdown of non-essential businesses, schools, public transportation \n",
+                        "id": "182808600336"
+                    }
+                ],
+                "present": [
+                    {
+                        "name": "People dying or getting sick",
+                        "id": "105790880664"
+                    },
+                    {
+                        "name": "People recovering ",
+                        "id": "121057364523"
+                    },
+                    {
+                        "name": "My personal risk of becoming infected ",
+                        "id": "160750471906"
+                    },
+                    {
+                        "name": "My support of government recommendations and regulations ",
+                        "id": "130742826483"
+                    },
+                    {
+                        "name": "Wearing masks properly",
+                        "id": "133089471168"
+                    },
+                    {
+                        "name": "Taking the virus seriously",
+                        "id": "180973870348"
+                    },
+                    {
+                        "name": "Gathering in large groups",
+                        "id": "196500234785"
+                    }
+                ]
+            },
+            "relationships": {
+                "extra": [
+                    {
+                        "fromNode": {
+                            "id": "102360214792",
+                            "name": "Me feeling contempt, outrage, anger "
+                        },
+                        "toNode": {
+                            "id": "130742826483",
+                            "name": "My support of government recommendations and regulations "
+                        },
+                        "relationship": {
+                            "id": "130742826483",
+                            "name": "",
+                            "influence": "-1",
+                            "fromNodeId": "102360214792"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "102360214792",
+                            "name": "Me feeling contempt, outrage, anger "
+                        },
+                        "toNode": {
+                            "id": "133089471168",
+                            "name": "Wearing masks properly"
+                        },
+                        "relationship": {
+                            "id": "133089471168",
+                            "name": "",
+                            "influence": "-1",
+                            "fromNodeId": "102360214792"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "102360214792",
+                            "name": "Me feeling contempt, outrage, anger "
+                        },
+                        "toNode": {
+                            "id": "196500234785",
+                            "name": "Gathering in large groups"
+                        },
+                        "relationship": {
+                            "id": "196500234785",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "102360214792"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "184150304649",
+                            "name": "Sneezing or coughing"
+                        },
+                        "toNode": {
+                            "id": "160750471906",
+                            "name": "My personal risk of becoming infected "
+                        },
+                        "relationship": {
+                            "id": "160750471906",
+                            "name": "",
+                            "influence": "0.74",
+                            "fromNodeId": "184150304649"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "184150304649",
+                            "name": "Sneezing or coughing"
+                        },
+                        "toNode": {
+                            "id": "105790880664",
+                            "name": "People dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "105790880664",
+                            "name": "",
+                            "influence": "0.75",
+                            "fromNodeId": "184150304649"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "184150304649",
+                            "name": "Sneezing or coughing"
+                        },
+                        "toNode": {
+                            "id": "121057364523",
+                            "name": "People recovering "
+                        },
+                        "relationship": {
+                            "id": "121057364523",
+                            "name": "",
+                            "influence": "-0.68",
+                            "fromNodeId": "184150304649"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "133089471168",
+                            "name": "Wearing masks properly"
+                        },
+                        "toNode": {
+                            "id": "160750471906",
+                            "name": "My personal risk of becoming infected "
+                        },
+                        "relationship": {
+                            "id": "160750471906",
+                            "name": "",
+                            "influence": "-1",
+                            "fromNodeId": "133089471168"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "133089471168",
+                            "name": "Wearing masks properly"
+                        },
+                        "toNode": {
+                            "id": "105790880664",
+                            "name": "People dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "105790880664",
+                            "name": "",
+                            "influence": "-1",
+                            "fromNodeId": "133089471168"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "180973870348",
+                            "name": "Taking the virus seriously"
+                        },
+                        "toNode": {
+                            "id": "121057364523",
+                            "name": "People recovering "
+                        },
+                        "relationship": {
+                            "id": "121057364523",
+                            "name": "",
+                            "influence": "0.71",
+                            "fromNodeId": "180973870348"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "159757898414",
+                            "name": "Politicians emphasizing the severity of the virus "
+                        },
+                        "toNode": {
+                            "id": "196500234785",
+                            "name": "Gathering in large groups"
+                        },
+                        "relationship": {
+                            "id": "196500234785",
+                            "name": "",
+                            "influence": "-1",
+                            "fromNodeId": "159757898414"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "197330390713",
+                            "name": "Declaring a national lockdown"
+                        },
+                        "toNode": {
+                            "id": "196500234785",
+                            "name": "Gathering in large groups"
+                        },
+                        "relationship": {
+                            "id": "196500234785",
+                            "name": "",
+                            "influence": "-1",
+                            "fromNodeId": "197330390713"
+                        }
+                    }
+                ],
+                "missing": [
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "relationship": {
+                            "id": "159641825586",
+                            "name": "",
+                            "influence": "-0.11",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "0.36",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "104095433527",
+                            "name": "Me feeling sympathy, sadness, anger"
+                        },
+                        "relationship": {
+                            "id": "104095433527",
+                            "name": "",
+                            "influence": "0.41",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "163216478675",
+                            "name": "Everyone's safety"
+                        },
+                        "relationship": {
+                            "id": "163216478675",
+                            "name": "",
+                            "influence": "-0.63",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "169913761824",
+                            "name": "Fatality rate "
+                        },
+                        "relationship": {
+                            "id": "169913761824",
+                            "name": "",
+                            "influence": "0.68",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "131139771981",
+                            "name": "People recovering"
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "-0.49",
+                            "fromNodeId": "131139771981"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "131139771981",
+                            "name": "People recovering"
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "-0.39",
+                            "fromNodeId": "131139771981"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "131139771981",
+                            "name": "People recovering"
+                        },
+                        "toNode": {
+                            "id": "140888439015",
+                            "name": "People building immunity to the virus "
+                        },
+                        "relationship": {
+                            "id": "140888439015",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "131139771981"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "-0.75",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "104095433527",
+                            "name": "Me feeling sympathy, sadness, anger"
+                        },
+                        "relationship": {
+                            "id": "104095433527",
+                            "name": "",
+                            "influence": "0.42",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "119907787667",
+                            "name": "Country splitting because of their views"
+                        },
+                        "relationship": {
+                            "id": "119907787667",
+                            "name": "",
+                            "influence": "0.64",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "182808600336",
+                            "name": "Shutdown of non-essential businesses, schools, public transportation \n"
+                        },
+                        "relationship": {
+                            "id": "182808600336",
+                            "name": "",
+                            "influence": "0.79",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "147129742013",
+                            "name": "Mandating people follow safety guidelines "
+                        },
+                        "relationship": {
+                            "id": "147129742013",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "169913761824",
+                            "name": "Fatality rate "
+                        },
+                        "relationship": {
+                            "id": "169913761824",
+                            "name": "",
+                            "influence": "-1",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "toNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "relationship": {
+                            "id": "159641825586",
+                            "name": "",
+                            "influence": "-0.08",
+                            "fromNodeId": "196313714421"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "0.53",
+                            "fromNodeId": "159641825586"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "toNode": {
+                            "id": "147129742013",
+                            "name": "Mandating people follow safety guidelines "
+                        },
+                        "relationship": {
+                            "id": "147129742013",
+                            "name": "",
+                            "influence": "0.62",
+                            "fromNodeId": "159641825586"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "172015175525",
+                            "name": "Gathering in large groups "
+                        },
+                        "toNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "188338681714",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "172015175525"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "172015175525",
+                            "name": "Gathering in large groups "
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "172015175525"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "133229883397",
+                            "name": "Wearing masks properly "
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "-0.28",
+                            "fromNodeId": "133229883397"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "133229883397",
+                            "name": "Wearing masks properly "
+                        },
+                        "toNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "188338681714",
+                            "name": "",
+                            "influence": "-0.53",
+                            "fromNodeId": "133229883397"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "185199940546",
+                            "name": "Following social distancing "
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "-0.35",
+                            "fromNodeId": "185199940546"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "185199940546",
+                            "name": "Following social distancing "
+                        },
+                        "toNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "188338681714",
+                            "name": "",
+                            "influence": "-0.44",
+                            "fromNodeId": "185199940546"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "119907787667",
+                            "name": "Country splitting because of their views"
+                        },
+                        "toNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "relationship": {
+                            "id": "159641825586",
+                            "name": "",
+                            "influence": "0.46",
+                            "fromNodeId": "119907787667"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "105670874106",
+                            "name": "Taking the virus seriously "
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "0.62",
+                            "fromNodeId": "105670874106"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "105670874106",
+                            "name": "Taking the virus seriously "
+                        },
+                        "toNode": {
+                            "id": "119907787667",
+                            "name": "Country splitting because of their views"
+                        },
+                        "relationship": {
+                            "id": "119907787667",
+                            "name": "",
+                            "influence": "0.72",
+                            "fromNodeId": "105670874106"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "185461701267",
+                            "name": "Sneezing / coughing"
+                        },
+                        "toNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "188338681714",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "185461701267"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "185461701267",
+                            "name": "Sneezing / coughing"
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "185461701267"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "169913761824",
+                            "name": "Fatality rate "
+                        },
+                        "toNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "relationship": {
+                            "id": "159641825586",
+                            "name": "",
+                            "influence": "-0.55",
+                            "fromNodeId": "169913761824"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "189769772046",
+                            "name": "Overall Economic Health"
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "-0.46",
+                            "fromNodeId": "189769772046"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "163216478675",
+                            "name": "Everyone's safety"
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "0.67",
+                            "fromNodeId": "163216478675"
+                        }
+                    }
+                ],
+                "correctlySigned": [],
+                "incorrectlySigned": []
+            }
+        },
+        "id-66691381ffb58": {
+            "id": "id-66691381ffb58",
+            "score": -58,
+            "nodes": {
+                "extra": [
+                    {
+                        "name": "me feeling worry, fear, helplessness",
+                        "id": "170289839780"
+                    },
+                    {
+                        "name": "shutdown of non essential businesses",
+                        "id": "196864198395"
+                    },
+                    {
+                        "name": "spreading the virus",
+                        "id": "164349318507"
+                    },
+                    {
+                        "name": "developing a vaccine",
+                        "id": "113388004139"
+                    },
+                    {
+                        "name": "individual freedom to choose how to behave",
+                        "id": "199742686580"
+                    },
+                    {
+                        "name": "declaring a national lockdown",
+                        "id": "178311343572"
+                    }
+                ],
+                "missing": [
+                    {
+                        "name": "Me feeling worry and fear ",
+                        "id": "159641825586"
+                    },
+                    {
+                        "name": "Me feeling sympathy, sadness, anger",
+                        "id": "104095433527"
+                    },
+                    {
+                        "name": "Sneezing / coughing",
+                        "id": "185461701267"
+                    },
+                    {
+                        "name": "Fatality rate ",
+                        "id": "169913761824"
+                    },
+                    {
+                        "name": "People building immunity to the virus ",
+                        "id": "140888439015"
+                    },
+                    {
+                        "name": "Overall Economic Health",
+                        "id": "189769772046"
+                    },
+                    {
+                        "name": "Mandating people follow safety guidelines ",
+                        "id": "147129742013"
+                    },
+                    {
+                        "name": "Shutdown of non-essential businesses, schools, public transportation \n",
+                        "id": "182808600336"
+                    }
+                ],
+                "present": [
+                    {
+                        "name": "people dying or getting sick",
+                        "id": "115413813534"
+                    },
+                    {
+                        "name": "people recovering",
+                        "id": "103236122058"
+                    },
+                    {
+                        "name": "my personal risk of becoming infected",
+                        "id": "147763004179"
+                    },
+                    {
+                        "name": "my support of government recommendations and regulations",
+                        "id": "156763661235"
+                    },
+                    {
+                        "name": "gathering in large groups",
+                        "id": "144605138513"
+                    },
+                    {
+                        "name": "taking the virus seriously",
+                        "id": "172060642370"
+                    },
+                    {
+                        "name": "country splitting because of their views",
+                        "id": "188147558003"
+                    },
+                    {
+                        "name": "wearing masks properly",
+                        "id": "126146737939"
+                    },
+                    {
+                        "name": "everyone's safety",
+                        "id": "109468582497"
+                    },
+                    {
+                        "name": "following social distancing",
+                        "id": "125960179278"
+                    }
+                ]
+            },
+            "relationships": {
+                "extra": [
+                    {
+                        "fromNode": {
+                            "id": "103236122058",
+                            "name": "people recovering"
+                        },
+                        "toNode": {
+                            "id": "115413813534",
+                            "name": "people dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "115413813534",
+                            "name": "",
+                            "influence": "-1",
+                            "fromNodeId": "103236122058"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "156763661235",
+                            "name": "my support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "172060642370",
+                            "name": "taking the virus seriously"
+                        },
+                        "relationship": {
+                            "id": "172060642370",
+                            "name": "",
+                            "influence": "0.9",
+                            "fromNodeId": "156763661235"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "156763661235",
+                            "name": "my support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "170289839780",
+                            "name": "me feeling worry, fear, helplessness"
+                        },
+                        "relationship": {
+                            "id": "170289839780",
+                            "name": "",
+                            "influence": "-0.53",
+                            "fromNodeId": "156763661235"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "144605138513",
+                            "name": "gathering in large groups"
+                        },
+                        "toNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "relationship": {
+                            "id": "164349318507",
+                            "name": "",
+                            "influence": "0.57",
+                            "fromNodeId": "144605138513"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "144605138513",
+                            "name": "gathering in large groups"
+                        },
+                        "toNode": {
+                            "id": "109468582497",
+                            "name": "everyone's safety"
+                        },
+                        "relationship": {
+                            "id": "109468582497",
+                            "name": "",
+                            "influence": "-0.69",
+                            "fromNodeId": "144605138513"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "144605138513",
+                            "name": "gathering in large groups"
+                        },
+                        "toNode": {
+                            "id": "147763004179",
+                            "name": "my personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "147763004179",
+                            "name": "",
+                            "influence": "0.64",
+                            "fromNodeId": "144605138513"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "172060642370",
+                            "name": "taking the virus seriously"
+                        },
+                        "toNode": {
+                            "id": "109468582497",
+                            "name": "everyone's safety"
+                        },
+                        "relationship": {
+                            "id": "109468582497",
+                            "name": "",
+                            "influence": "0.98",
+                            "fromNodeId": "172060642370"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "172060642370",
+                            "name": "taking the virus seriously"
+                        },
+                        "toNode": {
+                            "id": "103236122058",
+                            "name": "people recovering"
+                        },
+                        "relationship": {
+                            "id": "103236122058",
+                            "name": "",
+                            "influence": "0.48",
+                            "fromNodeId": "172060642370"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188147558003",
+                            "name": "country splitting because of their views"
+                        },
+                        "toNode": {
+                            "id": "172060642370",
+                            "name": "taking the virus seriously"
+                        },
+                        "relationship": {
+                            "id": "172060642370",
+                            "name": "",
+                            "influence": "-0.69",
+                            "fromNodeId": "188147558003"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188147558003",
+                            "name": "country splitting because of their views"
+                        },
+                        "toNode": {
+                            "id": "109468582497",
+                            "name": "everyone's safety"
+                        },
+                        "relationship": {
+                            "id": "109468582497",
+                            "name": "",
+                            "influence": "-0.65",
+                            "fromNodeId": "188147558003"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "126146737939",
+                            "name": "wearing masks properly"
+                        },
+                        "toNode": {
+                            "id": "103236122058",
+                            "name": "people recovering"
+                        },
+                        "relationship": {
+                            "id": "103236122058",
+                            "name": "",
+                            "influence": "0.45",
+                            "fromNodeId": "126146737939"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "126146737939",
+                            "name": "wearing masks properly"
+                        },
+                        "toNode": {
+                            "id": "115413813534",
+                            "name": "people dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "115413813534",
+                            "name": "",
+                            "influence": "-0.62",
+                            "fromNodeId": "126146737939"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "126146737939",
+                            "name": "wearing masks properly"
+                        },
+                        "toNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "relationship": {
+                            "id": "164349318507",
+                            "name": "",
+                            "influence": "-0.97",
+                            "fromNodeId": "126146737939"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "196864198395",
+                            "name": "shutdown of non essential businesses"
+                        },
+                        "toNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "relationship": {
+                            "id": "164349318507",
+                            "name": "",
+                            "influence": "-0.84",
+                            "fromNodeId": "196864198395"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "196864198395",
+                            "name": "shutdown of non essential businesses"
+                        },
+                        "toNode": {
+                            "id": "147763004179",
+                            "name": "my personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "147763004179",
+                            "name": "",
+                            "influence": "-0.65",
+                            "fromNodeId": "196864198395"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "196864198395",
+                            "name": "shutdown of non essential businesses"
+                        },
+                        "toNode": {
+                            "id": "199742686580",
+                            "name": "individual freedom to choose how to behave"
+                        },
+                        "relationship": {
+                            "id": "199742686580",
+                            "name": "",
+                            "influence": "-0.57",
+                            "fromNodeId": "196864198395"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "toNode": {
+                            "id": "170289839780",
+                            "name": "me feeling worry, fear, helplessness"
+                        },
+                        "relationship": {
+                            "id": "170289839780",
+                            "name": "",
+                            "influence": "0.68",
+                            "fromNodeId": "164349318507"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "toNode": {
+                            "id": "147763004179",
+                            "name": "my personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "147763004179",
+                            "name": "",
+                            "influence": "0.85",
+                            "fromNodeId": "164349318507"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "113388004139",
+                            "name": "developing a vaccine"
+                        },
+                        "toNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "relationship": {
+                            "id": "164349318507",
+                            "name": "",
+                            "influence": "-0.65",
+                            "fromNodeId": "113388004139"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "113388004139",
+                            "name": "developing a vaccine"
+                        },
+                        "toNode": {
+                            "id": "109468582497",
+                            "name": "everyone's safety"
+                        },
+                        "relationship": {
+                            "id": "109468582497",
+                            "name": "",
+                            "influence": "0.36",
+                            "fromNodeId": "113388004139"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "113388004139",
+                            "name": "developing a vaccine"
+                        },
+                        "toNode": {
+                            "id": "103236122058",
+                            "name": "people recovering"
+                        },
+                        "relationship": {
+                            "id": "103236122058",
+                            "name": "",
+                            "influence": "0.52",
+                            "fromNodeId": "113388004139"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "199742686580",
+                            "name": "individual freedom to choose how to behave"
+                        },
+                        "toNode": {
+                            "id": "170289839780",
+                            "name": "me feeling worry, fear, helplessness"
+                        },
+                        "relationship": {
+                            "id": "170289839780",
+                            "name": "",
+                            "influence": "-0.59",
+                            "fromNodeId": "199742686580"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "125960179278",
+                            "name": "following social distancing"
+                        },
+                        "toNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "relationship": {
+                            "id": "164349318507",
+                            "name": "",
+                            "influence": "-0.78",
+                            "fromNodeId": "125960179278"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "125960179278",
+                            "name": "following social distancing"
+                        },
+                        "toNode": {
+                            "id": "115413813534",
+                            "name": "people dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "115413813534",
+                            "name": "",
+                            "influence": "-0.48",
+                            "fromNodeId": "125960179278"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "178311343572",
+                            "name": "declaring a national lockdown"
+                        },
+                        "toNode": {
+                            "id": "147763004179",
+                            "name": "my personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "147763004179",
+                            "name": "",
+                            "influence": "-0.76",
+                            "fromNodeId": "178311343572"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "178311343572",
+                            "name": "declaring a national lockdown"
+                        },
+                        "toNode": {
+                            "id": "170289839780",
+                            "name": "me feeling worry, fear, helplessness"
+                        },
+                        "relationship": {
+                            "id": "170289839780",
+                            "name": "",
+                            "influence": "0.59",
+                            "fromNodeId": "178311343572"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "178311343572",
+                            "name": "declaring a national lockdown"
+                        },
+                        "toNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "relationship": {
+                            "id": "164349318507",
+                            "name": "",
+                            "influence": "-0.82",
+                            "fromNodeId": "178311343572"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "178311343572",
+                            "name": "declaring a national lockdown"
+                        },
+                        "toNode": {
+                            "id": "199742686580",
+                            "name": "individual freedom to choose how to behave"
+                        },
+                        "relationship": {
+                            "id": "199742686580",
+                            "name": "",
+                            "influence": "-0.71",
+                            "fromNodeId": "178311343572"
+                        }
+                    }
+                ],
+                "missing": [
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "relationship": {
+                            "id": "159641825586",
+                            "name": "",
+                            "influence": "-0.11",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "0.36",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "104095433527",
+                            "name": "Me feeling sympathy, sadness, anger"
+                        },
+                        "relationship": {
+                            "id": "104095433527",
+                            "name": "",
+                            "influence": "0.41",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "163216478675",
+                            "name": "Everyone's safety"
+                        },
+                        "relationship": {
+                            "id": "163216478675",
+                            "name": "",
+                            "influence": "-0.63",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "169913761824",
+                            "name": "Fatality rate "
+                        },
+                        "relationship": {
+                            "id": "169913761824",
+                            "name": "",
+                            "influence": "0.68",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "131139771981",
+                            "name": "People recovering"
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "-0.49",
+                            "fromNodeId": "131139771981"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "131139771981",
+                            "name": "People recovering"
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "-0.39",
+                            "fromNodeId": "131139771981"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "131139771981",
+                            "name": "People recovering"
+                        },
+                        "toNode": {
+                            "id": "140888439015",
+                            "name": "People building immunity to the virus "
+                        },
+                        "relationship": {
+                            "id": "140888439015",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "131139771981"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "104095433527",
+                            "name": "Me feeling sympathy, sadness, anger"
+                        },
+                        "relationship": {
+                            "id": "104095433527",
+                            "name": "",
+                            "influence": "0.42",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "119907787667",
+                            "name": "Country splitting because of their views"
+                        },
+                        "relationship": {
+                            "id": "119907787667",
+                            "name": "",
+                            "influence": "0.64",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "182808600336",
+                            "name": "Shutdown of non-essential businesses, schools, public transportation \n"
+                        },
+                        "relationship": {
+                            "id": "182808600336",
+                            "name": "",
+                            "influence": "0.79",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "147129742013",
+                            "name": "Mandating people follow safety guidelines "
+                        },
+                        "relationship": {
+                            "id": "147129742013",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "169913761824",
+                            "name": "Fatality rate "
+                        },
+                        "relationship": {
+                            "id": "169913761824",
+                            "name": "",
+                            "influence": "-1",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "toNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "relationship": {
+                            "id": "159641825586",
+                            "name": "",
+                            "influence": "-0.08",
+                            "fromNodeId": "196313714421"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "0.53",
+                            "fromNodeId": "159641825586"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "toNode": {
+                            "id": "147129742013",
+                            "name": "Mandating people follow safety guidelines "
+                        },
+                        "relationship": {
+                            "id": "147129742013",
+                            "name": "",
+                            "influence": "0.62",
+                            "fromNodeId": "159641825586"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "172015175525",
+                            "name": "Gathering in large groups "
+                        },
+                        "toNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "188338681714",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "172015175525"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "172015175525",
+                            "name": "Gathering in large groups "
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "172015175525"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "133229883397",
+                            "name": "Wearing masks properly "
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "-0.28",
+                            "fromNodeId": "133229883397"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "133229883397",
+                            "name": "Wearing masks properly "
+                        },
+                        "toNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "188338681714",
+                            "name": "",
+                            "influence": "-0.53",
+                            "fromNodeId": "133229883397"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "185199940546",
+                            "name": "Following social distancing "
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "-0.35",
+                            "fromNodeId": "185199940546"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "185199940546",
+                            "name": "Following social distancing "
+                        },
+                        "toNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "188338681714",
+                            "name": "",
+                            "influence": "-0.44",
+                            "fromNodeId": "185199940546"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "119907787667",
+                            "name": "Country splitting because of their views"
+                        },
+                        "toNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "relationship": {
+                            "id": "159641825586",
+                            "name": "",
+                            "influence": "0.46",
+                            "fromNodeId": "119907787667"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "105670874106",
+                            "name": "Taking the virus seriously "
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "0.62",
+                            "fromNodeId": "105670874106"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "105670874106",
+                            "name": "Taking the virus seriously "
+                        },
+                        "toNode": {
+                            "id": "119907787667",
+                            "name": "Country splitting because of their views"
+                        },
+                        "relationship": {
+                            "id": "119907787667",
+                            "name": "",
+                            "influence": "0.72",
+                            "fromNodeId": "105670874106"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "185461701267",
+                            "name": "Sneezing / coughing"
+                        },
+                        "toNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "188338681714",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "185461701267"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "185461701267",
+                            "name": "Sneezing / coughing"
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "185461701267"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "169913761824",
+                            "name": "Fatality rate "
+                        },
+                        "toNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "relationship": {
+                            "id": "159641825586",
+                            "name": "",
+                            "influence": "-0.55",
+                            "fromNodeId": "169913761824"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "189769772046",
+                            "name": "Overall Economic Health"
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "-0.46",
+                            "fromNodeId": "189769772046"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "163216478675",
+                            "name": "Everyone's safety"
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "0.67",
+                            "fromNodeId": "163216478675"
+                        }
+                    }
+                ],
+                "correctlySigned": [
+                    {
+                        "fromNode": {
+                            "id": "156763661235",
+                            "name": "my support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "147763004179",
+                            "name": "my personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "147763004179",
+                            "name": "",
+                            "influence": "-0.58",
+                            "fromNodeId": "156763661235"
+                        }
+                    }
+                ],
+                "incorrectlySigned": []
+            }
+        },
+        "id-068ca4bf80689": {
+            "id": "id-068ca4bf80689",
+            "score": -58,
+            "nodes": {
+                "extra": [
+                    {
+                        "name": "me feeling worry, fear, helplessness",
+                        "id": "170289839780"
+                    },
+                    {
+                        "name": "shutdown of non essential businesses",
+                        "id": "196864198395"
+                    },
+                    {
+                        "name": "spreading the virus",
+                        "id": "164349318507"
+                    },
+                    {
+                        "name": "developing a vaccine",
+                        "id": "113388004139"
+                    },
+                    {
+                        "name": "individual freedom to choose how to behave",
+                        "id": "199742686580"
+                    },
+                    {
+                        "name": "declaring a national lockdown",
+                        "id": "178311343572"
+                    }
+                ],
+                "missing": [
+                    {
+                        "name": "Me feeling worry and fear ",
+                        "id": "159641825586"
+                    },
+                    {
+                        "name": "Me feeling sympathy, sadness, anger",
+                        "id": "104095433527"
+                    },
+                    {
+                        "name": "Sneezing / coughing",
+                        "id": "185461701267"
+                    },
+                    {
+                        "name": "Fatality rate ",
+                        "id": "169913761824"
+                    },
+                    {
+                        "name": "People building immunity to the virus ",
+                        "id": "140888439015"
+                    },
+                    {
+                        "name": "Overall Economic Health",
+                        "id": "189769772046"
+                    },
+                    {
+                        "name": "Mandating people follow safety guidelines ",
+                        "id": "147129742013"
+                    },
+                    {
+                        "name": "Shutdown of non-essential businesses, schools, public transportation \n",
+                        "id": "182808600336"
+                    }
+                ],
+                "present": [
+                    {
+                        "name": "people dying or getting sick",
+                        "id": "115413813534"
+                    },
+                    {
+                        "name": "people recovering",
+                        "id": "103236122058"
+                    },
+                    {
+                        "name": "my personal risk of becoming infected",
+                        "id": "147763004179"
+                    },
+                    {
+                        "name": "my support of government recommendations and regulations",
+                        "id": "156763661235"
+                    },
+                    {
+                        "name": "gathering in large groups",
+                        "id": "144605138513"
+                    },
+                    {
+                        "name": "taking the virus seriously",
+                        "id": "172060642370"
+                    },
+                    {
+                        "name": "country splitting because of their views",
+                        "id": "188147558003"
+                    },
+                    {
+                        "name": "wearing masks properly",
+                        "id": "126146737939"
+                    },
+                    {
+                        "name": "everyone's safety",
+                        "id": "109468582497"
+                    },
+                    {
+                        "name": "following social distancing",
+                        "id": "125960179278"
+                    }
+                ]
+            },
+            "relationships": {
+                "extra": [
+                    {
+                        "fromNode": {
+                            "id": "103236122058",
+                            "name": "people recovering"
+                        },
+                        "toNode": {
+                            "id": "115413813534",
+                            "name": "people dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "115413813534",
+                            "name": "",
+                            "influence": "-1",
+                            "fromNodeId": "103236122058"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "156763661235",
+                            "name": "my support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "172060642370",
+                            "name": "taking the virus seriously"
+                        },
+                        "relationship": {
+                            "id": "172060642370",
+                            "name": "",
+                            "influence": "0.9",
+                            "fromNodeId": "156763661235"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "156763661235",
+                            "name": "my support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "170289839780",
+                            "name": "me feeling worry, fear, helplessness"
+                        },
+                        "relationship": {
+                            "id": "170289839780",
+                            "name": "",
+                            "influence": "-0.53",
+                            "fromNodeId": "156763661235"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "144605138513",
+                            "name": "gathering in large groups"
+                        },
+                        "toNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "relationship": {
+                            "id": "164349318507",
+                            "name": "",
+                            "influence": "0.57",
+                            "fromNodeId": "144605138513"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "144605138513",
+                            "name": "gathering in large groups"
+                        },
+                        "toNode": {
+                            "id": "109468582497",
+                            "name": "everyone's safety"
+                        },
+                        "relationship": {
+                            "id": "109468582497",
+                            "name": "",
+                            "influence": "-0.69",
+                            "fromNodeId": "144605138513"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "144605138513",
+                            "name": "gathering in large groups"
+                        },
+                        "toNode": {
+                            "id": "147763004179",
+                            "name": "my personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "147763004179",
+                            "name": "",
+                            "influence": "0.64",
+                            "fromNodeId": "144605138513"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "172060642370",
+                            "name": "taking the virus seriously"
+                        },
+                        "toNode": {
+                            "id": "109468582497",
+                            "name": "everyone's safety"
+                        },
+                        "relationship": {
+                            "id": "109468582497",
+                            "name": "",
+                            "influence": "0.98",
+                            "fromNodeId": "172060642370"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "172060642370",
+                            "name": "taking the virus seriously"
+                        },
+                        "toNode": {
+                            "id": "103236122058",
+                            "name": "people recovering"
+                        },
+                        "relationship": {
+                            "id": "103236122058",
+                            "name": "",
+                            "influence": "0.48",
+                            "fromNodeId": "172060642370"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188147558003",
+                            "name": "country splitting because of their views"
+                        },
+                        "toNode": {
+                            "id": "172060642370",
+                            "name": "taking the virus seriously"
+                        },
+                        "relationship": {
+                            "id": "172060642370",
+                            "name": "",
+                            "influence": "-0.69",
+                            "fromNodeId": "188147558003"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188147558003",
+                            "name": "country splitting because of their views"
+                        },
+                        "toNode": {
+                            "id": "109468582497",
+                            "name": "everyone's safety"
+                        },
+                        "relationship": {
+                            "id": "109468582497",
+                            "name": "",
+                            "influence": "-0.65",
+                            "fromNodeId": "188147558003"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "126146737939",
+                            "name": "wearing masks properly"
+                        },
+                        "toNode": {
+                            "id": "103236122058",
+                            "name": "people recovering"
+                        },
+                        "relationship": {
+                            "id": "103236122058",
+                            "name": "",
+                            "influence": "0.45",
+                            "fromNodeId": "126146737939"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "126146737939",
+                            "name": "wearing masks properly"
+                        },
+                        "toNode": {
+                            "id": "115413813534",
+                            "name": "people dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "115413813534",
+                            "name": "",
+                            "influence": "-0.62",
+                            "fromNodeId": "126146737939"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "126146737939",
+                            "name": "wearing masks properly"
+                        },
+                        "toNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "relationship": {
+                            "id": "164349318507",
+                            "name": "",
+                            "influence": "-0.97",
+                            "fromNodeId": "126146737939"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "196864198395",
+                            "name": "shutdown of non essential businesses"
+                        },
+                        "toNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "relationship": {
+                            "id": "164349318507",
+                            "name": "",
+                            "influence": "-0.84",
+                            "fromNodeId": "196864198395"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "196864198395",
+                            "name": "shutdown of non essential businesses"
+                        },
+                        "toNode": {
+                            "id": "147763004179",
+                            "name": "my personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "147763004179",
+                            "name": "",
+                            "influence": "-0.65",
+                            "fromNodeId": "196864198395"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "196864198395",
+                            "name": "shutdown of non essential businesses"
+                        },
+                        "toNode": {
+                            "id": "199742686580",
+                            "name": "individual freedom to choose how to behave"
+                        },
+                        "relationship": {
+                            "id": "199742686580",
+                            "name": "",
+                            "influence": "-0.57",
+                            "fromNodeId": "196864198395"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "toNode": {
+                            "id": "170289839780",
+                            "name": "me feeling worry, fear, helplessness"
+                        },
+                        "relationship": {
+                            "id": "170289839780",
+                            "name": "",
+                            "influence": "0.68",
+                            "fromNodeId": "164349318507"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "toNode": {
+                            "id": "147763004179",
+                            "name": "my personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "147763004179",
+                            "name": "",
+                            "influence": "0.85",
+                            "fromNodeId": "164349318507"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "113388004139",
+                            "name": "developing a vaccine"
+                        },
+                        "toNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "relationship": {
+                            "id": "164349318507",
+                            "name": "",
+                            "influence": "-0.65",
+                            "fromNodeId": "113388004139"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "113388004139",
+                            "name": "developing a vaccine"
+                        },
+                        "toNode": {
+                            "id": "109468582497",
+                            "name": "everyone's safety"
+                        },
+                        "relationship": {
+                            "id": "109468582497",
+                            "name": "",
+                            "influence": "0.36",
+                            "fromNodeId": "113388004139"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "113388004139",
+                            "name": "developing a vaccine"
+                        },
+                        "toNode": {
+                            "id": "103236122058",
+                            "name": "people recovering"
+                        },
+                        "relationship": {
+                            "id": "103236122058",
+                            "name": "",
+                            "influence": "0.52",
+                            "fromNodeId": "113388004139"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "199742686580",
+                            "name": "individual freedom to choose how to behave"
+                        },
+                        "toNode": {
+                            "id": "170289839780",
+                            "name": "me feeling worry, fear, helplessness"
+                        },
+                        "relationship": {
+                            "id": "170289839780",
+                            "name": "",
+                            "influence": "-0.59",
+                            "fromNodeId": "199742686580"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "125960179278",
+                            "name": "following social distancing"
+                        },
+                        "toNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "relationship": {
+                            "id": "164349318507",
+                            "name": "",
+                            "influence": "-0.78",
+                            "fromNodeId": "125960179278"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "125960179278",
+                            "name": "following social distancing"
+                        },
+                        "toNode": {
+                            "id": "115413813534",
+                            "name": "people dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "115413813534",
+                            "name": "",
+                            "influence": "-0.48",
+                            "fromNodeId": "125960179278"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "178311343572",
+                            "name": "declaring a national lockdown"
+                        },
+                        "toNode": {
+                            "id": "147763004179",
+                            "name": "my personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "147763004179",
+                            "name": "",
+                            "influence": "-0.76",
+                            "fromNodeId": "178311343572"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "178311343572",
+                            "name": "declaring a national lockdown"
+                        },
+                        "toNode": {
+                            "id": "170289839780",
+                            "name": "me feeling worry, fear, helplessness"
+                        },
+                        "relationship": {
+                            "id": "170289839780",
+                            "name": "",
+                            "influence": "0.59",
+                            "fromNodeId": "178311343572"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "178311343572",
+                            "name": "declaring a national lockdown"
+                        },
+                        "toNode": {
+                            "id": "164349318507",
+                            "name": "spreading the virus"
+                        },
+                        "relationship": {
+                            "id": "164349318507",
+                            "name": "",
+                            "influence": "-0.82",
+                            "fromNodeId": "178311343572"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "178311343572",
+                            "name": "declaring a national lockdown"
+                        },
+                        "toNode": {
+                            "id": "199742686580",
+                            "name": "individual freedom to choose how to behave"
+                        },
+                        "relationship": {
+                            "id": "199742686580",
+                            "name": "",
+                            "influence": "-0.71",
+                            "fromNodeId": "178311343572"
+                        }
+                    }
+                ],
+                "missing": [
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "relationship": {
+                            "id": "159641825586",
+                            "name": "",
+                            "influence": "-0.11",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "0.36",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "104095433527",
+                            "name": "Me feeling sympathy, sadness, anger"
+                        },
+                        "relationship": {
+                            "id": "104095433527",
+                            "name": "",
+                            "influence": "0.41",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "163216478675",
+                            "name": "Everyone's safety"
+                        },
+                        "relationship": {
+                            "id": "163216478675",
+                            "name": "",
+                            "influence": "-0.63",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "toNode": {
+                            "id": "169913761824",
+                            "name": "Fatality rate "
+                        },
+                        "relationship": {
+                            "id": "169913761824",
+                            "name": "",
+                            "influence": "0.68",
+                            "fromNodeId": "188338681714"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "131139771981",
+                            "name": "People recovering"
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "-0.49",
+                            "fromNodeId": "131139771981"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "131139771981",
+                            "name": "People recovering"
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "-0.39",
+                            "fromNodeId": "131139771981"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "131139771981",
+                            "name": "People recovering"
+                        },
+                        "toNode": {
+                            "id": "140888439015",
+                            "name": "People building immunity to the virus "
+                        },
+                        "relationship": {
+                            "id": "140888439015",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "131139771981"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "104095433527",
+                            "name": "Me feeling sympathy, sadness, anger"
+                        },
+                        "relationship": {
+                            "id": "104095433527",
+                            "name": "",
+                            "influence": "0.42",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "119907787667",
+                            "name": "Country splitting because of their views"
+                        },
+                        "relationship": {
+                            "id": "119907787667",
+                            "name": "",
+                            "influence": "0.64",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "182808600336",
+                            "name": "Shutdown of non-essential businesses, schools, public transportation \n"
+                        },
+                        "relationship": {
+                            "id": "182808600336",
+                            "name": "",
+                            "influence": "0.79",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "147129742013",
+                            "name": "Mandating people follow safety guidelines "
+                        },
+                        "relationship": {
+                            "id": "147129742013",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "169913761824",
+                            "name": "Fatality rate "
+                        },
+                        "relationship": {
+                            "id": "169913761824",
+                            "name": "",
+                            "influence": "-1",
+                            "fromNodeId": "149216775749"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "toNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "relationship": {
+                            "id": "159641825586",
+                            "name": "",
+                            "influence": "-0.08",
+                            "fromNodeId": "196313714421"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "0.53",
+                            "fromNodeId": "159641825586"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "toNode": {
+                            "id": "147129742013",
+                            "name": "Mandating people follow safety guidelines "
+                        },
+                        "relationship": {
+                            "id": "147129742013",
+                            "name": "",
+                            "influence": "0.62",
+                            "fromNodeId": "159641825586"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "172015175525",
+                            "name": "Gathering in large groups "
+                        },
+                        "toNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "188338681714",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "172015175525"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "172015175525",
+                            "name": "Gathering in large groups "
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "172015175525"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "133229883397",
+                            "name": "Wearing masks properly "
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "-0.28",
+                            "fromNodeId": "133229883397"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "133229883397",
+                            "name": "Wearing masks properly "
+                        },
+                        "toNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "188338681714",
+                            "name": "",
+                            "influence": "-0.53",
+                            "fromNodeId": "133229883397"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "185199940546",
+                            "name": "Following social distancing "
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "-0.35",
+                            "fromNodeId": "185199940546"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "185199940546",
+                            "name": "Following social distancing "
+                        },
+                        "toNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "188338681714",
+                            "name": "",
+                            "influence": "-0.44",
+                            "fromNodeId": "185199940546"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "119907787667",
+                            "name": "Country splitting because of their views"
+                        },
+                        "toNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "relationship": {
+                            "id": "159641825586",
+                            "name": "",
+                            "influence": "0.46",
+                            "fromNodeId": "119907787667"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "105670874106",
+                            "name": "Taking the virus seriously "
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "0.62",
+                            "fromNodeId": "105670874106"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "105670874106",
+                            "name": "Taking the virus seriously "
+                        },
+                        "toNode": {
+                            "id": "119907787667",
+                            "name": "Country splitting because of their views"
+                        },
+                        "relationship": {
+                            "id": "119907787667",
+                            "name": "",
+                            "influence": "0.72",
+                            "fromNodeId": "105670874106"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "185461701267",
+                            "name": "Sneezing / coughing"
+                        },
+                        "toNode": {
+                            "id": "188338681714",
+                            "name": "People dying or getting sick"
+                        },
+                        "relationship": {
+                            "id": "188338681714",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "185461701267"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "185461701267",
+                            "name": "Sneezing / coughing"
+                        },
+                        "toNode": {
+                            "id": "196313714421",
+                            "name": "My personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "196313714421",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "185461701267"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "169913761824",
+                            "name": "Fatality rate "
+                        },
+                        "toNode": {
+                            "id": "159641825586",
+                            "name": "Me feeling worry and fear "
+                        },
+                        "relationship": {
+                            "id": "159641825586",
+                            "name": "",
+                            "influence": "-0.55",
+                            "fromNodeId": "169913761824"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "189769772046",
+                            "name": "Overall Economic Health"
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "-0.46",
+                            "fromNodeId": "189769772046"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "163216478675",
+                            "name": "Everyone's safety"
+                        },
+                        "toNode": {
+                            "id": "149216775749",
+                            "name": "My support of government recommendations and regulations"
+                        },
+                        "relationship": {
+                            "id": "149216775749",
+                            "name": "",
+                            "influence": "0.67",
+                            "fromNodeId": "163216478675"
+                        }
+                    }
+                ],
+                "correctlySigned": [
+                    {
+                        "fromNode": {
+                            "id": "156763661235",
+                            "name": "my support of government recommendations and regulations"
+                        },
+                        "toNode": {
+                            "id": "147763004179",
+                            "name": "my personal risk of becoming infected"
+                        },
+                        "relationship": {
+                            "id": "147763004179",
+                            "name": "",
+                            "influence": "-0.58",
+                            "fromNodeId": "156763661235"
+                        }
+                    }
+                ],
+                "incorrectlySigned": []
+            }
+        }
+    },
+    "canonicalId": "id-a62d74e6785d2",
+    "viewResultId": null,
+    "mode": "files",
+    "showInternalTools": true
+}

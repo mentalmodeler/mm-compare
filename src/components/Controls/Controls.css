@@ -150,3 +150,25 @@
   transform: none !important;
   cursor: not-allowed;
 }
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 0 0 16px;
+}
+.controls > * {
+  margin-bottom: 10px;
+}
+.controls > *:not(:first-child) {
+  margin-left: 10px;
+}
+.controls__load-url {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.controls__load-url > .input {
+  flex-grow: 1;
+  max-width: 300px;
+}

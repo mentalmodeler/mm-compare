@@ -1,19 +1,19 @@
 const _compare = (model, canonical) => {
     const normalize = name => name.toLowerCase().trim(); 
-    const getNode = ({name, id}) => ({name: name, id: id}); 
+    const getNode = ({name, id}) => ({name: name, id: id});
+    const findNode = ({id, nodes}) => {
+        const _node = nodes.find(node => node.id === id) || {id: '', name: '[not found]'};
+        return {id: _node.id, name: _node.name};
+    }
 
-    const getRelationships = ({name: fromName, id: fromId, relationships}) => (
+
+    const getRelationships = ({name: fromName, id: fromId, relationships}, index, nodes) => (
         relationships && relationships.map(({name, id, influence}) => ({
             fromNode: {
                 id: fromId,
                 name: fromName
             },
-
-            toNode: {
-                id: id,
-                name: name
-            },
-
+            toNode: findNode({id, nodes}),
             relationship: {
                 id: id,
                 name: name,
@@ -25,25 +25,21 @@ const _compare = (model, canonical) => {
     
     const differenceNodes = (a, b) => {
         const names = b.map(({name}) => normalize(name));
-
         return a.filter(({name}) => !names.includes(normalize(name)));
     };
 
     const intersectionNodes = (a, b) => {
         const names = b.map(({name}) => normalize(name));
-        
         return a.filter(({name}) => names.includes(normalize(name)));
     };
 
     const differenceRelationships = (a, b) => {
         const names = b.map(({fromNode, toNode}) => normalize(fromNode.name + toNode.name));
-        
         return a.filter(({fromNode, toNode}) => !names.includes(normalize(fromNode.name + toNode.name)));
     };
 
     const intersectionRelationships = (a, b) => {
         const names = b.map(({fromNode, toNode}) => normalize(fromNode.name + toNode.name));
-        
         return a.filter(({fromNode, toNode}) => names.includes(normalize(fromNode.name + toNode.name)));
     };
 
@@ -97,6 +93,10 @@ export const compare = ({modelsJSON, canonicalId}) => {
     });
     return results;
 }
+export const isDevEnv = () => process.env.NODE_ENV === 'development';
+export const getKeys = (o) => typeof o === 'object' && Object.keys(o) || [];
+export const getLength = (o) => getKeys(o).length;
+export const updateClipboard = (newClip) => {navigator.clipboard.writeText(newClip).then(function() {/* success */}, function() {/* error */});}
 export const makeId = () => `id-${Math.random().toString(16).slice(2)}`;
 export const getMargin = (top, bottom) => ({
     ...(typeof top === 'number' && {marginTop: `${top}px`}),

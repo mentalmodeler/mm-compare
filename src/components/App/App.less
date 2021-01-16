@@ -1,16 +1,22 @@
 @import '../../shared.less';
 
 .MMCompare {
-    min-height: 100vh;
+    height: 100vh;
+    overflow: auto;
     .background-stripes();
 }
 
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, .4);
+
     &__primary {
         display: flex;
         justify-content: space-between;
-        padding-right: 24px;
-        background-color: @dark-darkest;
+        padding-right: 16px;
+        background-color: @dark;
 
         .logo {
             background-color: @dark-darkest;
@@ -22,71 +28,17 @@
             font-size: 24px;
             line-height: 24px;
             font-weight: 500;
-                    
+        }
+
+        .logo-inner {
+            display: flex;
+            flex-wrap: wrap;
+
             > :last-child {
                 color: @blue;
                 font-weight: 700;
             }
         }
-    }
-    &__mode-select {
-        padding-left: 24px;
-        display: flex;
-        align-items: center;
-
-        &-mode {
-            color: @blue;
-            font-size: 24px;
-            line-height: 28px;
-            height: 100%;
-            font-weight: 500;
-            display: flex;
-            align-items: center;
-            position: relative;
-            user-select: none;
-            cursor: pointer;
-            transition: background-color 200ms ease;
-
-            > span {
-                margin: 0 8px;
-            }
-
-            &:first-child {
-                margin-right: 32px;
-            }
-
-            &::before {
-                content: '';
-                position: absolute;
-                left: 0;
-                bottom: 0;
-                right: 0;
-                height: 0;
-                background-color: @blue;
-                opacity: 0;
-                z-index: 1;
-                transition: opacity 200ms ease;  
-            }
-
-            &:hover {
-                &::before {
-                    height: 4px;
-                    opacity: 1;
-                }
-            }
-
-            &--selected {
-                &::before {
-                    height: 4px;
-                    opacity: 1;
-                }
-            }
-        }
-    }
-    &__secondary {
-        background-color: @dark;
-        padding: 16px;
-        display: flex;
     }
 }
 

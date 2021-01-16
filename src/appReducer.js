@@ -1,9 +1,10 @@
 import {makeId, compare} from './utils';
 
 const appReducer = (oldState, newState) => {
-    let updatedState = {...oldState, ...newState};
     const {action} = newState;
-
+    let updatedState = {...oldState, ...newState};
+    delete updatedState.action;
+    
     if (action && action.type) {
         if (action.type === 'addJSON') {
             updatedState = {

@@ -14,7 +14,7 @@
     position: relative;
     width: 100%;
 
-    @media (min-width: 500px) {
+    @media (min-width: 560px) {
         width: 50%;
     }
 
@@ -66,16 +66,22 @@
     background-color: fade(@blue, 8%);
     border-radius: 6px;
     margin-bottom: 16px;
-    padding: 12px 12px 0 0;
+    // padding: 12px 12px 0 0;
+    // padding: 12px 4px 0 0;
+    padding: 8px 12px 8px 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .model__score-value {
-    padding: 0 0 0 12px;
+    padding-left: 8px;
 }
 
-.model__score-result {
-    padding: 0 12px 8px 4px;
-}
+// .model__score-result {
+//     padding: 0 12px 8px 4px;
+// }
 
 .model__name {
     font-weight: 500;

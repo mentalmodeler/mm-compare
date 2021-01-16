@@ -1,13 +1,19 @@
-import React, {useReducer} from 'react';
+import React, {useEffect, useReducer} from 'react';
 import classnames from 'classnames';
 
-import Compare from '../Controls/Compare';
-import FileControls from '../Controls/FileControls';
+import Controls from '../Controls/Controls';
 import Models from '../Models/Models';
 import Result from '../Result/Result';
 import appReducer from '../../appReducer';
+import json from '../../json/andrew_state.json';
+// import json from '../../json/steven_state.json';
+// import json from '../../json/steven_state_results.json';
+import {getKeys, isDevEnv} from '../../utils';
 
 import './App.css';
+
+const loadState = json;
+
 
 export const AppContext = React.createContext({
     modelsJSON: [],
@@ -24,7 +30,18 @@ function App() {
         viewResultId: null,
         mode: 'files',
     });
-    const {mode} = state;
+    const {mode, results, modelsJSON, showInternalTools} = state;
+
+    // load state if indicated
+    useEffect(() => {
+        if (isDevEnv() && loadState) {
+            const resultsKeys = getKeys(loadState.results);
+            setState({
+                ...loadState,
+                ...(resultsKeys.length > 0 && {viewResultId: resultsKeys[0], mode: 'result'})
+            });
+        }
+    }, []);
 
     return (
         <AppContext.Provider value={{state, setState, dispatch: setState}}>
@@ -32,46 +49,15 @@ function App() {
                 <header className="header">
                     <div className="header__primary">
                         <div className={"logo"}>
-                            <span>{'MentalModeler'}</span><span>{'COMPARE'}</span>
-                        </div>
-                        <div className="header__mode-select">
-                            <div
-                                className={classnames('header__mode-select-mode', {'header__mode-select-mode--selected': mode === 'files'})}
-                                onClick={() => setState({mode: 'files'})}
-                            >
-                                <span>{'Files'}</span>
-                            </div>
-                            <div
-                                className={classnames('header__mode-select-mode', {'header__mode-select-mode--selected': mode === 'compare'})}
-                                onClick={() => setState({mode: 'compare'})}
-                            >
-                                <span>{'Compare'}</span>
+                            <div className="logo-inner">
+                                <span>{'MentalModeler'}</span><span>{'COMPARE'}</span>
                             </div>
                         </div>
-                    </div>
-                    <div className="header__secondary">
-                        {mode === 'files' && (<FileControls />)}
-                        {mode === 'compare' && (<Compare /> )}
-                        <input
-                            style={{marginLeft: '16px'}}
-                            type="button"
-                            onClick={() => setState({action: {type: 'compare'}})}
-                            value="Compare"
-                            className="btn btn-ghost"
-                            disabled={!state.canonicalId}
-                        />
-                        <input
-                            style={{marginLeft: '16px'}}
-                            type="button"
-                            onClick={() => setState({mode: 'result'})}
-                            value="View result"
-                            className="btn btn-ghost"
-                        />
+                        <Controls />
                     </div>
                 </header>
                 <main className="main">
-                    {mode === 'files' && (<Models />)}
-                    {mode === 'compare' && (null)}
+                    <Models />
                     {mode === 'result' && (<Result />)}
                 </main>
             </div>

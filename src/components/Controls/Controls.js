@@ -1,13 +1,13 @@
-import './FileControls.css';
 import {useContext, useRef} from 'react';
 import {loadAndParse, loadAndParseURL} from 'mm-modules';
-
+import {isDevEnv, updateClipboard} from '../../utils';
 import {AppContext} from '../App/App';
+import './Controls.css';
 
-function FileControls() {
+function Controls() {
     const inputFile = useRef(null);
     const inputURL = useRef('');
-    const {dispatch} = useContext(AppContext);
+    const {state, setState, dispatch} = useContext(AppContext);
     const handleLoadLocal = () => inputFile.current.click();
 
     const handleLoadURL = async () => {
@@ -22,27 +22,28 @@ function FileControls() {
 
     const loadAndParseLocalModels = evt => {
         const fileList = evt.target.files;
-        if (fileList && fileList.length > 0) {
-            const files = Array.from(fileList);
-            files.forEach(async f => {
-                const json = await loadAndParse(f);
-                dispatch({
-                    action: {
-                        type: 'addJSON',
-                        json
-                    }
-                });
-            });
-        }
+        return fileList && fileList.length > 0 && Array.from(fileList).forEach(async f => {
+            const json = await loadAndParse(f);
+            dispatch({action: {type: 'addJSON', json}});
+        });
     };
 
     return (
         <div className="controls">
+            {isDevEnv() && (
+                <input
+                    style={{alignSelf: 'center'}}
+                    type="button"
+                    onClick={() => updateClipboard(JSON.stringify(state, null, 4))}
+                    value="Copy state JSON"
+                    className="btn btn-ghost"
+                />
+            )}
             <div className="controls__load-local">
                 <input 
                     type="button"
                     onClick={handleLoadLocal}
-                    value="Load from Local"
+                    value="Load"
                     className="btn btn-ghost"
                 />
                 <input 
@@ -54,7 +55,14 @@ function FileControls() {
                     value=""
                 />
             </div>
-            <div className="controls__load-url">
+            <input
+                type="button"
+                onClick={() => setState({action: {type: 'compare'}})}
+                value="Compare"
+                className="btn btn-ghost"
+                disabled={!state.canonicalId}
+            />
+            {/* <div className="controls__load-url">
                 <input 
                     type="text" 
                     ref={inputURL}
@@ -69,9 +77,9 @@ function FileControls() {
                     className="btn btn-ghost"
                     disabled
                 />
-            </div>
+            </div> */}
         </div>
     );
 }
 
-export default FileControls;
+export default Controls;

@@ -1,0 +1,28 @@
+@import '../../shared.less';
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 0 0 16px;
+
+    > * {
+        margin-bottom: @control-spacing;
+
+        &:not(:first-child) {
+            margin-left: @control-spacing;
+        }
+    }
+}
+
+.controls__load-url {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;;
+    
+    > .input {
+        flex-grow: 1;
+        max-width: 300px;
+    }
+}

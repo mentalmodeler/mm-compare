@@ -49,6 +49,9 @@
 .font-gray {
   color: #ACADB4;
 }
+.font-blue {
+  color: #00C7FF;
+}
 .background-stripes {
   background-color: #f6f7f8;
   background: repeating-linear-gradient(45deg, #f6f7f8, #f6f7f8 3px, #e2e3e4 3px, #e2e3e4 6px);
@@ -153,6 +156,7 @@
   right: 0;
   bottom: 0;
   left: 0;
+  z-index: 2;
 }
 .result-bg {
   position: absolute;
@@ -163,32 +167,88 @@
   background-color: #000;
   opacity: 0.9;
 }
+.result__close {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  z-index: 1;
+}
 .result-body {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 64px 32px;
+  padding: 0 32px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   overflow: auto;
 }
 .result-content {
-  max-width: 760px;
+  max-width: 960px;
+  min-height: 100vh;
   color: #fff;
   flex-grow: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 64px 24px;
+}
+.result__category {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #00C7FF;
+  margin: 40px 0 32px;
+}
+.result__group-title {
+  margin-bottom: 12px;
+  font-size: 22px;
+  line-height: 30px;
+  color: #00C7FF;
+  font-weight: 400 !important;
+}
+.results__points-line-item {
+  display: inline-bock;
+  margin-left: 16px;
+  color: #fff;
+  font-weight: 300;
+  font-style: italic;
 }
 .result__concepts {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+.result__linkages {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  align-items: flex-start;
 }
 .result__concept {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
   padding: 4px 8px;
   border-radius: 12px;
-  margin-right: 6px;
-  margin-bottom: 6px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+.result__linkage {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  display: flex;
+}
+.result__linkage-sign {
+  display: flex;
+  align-items: center;
+  margin: -8px 8px;
+  padding: 0 6px;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-style: italic;
+}
+.result__linkage-sign > span {
+  margin: 0 4px;
+  display: inline-block;
 }
