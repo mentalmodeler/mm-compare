@@ -1,4 +1,4 @@
-import {makeId, compare} from './utils';
+import {makeId, compareModels} from 'mm-modules';
 
 const appReducer = (oldState, newState) => {
     const {action} = newState;
@@ -24,7 +24,7 @@ const appReducer = (oldState, newState) => {
                 ...(updatedState.canonical === action.id && {canonicalId: null})
             };
         } else if (action.type === 'compare') {
-            const results = compare({
+            const results = compareModels({
                 modelsJSON: updatedState.modelsJSON,
                 canonicalId: updatedState.canonicalId
             });
