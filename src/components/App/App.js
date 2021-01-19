@@ -4,10 +4,12 @@ import classnames from 'classnames';
 import Controls from '../Controls/Controls';
 import Models from '../Models/Models';
 import Result from '../Result/Result';
+import Scenario from '../Scenario/Scenario';
 import appReducer from '../../appReducer';
-import json from '../../json/andrew_state.json';
+// import json from '../../json/andrew_state.json';
 // import json from '../../json/steven_state.json';
 // import json from '../../json/steven_state_results.json';
+import json from '../../json/fish_wetland_state.json';
 import {getKeys, isDevEnv} from '../../utils';
 
 import './App.css';
@@ -19,7 +21,7 @@ export const AppContext = React.createContext({
     modelsJSON: [],
     results: {},
     canonical: null,
-    mode: 'files',
+    mode: 'scenario',
 });
 
 function App() {
@@ -38,7 +40,8 @@ function App() {
             const resultsKeys = getKeys(loadState.results);
             setState({
                 ...loadState,
-                ...(resultsKeys.length > 0 && {viewResultId: resultsKeys[0], mode: 'result'})
+                ...(resultsKeys.length > 0 && {viewResultId: resultsKeys[0], mode: 'result'}),
+                ...(resultsKeys.length < 1 && {mode: 'scenario'})
             });
         }
     }, []);
@@ -59,6 +62,7 @@ function App() {
                 <main className="main">
                     <Models />
                     {mode === 'result' && (<Result />)}
+                    {mode === 'scenario' && (<Scenario />)}
                 </main>
             </div>
         </AppContext.Provider>
