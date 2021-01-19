@@ -57,6 +57,13 @@ function Controls() {
             </div>
             <input
                 type="button"
+                onClick={() => setState({action: {type: 'scenario'}})}
+                value="Configure scenario"
+                className="btn btn-ghost"
+                disabled={!state.canonicalId}
+            />
+            <input
+                type="button"
                 onClick={() => setState({action: {type: 'compare'}})}
                 value="Compare"
                 className="btn btn-ghost"

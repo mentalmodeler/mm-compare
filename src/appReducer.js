@@ -1,3 +1,4 @@
+import {initScenario} from './utils';
 import {makeId, compareModels} from 'mm-modules';
 
 const appReducer = (oldState, newState) => {
@@ -32,7 +33,26 @@ const appReducer = (oldState, newState) => {
                 ...updatedState,
                 results,
             };    
+        } else if (action.type === 'updateScenario') {
+            const {id, concept: updatedConcept} = action;
+            updatedState = {
+                ...updatedState,
+                scenario: {
+                    ...updatedState.scenario.map,
+                    concepts: updatedState.scenario.concepts.map((concept) => (
+                        id === concept.id ? updatedConcept : concept
+                    )),
+                }
+            };
         }
+    }
+    // if we are setting the canonicalId, set up the scenario data
+    if (newState.hasOwnProperty('canonicalId') && updatedState.canonicalId !== oldState.canonicalId) {
+        const canonicalModel = updatedState.modelsJSON.find((model) => model.id = updatedState.canonicalId);
+        updatedState = {
+            ...updatedState,
+            scenario: initScenario(canonicalModel || {concepts: []}),
+        };
     }
 
     return updatedState;

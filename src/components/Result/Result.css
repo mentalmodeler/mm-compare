@@ -1,3 +1,6 @@
+.no-padding {
+  padding: 0 !important;
+}
 .small {
   font-size: 14px;
   line-height: 18px;
@@ -54,7 +57,7 @@
 }
 .background-stripes {
   background-color: #f6f7f8;
-  background: repeating-linear-gradient(45deg, #f6f7f8, #f6f7f8 3px, #e2e3e4 3px, #e2e3e4 6px);
+  background: repeating-linear-gradient(45deg, #f6f7f8, #f6f7f8 3px, #ebecef 3px, #ebecef 6px);
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -145,53 +148,17 @@
   box-shadow: 0 0 0 1px #00C7FF;
 }
 .input[disabled] {
-  opacity: 0.5;
+  opacity: 0.2;
   transition: none !important;
   transform: none !important;
   cursor: not-allowed;
 }
-.result-wrapper {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 2;
-}
-.result-bg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-  opacity: 0.9;
-}
-.result__close {
-  position: fixed;
-  top: 16px;
-  right: 16px;
-  z-index: 1;
-}
-.result-body {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 0 32px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  overflow: auto;
-}
-.result-content {
-  max-width: 960px;
-  min-height: 100vh;
-  color: #fff;
-  flex-grow: 1;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 64px 24px;
+.input::-webkit-input-placeholder,
+.input::-moz-placeholder,
+.input:-ms-input-placeholder,
+.input:-moz-placeholder,
+.input::placeholder {
+  color: #F00 !important;
 }
 .result__category {
   padding-bottom: 8px;

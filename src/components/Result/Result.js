@@ -1,7 +1,7 @@
 import {Fragment, useContext} from 'react';
 import {AppContext} from '../App/App';
 import {getMargin} from '../../utils';
-
+import Overlay from '../Overlay/Overlay';
 import './Result.css';
 
 const Concept = ({name}) => <div className="result__concept">{name}</div>
@@ -49,40 +49,32 @@ function Result() {
         {title: `Extra (${extraNodes.length})`, collection: extraNodes},
         {title: `Present (${presentNodes.length})`, collection: presentNodes},
     ];
-    const sectionSpacer = 22;
+    
     return (
-        <div className="result-wrapper" onClick={() => setState({mode: 'files'})}>
-            <button className="result__close btn btn-ghost" onClick={() => setState({mode: 'files'})}>
-                <span>{'Close'}</span>
-            </button>
-            <div className="result-bg"/>
-            <div className="result-body">
-                <div className="result-content">
-                    <div style={getMargin(null, 12)} className="result__author weight-300 h3 capitalize">{author || '[Author]'}</div>
-                    <div className="result__name weight-500 capitalize">{name || '[Name]'}</div>
-                    <div style={getMargin(null, 12)} className="result__date italic">{date ? new Intl.DateTimeFormat('en-US', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }).format(new Date(date)) : '[Date]'}</div>
-                    <div style={getMargin(null, 32)} className="font-blue h4 weight-500">{`SCORE: ${score}`}</div>
-                    <div className="result__category uppercase weight-600 font-blue h3">{'LINKAGES'}</div>
-                    {relationshipCollections.map(({title, collection}, i) => (
-                        <Fragment key={`collection-${i}`}>
-                            <div className="result__group-title weight-300">{title}</div>
-                            <div className="result__linkages">
-                                {collection.map((data, i) => <Linkage {...data} key={`linkage-${i}`}/>)}
-                            </div>
-                        </Fragment>
-                    ))}
-                    <div className="result__category uppercase weight-600 font-blue h3">{'Concepts'}</div>
-                    {nodeCollections.map(({title, collection}, i) => (
-                        <Fragment key={`collection-${i}`}>
-                            <div className="result__group-title weight-300">{title}</div>
-                            <div className="result__concepts">
-                                {collection.map(({name, id}, i) => <Concept name={name} key={`linkage-${i}`}/>)}
-                            </div>
-                        </Fragment>
-                    ))}
-                </div>
-            </div>
-        </div>
+        <Overlay>    
+            <div style={getMargin(null, 12)} className="result__author weight-300 h3 capitalize">{author || '[Author]'}</div>
+            <div className="result__name weight-500 capitalize">{name || '[Name]'}</div>
+            <div style={getMargin(null, 12)} className="result__date italic">{date ? new Intl.DateTimeFormat('en-US', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }).format(new Date(date)) : '[Date]'}</div>
+            <div style={getMargin(null, 32)} className="font-blue h4 weight-500">{`SCORE: ${score}`}</div>
+            <div className="result__category uppercase weight-600 font-blue h3">{'LINKAGES'}</div>
+            {relationshipCollections.map(({title, collection}, i) => (
+                <Fragment key={`collection-${i}`}>
+                    <div className="result__group-title weight-300">{title}</div>
+                    <div className="result__linkages">
+                        {collection.map((data, i) => <Linkage {...data} key={`linkage-${i}`}/>)}
+                    </div>
+                </Fragment>
+            ))}
+            <div className="result__category uppercase weight-600 font-blue h3">{'Concepts'}</div>
+            {nodeCollections.map(({title, collection}, i) => (
+                <Fragment key={`collection-${i}`}>
+                    <div className="result__group-title weight-300">{title}</div>
+                    <div className="result__concepts">
+                        {collection.map(({name, id}, i) => <Concept name={name} key={`linkage-${i}`}/>)}
+                    </div>
+                </Fragment>
+            ))}
+        </Overlay>
     );
 }
 
