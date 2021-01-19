@@ -22,7 +22,7 @@ const appReducer = (oldState, newState) => {
             updatedState = {
                 ...updatedState,
                 modelsJSON: updatedState.modelsJSON.filter((model) => model.id !== action.id),
-                ...(updatedState.canonical === action.id && {canonicalId: null})
+                ...(updatedState.canonicalId === action.id && {canonicalId: null})
             };
         } else if (action.type === 'compare') {
             const results = compareModels({

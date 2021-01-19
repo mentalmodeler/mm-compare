@@ -63,9 +63,9 @@ function Scenario() {
                     <div className="Scenario__col Scenario__col--points">{'Points'}</div>
                 </div>
                 {scenario.concepts.map(({name, id, selected, influence, expectedChange, points}, index) => {
-                    name = index % 2 === 0
+                    {/* name = index % 2 === 0
                         ? `${name} ${name} ${name} ${name} ${name} ${name}`
-                        : name;
+                        : name; */}
                     const changeExpected = parseInt(expectedChange, 10) !== 0;
                     const hasInfluence = parseInt(influence, 10) !== 0;
                     const useDisableTextStyle = hasInfluence || !selected;

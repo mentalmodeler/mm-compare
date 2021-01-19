@@ -55,7 +55,7 @@ function Result() {
             <div style={getMargin(null, 12)} className="result__author weight-300 h3 capitalize">{author || '[Author]'}</div>
             <div className="result__name weight-500 capitalize">{name || '[Name]'}</div>
             <div style={getMargin(null, 12)} className="result__date italic">{date ? new Intl.DateTimeFormat('en-US', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }).format(new Date(date)) : '[Date]'}</div>
-            <div style={getMargin(null, 32)} className="font-blue h4 weight-500">{`SCORE: ${score}`}</div>
+            <div style={getMargin(null, 32)} className="font-blue h2 italic weight-300">{`SCORE: ${score}`}</div>
             <div className="result__category uppercase weight-600 font-blue h3">{'LINKAGES'}</div>
             {relationshipCollections.map(({title, collection}, i) => (
                 <Fragment key={`collection-${i}`}>

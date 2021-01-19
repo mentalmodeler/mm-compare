@@ -67,7 +67,7 @@ function Controls() {
                 onClick={() => setState({action: {type: 'compare'}})}
                 value="Compare"
                 className="btn btn-ghost"
-                disabled={!state.canonicalId}
+                disabled={!state.canonicalId || state.modelsJSON.length < 2}
             />
             {/* <div className="controls__load-url">
                 <input 
