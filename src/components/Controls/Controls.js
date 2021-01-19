@@ -57,7 +57,7 @@ function Controls() {
             </div>
             <input
                 type="button"
-                onClick={() => setState({action: {type: 'scenario'}})}
+                onClick={() => setState({mode: 'scenario'})}
                 value="Configure scenario"
                 className="btn btn-ghost"
                 disabled={!state.canonicalId}

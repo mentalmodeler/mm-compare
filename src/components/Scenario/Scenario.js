@@ -69,7 +69,6 @@ function Scenario() {
                     const changeExpected = parseInt(expectedChange, 10) !== 0;
                     const hasInfluence = parseInt(influence, 10) !== 0;
                     const useDisableTextStyle = hasInfluence || !selected;
-                    console.log('hasInfluence:', hasInfluence);
                     return (
                         <div
                             className={`Scenario__row${useDisableTextStyle ? ' Scenario__row--disabled-text' : ''}`}

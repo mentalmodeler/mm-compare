@@ -48,7 +48,7 @@ const appReducer = (oldState, newState) => {
     }
     // if we are setting the canonicalId, set up the scenario data
     if (newState.hasOwnProperty('canonicalId') && updatedState.canonicalId !== oldState.canonicalId) {
-        const canonicalModel = updatedState.modelsJSON.find((model) => model.id = updatedState.canonicalId);
+        const canonicalModel = updatedState.modelsJSON.find((model) => model.id === updatedState.canonicalId);
         updatedState = {
             ...updatedState,
             scenario: initScenario(canonicalModel || {concepts: []}),
