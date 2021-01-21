@@ -153,13 +153,6 @@
   transform: none !important;
   cursor: not-allowed;
 }
-.input::-webkit-input-placeholder,
-.input::-moz-placeholder,
-.input:-ms-input-placeholder,
-.input:-moz-placeholder,
-.input::placeholder {
-  color: #F00 !important;
-}
 .Scenario__title {
   margin-bottom: 40px;
 }
@@ -179,7 +172,7 @@
   background-color: transparent;
 }
 .Scenario__row--disabled-text {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.4);
 }
 .Scenario__col {
   background-color: rgba(255, 255, 255, 0.15);
@@ -197,7 +190,7 @@
   overflow: hidden;
 }
 .Scenario__col--include .Scenario__include-label {
-  padding: 13px 8px 11px;
+  padding-top: 8px;
   position: relative;
   cursor: pointer;
   width: 100%;
@@ -208,6 +201,26 @@
 .Scenario__col--include .Scenario__include-label:hover {
   background-color: rgba(0, 199, 255, 0.1);
 }
+.Scenario__col--include .Scenario__include-checkbox {
+  height: 24px;
+  width: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: none;
+}
+.Scenario__col--include .Scenario__include-checkbox:hover {
+  background-image: url("data:image/svg+xml,<svg focusable='false' width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'><path fill='none' stroke='%232f2f2f' stroke-width='4px' stroke-linecap='round' stroke-linejoin='round' d='M14.5 3.3l-8.2 9.4L1.5 8'></path></svg>");
+}
+.Scenario__col--include .Scenario__include-checkbox--selected {
+  background-image: url("data:image/svg+xml,<svg focusable='false' width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'><path fill='none' stroke='%23ffffff' stroke-width='3px' stroke-linecap='round' stroke-linejoin='round' d='M14.5 3.3l-8.2 9.4L1.5 8'></path></svg>");
+}
+.Scenario__col--include .Scenario__include-checkbox--selected:hover {
+  background-image: url("data:image/svg+xml,<svg focusable='false' width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'><path fill='none' stroke='%2300C7FF' stroke-width='3px' stroke-linecap='round' stroke-linejoin='round' d='M14.5 3.3l-8.2 9.4L1.5 8'></path></svg>");
+}
 .Scenario__col--include input[type="checkbox"] {
   position: relative;
   z-index: 1;
@@ -215,7 +228,7 @@
   padding: 0;
 }
 .Scenario__col--component {
-  width: calc(100% - 318px);
+  width: calc(100% - 190px);
 }
 .Scenario__col--adjust {
   width: 70px;
@@ -224,7 +237,7 @@
   font-size: 20px;
 }
 .Scenario__col--expected-change {
-  width: 128px;
+  width: 0;
 }
 .Scenario__col--points {
   width: 80px;
@@ -232,7 +245,8 @@
   padding: 6px;
 }
 .Scenario__col--points input.input {
-  padding: 6px;
+  padding: 4px 6px;
+  background-color: #1e1e1e;
 }
 .Scenario__input-points {
   width: 100%;
