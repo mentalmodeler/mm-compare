@@ -3,9 +3,8 @@
 @spacing: 8px;
 @include-col-width: 40px;
 @adjust-col-width: 70px;
-@expected-change-col-width: 128px;
 @points-col-width: 80px;
-@fixed-col-widths-total: @include-col-width + @expected-change-col-width + @adjust-col-width + @points-col-width;
+@fixed-col-widths-total: @include-col-width + @adjust-col-width + @points-col-width;
 
 .Scenario {
     &__title {
@@ -17,7 +16,6 @@
 
     &__row {
         display: flex;
-        // margin-bottom: 2px;
 
         &--header {
             > .Scenario__col {
@@ -37,7 +35,7 @@
         }
 
         &--disabled-text {
-            color: rgba(255, 255, 255, .5);
+            color: rgba(255, 255, 255, .4);
         }
     }
 
@@ -58,10 +56,9 @@
             overflow: hidden;
 
             .Scenario__include-label {
-                padding: 13px @spacing 11px;
+                padding-top: 8px;
                 position: relative;
                 cursor: pointer;
-                // background-color: #f00;
                 width: 100%;
                 display: flex;
                 justify-content: center;
@@ -70,6 +67,36 @@
                 &:hover {
                     background-color: fade(@blue, 10%);
                 }
+            }
+
+            .Scenario__include-checkbox {
+                @size: 24px;
+                height: @size;
+                width: @size;
+                background-color: rgba(0, 0, 0, .5);
+                border-radius: 4px;
+                border: none;
+                cursor: pointer;
+                background-repeat: no-repeat;
+                background-position: center;
+                outline: none;
+
+                &:hover {
+                    background-image: @icon-check-over;
+                }
+
+                // &:focus {
+                //     box-shadow: 0 0 0 1px @blue;
+                // }
+
+                &--selected {
+                    background-image: @icon-check;
+
+                    &:hover {
+                        background-image: @icon-check-selected-over;
+                    }
+                }
+                
             }
 
             input[type="checkbox"] {
@@ -97,12 +124,13 @@
         }
 
         &--points {
-            width: @points-col-width; // calc(%(~'30% - %d/2', @fixed-col-widths-total));
+            width: @points-col-width;
             border-radius: 0 6px 6px 0;
             padding: 6px;
 
             input.input {
-                padding: 6px;
+                padding: 4px 6px;
+                background-color: #1e1e1e;
             }
         }
     }
