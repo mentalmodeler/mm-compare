@@ -1,5 +1,5 @@
+import {compareModels, makeId} from 'mm-modules';
 import {initScenario} from './utils';
-import {makeId, compareModels} from 'mm-modules';
 
 const appReducer = (oldState, newState) => {
     const {action} = newState;
@@ -27,7 +27,8 @@ const appReducer = (oldState, newState) => {
         } else if (action.type === 'compare') {
             const results = compareModels({
                 modelsJSON: updatedState.modelsJSON,
-                canonicalId: updatedState.canonicalId
+                canonicalId: updatedState.canonicalId,
+                scenario: updatedState.scenario,
             });
             updatedState = {
                 ...updatedState,
@@ -58,4 +59,4 @@ const appReducer = (oldState, newState) => {
     return updatedState;
 };
 
-export default appReducer
+export default appReducer;
