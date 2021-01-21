@@ -153,13 +153,6 @@
   transform: none !important;
   cursor: not-allowed;
 }
-.input::-webkit-input-placeholder,
-.input::-moz-placeholder,
-.input:-ms-input-placeholder,
-.input:-moz-placeholder,
-.input::placeholder {
-  color: #F00 !important;
-}
 .result__category {
   padding-bottom: 8px;
   border-bottom: 1px solid #00C7FF;

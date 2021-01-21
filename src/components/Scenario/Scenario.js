@@ -5,7 +5,7 @@ import ScenarioRow from './ScenarioRow';
 import './Scenario.css';
 
 function Scenario() {
-    const {state, dispatch} = useContext(AppContext);
+    const {state} = useContext(AppContext);
     const {scenario} = state
     const {concepts} = scenario || {concepts: []};
     

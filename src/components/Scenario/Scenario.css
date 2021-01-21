@@ -165,9 +165,6 @@
   align-items: flex-end;
   line-height: 20px;
 }
-.Scenario__row--header > .Scenario__col--expected-change {
-  padding: 8px;
-}
 .Scenario__row--header > .Scenario__col--include::before {
   background-color: transparent;
 }
@@ -221,12 +218,6 @@
 .Scenario__col--include .Scenario__include-checkbox--selected:hover {
   background-image: url("data:image/svg+xml,<svg focusable='false' width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'><path fill='none' stroke='%2300C7FF' stroke-width='3px' stroke-linecap='round' stroke-linejoin='round' d='M14.5 3.3l-8.2 9.4L1.5 8'></path></svg>");
 }
-.Scenario__col--include input[type="checkbox"] {
-  position: relative;
-  z-index: 1;
-  margin: 0;
-  padding: 0;
-}
 .Scenario__col--component {
   width: calc(100% - 190px);
 }
@@ -235,9 +226,6 @@
 }
 .Scenario__col--adjust .Scenario__select {
   font-size: 20px;
-}
-.Scenario__col--expected-change {
-  width: 0;
 }
 .Scenario__col--points {
   width: 80px;

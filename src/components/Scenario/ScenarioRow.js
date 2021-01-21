@@ -4,68 +4,24 @@ import {getDataId, getConcept} from '../../utils';
 import './Scenario.css';
 
 function ScenarioRow({concept, index}) {
-    const {state, dispatch} = useContext(AppContext);
-    const {scenario} = state
-    const {concepts} = scenario || {concepts: []};
+    const {dispatch} = useContext(AppContext);
     let {name, id, selected, influence, expectedChange, points} = concept;
-    name = index % 2 === 0 ? `${name} ${name} ${name} ${name} ${name} ${name}` : name;
-    const changeExpected = parseInt(expectedChange, 10) !== 0;
+    // name = index % 2 === 0 ? `${name} ${name} ${name} ${name} ${name} ${name}` : name;
     const hasInfluence = parseInt(influence, 10) !== 0;
     const useDisableTextStyle = hasInfluence || !selected;
     
-    const dispatchChange = (concept) => dispatch({
-        action: {
-            type: 'updateScenario',
-            id,
-            concept,
-        },
-    });
-    const changeSelected = (e) => {
-        dispatchChange(
-            {
-                ...concept,
-                selected: !selected
-            },
-        );
-    }
-    const changeAdjustment = (e) => {
-        dispatchChange(
-            {
-                ...concept,
-                influence: e.target.value
-            },
-        );
-    }
-    const pointsChange = (e) => {
-        dispatchChange(
-            {
-                ...concept,
-                points: e.target.value
-            },
-        );
-    }
-    const pointsKeyDown = (e) => {
-        console.log(e.key);
-        const allowed = ['-', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'Backspace', 'ArrowLeft', 'ArrowRight', 'Tab'];
-        if (!allowed.includes(e.key)) {
-            console.log('not allowed');
-            e.preventDefault();
-        }
-        
-    }
-
+    const dispatchChange = (concept) => dispatch({action: {type: 'updateScenario', id, concept}});
+    const changeSelected = (e) => dispatchChange({...concept, selected: !selected});
+    const changeAdjustment = (e) => dispatchChange({...concept, influence: e.target.value});
+    const pointsChange = (e) => dispatchChange({...concept, points: e.target.value});
+    const pointsKeyDown = (e) => !['-', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'Backspace', 'ArrowLeft', 'ArrowRight', 'Tab'].includes(e.key) && e.preventDefault();
     const pointsBlur = (e) => {
         let value = parseInt(e.target.value, 10);
         if (isNaN(value)) {
             value = 0;
         }
         if (value !== points) {
-            dispatchChange(
-                {
-                    ...concept,
-                    points: value
-                },
-            );
+            dispatchChange({...concept, points: value});
         }        
     }
     

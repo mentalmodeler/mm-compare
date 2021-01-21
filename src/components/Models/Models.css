@@ -153,13 +153,6 @@
   transform: none !important;
   cursor: not-allowed;
 }
-.input::-webkit-input-placeholder,
-.input::-moz-placeholder,
-.input:-ms-input-placeholder,
-.input:-moz-placeholder,
-.input::placeholder {
-  color: #F00 !important;
-}
 .models {
   display: flex;
   flex-wrap: wrap;
