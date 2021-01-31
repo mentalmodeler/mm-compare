@@ -27,7 +27,7 @@ function Controls() {
             dispatch({action: {type: 'addJSON', json}});
         });
     };
-
+    console.log('state.results:', state.results)
     return (
         <div className="controls">
             {isDevEnv() && (
@@ -55,19 +55,26 @@ function Controls() {
                     value=""
                 />
             </div>
-            <input
+            {/* <input
                 type="button"
                 onClick={() => setState({mode: 'scenario'})}
                 value="Configure scenario"
                 className="btn btn-ghost"
                 disabled={!state.canonicalId}
-            />
+            /> */}
             <input
                 type="button"
                 onClick={() => setState({action: {type: 'compare'}})}
                 value="Compare"
                 className="btn btn-ghost"
                 disabled={!state.canonicalId || state.modelsJSON.length < 2}
+            />
+            <input
+                type="button"
+                onClick={() => setState({mode: 'results'})}
+                value="All results"
+                className="btn btn-ghost"
+                disabled={!state.results || Object.keys(state.results).length < 1}
             />
             {/* <div className="controls__load-url">
                 <input 

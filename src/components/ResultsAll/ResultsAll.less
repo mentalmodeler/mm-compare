@@ -1,0 +1,66 @@
+@import '../../shared.less';
+
+@node-margin: 12px;
+
+.ResultsAll {
+
+    .Overlay__body {
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    .Overlay__content {
+        max-width: unset;
+        padding: 64px 0 0 0;
+    }
+
+    &__table {
+        border-collapse: collapse;
+
+        ol, ul {
+            margin: 0;
+            padding-left: 16px;
+
+            i {
+                color: #aaa;
+            }
+        }
+
+        th, td {
+            text-align: left;
+            vertical-align: top;
+            padding: 16px;
+            border-left: 1px solid rgba(255, 255, 255, .1);
+        }
+
+        td {
+            padding-bottom: 32px;
+        }
+    }
+
+    &__table-head {
+        th {
+            white-space: nowrap;
+            border-left: 1px solid #343434;
+            // background-color: #9a9b9c;
+            // color: #121212;
+            color: @blue;
+            // border-top: 1px solid @blue;
+            border-bottom: 1px solid @blue;
+        }
+    }
+
+    &__table-body {
+        // .th-author {
+        //     font-weight: 300;
+        //     font-size: 20px;
+        //     line-height: 26px;
+        //     padding-left: 24px;
+        //     white-space: nowrap;
+        // }
+
+        tr:nth-child(odd) {
+            background-color:#1a1a1a;
+        }
+    }
+}

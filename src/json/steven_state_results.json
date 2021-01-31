@@ -1668,8 +1668,8 @@
                             "name": "Me feeling contempt, outrage, anger "
                         },
                         "toNode": {
-                            "id": "130742826483",
-                            "name": "My support of government recommendations and regulations "
+                            "name": "My support of government recommendations and regulations ",
+                            "id": "130742826483"
                         },
                         "relationship": {
                             "id": "130742826483",
@@ -1684,8 +1684,8 @@
                             "name": "Me feeling contempt, outrage, anger "
                         },
                         "toNode": {
-                            "id": "133089471168",
-                            "name": "Wearing masks properly"
+                            "name": "Wearing masks properly",
+                            "id": "133089471168"
                         },
                         "relationship": {
                             "id": "133089471168",
@@ -1700,8 +1700,8 @@
                             "name": "Me feeling contempt, outrage, anger "
                         },
                         "toNode": {
-                            "id": "196500234785",
-                            "name": "Gathering in large groups"
+                            "name": "Gathering in large groups",
+                            "id": "196500234785"
                         },
                         "relationship": {
                             "id": "196500234785",
@@ -1716,8 +1716,8 @@
                             "name": "Sneezing or coughing"
                         },
                         "toNode": {
-                            "id": "160750471906",
-                            "name": "My personal risk of becoming infected "
+                            "name": "My personal risk of becoming infected ",
+                            "id": "160750471906"
                         },
                         "relationship": {
                             "id": "160750471906",
@@ -1732,8 +1732,8 @@
                             "name": "Sneezing or coughing"
                         },
                         "toNode": {
-                            "id": "105790880664",
-                            "name": "People dying or getting sick"
+                            "name": "People dying or getting sick",
+                            "id": "105790880664"
                         },
                         "relationship": {
                             "id": "105790880664",
@@ -1748,8 +1748,8 @@
                             "name": "Sneezing or coughing"
                         },
                         "toNode": {
-                            "id": "121057364523",
-                            "name": "People recovering "
+                            "name": "People recovering ",
+                            "id": "121057364523"
                         },
                         "relationship": {
                             "id": "121057364523",
@@ -1764,8 +1764,8 @@
                             "name": "Wearing masks properly"
                         },
                         "toNode": {
-                            "id": "160750471906",
-                            "name": "My personal risk of becoming infected "
+                            "name": "My personal risk of becoming infected ",
+                            "id": "160750471906"
                         },
                         "relationship": {
                             "id": "160750471906",
@@ -1780,8 +1780,8 @@
                             "name": "Wearing masks properly"
                         },
                         "toNode": {
-                            "id": "105790880664",
-                            "name": "People dying or getting sick"
+                            "name": "People dying or getting sick",
+                            "id": "105790880664"
                         },
                         "relationship": {
                             "id": "105790880664",
@@ -1796,8 +1796,8 @@
                             "name": "Taking the virus seriously"
                         },
                         "toNode": {
-                            "id": "121057364523",
-                            "name": "People recovering "
+                            "name": "People recovering ",
+                            "id": "121057364523"
                         },
                         "relationship": {
                             "id": "121057364523",
@@ -1812,8 +1812,8 @@
                             "name": "Politicians emphasizing the severity of the virus "
                         },
                         "toNode": {
-                            "id": "196500234785",
-                            "name": "Gathering in large groups"
+                            "name": "Gathering in large groups",
+                            "id": "196500234785"
                         },
                         "relationship": {
                             "id": "196500234785",
@@ -1828,8 +1828,8 @@
                             "name": "Declaring a national lockdown"
                         },
                         "toNode": {
-                            "id": "196500234785",
-                            "name": "Gathering in large groups"
+                            "name": "Gathering in large groups",
+                            "id": "196500234785"
                         },
                         "relationship": {
                             "id": "196500234785",
@@ -1846,8 +1846,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "159641825586",
-                            "name": "Me feeling worry and fear "
+                            "name": "Me feeling worry and fear ",
+                            "id": "159641825586"
                         },
                         "relationship": {
                             "id": "159641825586",
@@ -1862,8 +1862,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -1878,8 +1878,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -1894,8 +1894,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "104095433527",
-                            "name": "Me feeling sympathy, sadness, anger"
+                            "name": "Me feeling sympathy, sadness, anger",
+                            "id": "104095433527"
                         },
                         "relationship": {
                             "id": "104095433527",
@@ -1910,8 +1910,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "163216478675",
-                            "name": "Everyone's safety"
+                            "name": "Everyone's safety",
+                            "id": "163216478675"
                         },
                         "relationship": {
                             "id": "163216478675",
@@ -1926,8 +1926,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "169913761824",
-                            "name": "Fatality rate "
+                            "name": "Fatality rate ",
+                            "id": "169913761824"
                         },
                         "relationship": {
                             "id": "169913761824",
@@ -1942,8 +1942,8 @@
                             "name": "People recovering"
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -1958,8 +1958,8 @@
                             "name": "People recovering"
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -1974,8 +1974,8 @@
                             "name": "People recovering"
                         },
                         "toNode": {
-                            "id": "140888439015",
-                            "name": "People building immunity to the virus "
+                            "name": "People building immunity to the virus ",
+                            "id": "140888439015"
                         },
                         "relationship": {
                             "id": "140888439015",
@@ -1990,8 +1990,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -2006,8 +2006,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "104095433527",
-                            "name": "Me feeling sympathy, sadness, anger"
+                            "name": "Me feeling sympathy, sadness, anger",
+                            "id": "104095433527"
                         },
                         "relationship": {
                             "id": "104095433527",
@@ -2022,8 +2022,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "119907787667",
-                            "name": "Country splitting because of their views"
+                            "name": "Country splitting because of their views",
+                            "id": "119907787667"
                         },
                         "relationship": {
                             "id": "119907787667",
@@ -2038,8 +2038,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "182808600336",
-                            "name": "Shutdown of non-essential businesses, schools, public transportation \n"
+                            "name": "Shutdown of non-essential businesses, schools, public transportation \n",
+                            "id": "182808600336"
                         },
                         "relationship": {
                             "id": "182808600336",
@@ -2054,8 +2054,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "147129742013",
-                            "name": "Mandating people follow safety guidelines "
+                            "name": "Mandating people follow safety guidelines ",
+                            "id": "147129742013"
                         },
                         "relationship": {
                             "id": "147129742013",
@@ -2070,8 +2070,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "169913761824",
-                            "name": "Fatality rate "
+                            "name": "Fatality rate ",
+                            "id": "169913761824"
                         },
                         "relationship": {
                             "id": "169913761824",
@@ -2086,8 +2086,8 @@
                             "name": "My personal risk of becoming infected"
                         },
                         "toNode": {
-                            "id": "159641825586",
-                            "name": "Me feeling worry and fear "
+                            "name": "Me feeling worry and fear ",
+                            "id": "159641825586"
                         },
                         "relationship": {
                             "id": "159641825586",
@@ -2102,8 +2102,8 @@
                             "name": "Me feeling worry and fear "
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -2118,8 +2118,8 @@
                             "name": "Me feeling worry and fear "
                         },
                         "toNode": {
-                            "id": "147129742013",
-                            "name": "Mandating people follow safety guidelines "
+                            "name": "Mandating people follow safety guidelines ",
+                            "id": "147129742013"
                         },
                         "relationship": {
                             "id": "147129742013",
@@ -2134,8 +2134,8 @@
                             "name": "Gathering in large groups "
                         },
                         "toNode": {
-                            "id": "188338681714",
-                            "name": "People dying or getting sick"
+                            "name": "People dying or getting sick",
+                            "id": "188338681714"
                         },
                         "relationship": {
                             "id": "188338681714",
@@ -2150,8 +2150,8 @@
                             "name": "Gathering in large groups "
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -2166,8 +2166,8 @@
                             "name": "Wearing masks properly "
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -2182,8 +2182,8 @@
                             "name": "Wearing masks properly "
                         },
                         "toNode": {
-                            "id": "188338681714",
-                            "name": "People dying or getting sick"
+                            "name": "People dying or getting sick",
+                            "id": "188338681714"
                         },
                         "relationship": {
                             "id": "188338681714",
@@ -2198,8 +2198,8 @@
                             "name": "Following social distancing "
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -2214,8 +2214,8 @@
                             "name": "Following social distancing "
                         },
                         "toNode": {
-                            "id": "188338681714",
-                            "name": "People dying or getting sick"
+                            "name": "People dying or getting sick",
+                            "id": "188338681714"
                         },
                         "relationship": {
                             "id": "188338681714",
@@ -2230,8 +2230,8 @@
                             "name": "Country splitting because of their views"
                         },
                         "toNode": {
-                            "id": "159641825586",
-                            "name": "Me feeling worry and fear "
+                            "name": "Me feeling worry and fear ",
+                            "id": "159641825586"
                         },
                         "relationship": {
                             "id": "159641825586",
@@ -2246,8 +2246,8 @@
                             "name": "Taking the virus seriously "
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -2262,8 +2262,8 @@
                             "name": "Taking the virus seriously "
                         },
                         "toNode": {
-                            "id": "119907787667",
-                            "name": "Country splitting because of their views"
+                            "name": "Country splitting because of their views",
+                            "id": "119907787667"
                         },
                         "relationship": {
                             "id": "119907787667",
@@ -2278,8 +2278,8 @@
                             "name": "Sneezing / coughing"
                         },
                         "toNode": {
-                            "id": "188338681714",
-                            "name": "People dying or getting sick"
+                            "name": "People dying or getting sick",
+                            "id": "188338681714"
                         },
                         "relationship": {
                             "id": "188338681714",
@@ -2294,8 +2294,8 @@
                             "name": "Sneezing / coughing"
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -2310,8 +2310,8 @@
                             "name": "Fatality rate "
                         },
                         "toNode": {
-                            "id": "159641825586",
-                            "name": "Me feeling worry and fear "
+                            "name": "Me feeling worry and fear ",
+                            "id": "159641825586"
                         },
                         "relationship": {
                             "id": "159641825586",
@@ -2326,8 +2326,8 @@
                             "name": "Overall Economic Health"
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -2342,8 +2342,8 @@
                             "name": "Everyone's safety"
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -2355,7 +2355,608 @@
                 ],
                 "correctlySigned": [],
                 "incorrectlySigned": []
-            }
+            },
+            "numNodes": 11,
+            "numRelationships": 11,
+            "numDrivers": 5,
+            "numReceivers": 5,
+            "numOrdinay": 1,
+            "density": 0.1,
+            "relationshipsPerNode": 1,
+            "complexity": 1,
+            "drivers": [
+                {
+                    "name": "Me feeling contempt, outrage, anger ",
+                    "notes": "",
+                    "units": "",
+                    "group": "2",
+                    "x": "709",
+                    "y": "225",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "130742826483",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        },
+                        {
+                            "id": "133089471168",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        },
+                        {
+                            "id": "196500234785",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "102360214792",
+                    "indegree": 0,
+                    "outdegree": 3,
+                    "centrality": 3,
+                    "type": "driver"
+                },
+                {
+                    "name": "Sneezing or coughing",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "28",
+                    "y": "360",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "160750471906",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.74",
+                            "name": ""
+                        },
+                        {
+                            "id": "105790880664",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.75",
+                            "name": ""
+                        },
+                        {
+                            "id": "121057364523",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.68",
+                            "name": ""
+                        }
+                    ],
+                    "id": "184150304649",
+                    "indegree": 0,
+                    "outdegree": 2.17,
+                    "centrality": 2.17,
+                    "type": "driver"
+                },
+                {
+                    "name": "Taking the virus seriously",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "707",
+                    "y": "24",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "121057364523",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.71",
+                            "name": ""
+                        }
+                    ],
+                    "id": "180973870348",
+                    "indegree": 0,
+                    "outdegree": 0.71,
+                    "centrality": 0.71,
+                    "type": "driver"
+                },
+                {
+                    "name": "Politicians emphasizing the severity of the virus ",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "377",
+                    "y": "192",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "196500234785",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "159757898414",
+                    "indegree": 0,
+                    "outdegree": 1,
+                    "centrality": 1,
+                    "type": "driver"
+                },
+                {
+                    "name": "Declaring a national lockdown",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "489",
+                    "y": "25",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "196500234785",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "197330390713",
+                    "indegree": 0,
+                    "outdegree": 1,
+                    "centrality": 1,
+                    "type": "driver"
+                }
+            ],
+            "driversRanked": [
+                {
+                    "name": "Me feeling contempt, outrage, anger ",
+                    "notes": "",
+                    "units": "",
+                    "group": "2",
+                    "x": "709",
+                    "y": "225",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "130742826483",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        },
+                        {
+                            "id": "133089471168",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        },
+                        {
+                            "id": "196500234785",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "102360214792",
+                    "indegree": 0,
+                    "outdegree": 3,
+                    "centrality": 3,
+                    "type": "driver"
+                },
+                {
+                    "name": "Sneezing or coughing",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "28",
+                    "y": "360",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "160750471906",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.74",
+                            "name": ""
+                        },
+                        {
+                            "id": "105790880664",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.75",
+                            "name": ""
+                        },
+                        {
+                            "id": "121057364523",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.68",
+                            "name": ""
+                        }
+                    ],
+                    "id": "184150304649",
+                    "indegree": 0,
+                    "outdegree": 2.17,
+                    "centrality": 2.17,
+                    "type": "driver"
+                },
+                {
+                    "name": "Wearing masks properly",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "196",
+                    "y": "33",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "160750471906",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        },
+                        {
+                            "id": "105790880664",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "133089471168",
+                    "indegree": 1,
+                    "outdegree": 2,
+                    "centrality": 3,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "Politicians emphasizing the severity of the virus ",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "377",
+                    "y": "192",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "196500234785",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "159757898414",
+                    "indegree": 0,
+                    "outdegree": 1,
+                    "centrality": 1,
+                    "type": "driver"
+                },
+                {
+                    "name": "Declaring a national lockdown",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "489",
+                    "y": "25",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "196500234785",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "197330390713",
+                    "indegree": 0,
+                    "outdegree": 1,
+                    "centrality": 1,
+                    "type": "driver"
+                }
+            ],
+            "receiversRanked": [
+                {
+                    "name": "Gathering in large groups",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "493",
+                    "y": "336",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "196500234785",
+                    "indegree": 3,
+                    "outdegree": 0,
+                    "centrality": 3,
+                    "type": "receiver"
+                },
+                {
+                    "name": "People dying or getting sick",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "315",
+                    "y": "420",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "105790880664",
+                    "indegree": 1.75,
+                    "outdegree": 0,
+                    "centrality": 1.75,
+                    "type": "receiver"
+                },
+                {
+                    "name": "My personal risk of becoming infected ",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "4",
+                    "y": "141",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "160750471906",
+                    "indegree": 1.74,
+                    "outdegree": 0,
+                    "centrality": 1.74,
+                    "type": "receiver"
+                },
+                {
+                    "name": "People recovering ",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "173",
+                    "y": "203",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "121057364523",
+                    "indegree": 1.3900000000000001,
+                    "outdegree": 0,
+                    "centrality": 1.3900000000000001,
+                    "type": "receiver"
+                },
+                {
+                    "name": "Wearing masks properly",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "196",
+                    "y": "33",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "160750471906",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        },
+                        {
+                            "id": "105790880664",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "133089471168",
+                    "indegree": 1,
+                    "outdegree": 2,
+                    "centrality": 3,
+                    "type": "ordinay"
+                }
+            ],
+            "centralityRanked": [
+                {
+                    "name": "Gathering in large groups",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "493",
+                    "y": "336",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "196500234785",
+                    "indegree": 3,
+                    "outdegree": 0,
+                    "centrality": 3,
+                    "type": "receiver"
+                },
+                {
+                    "name": "Wearing masks properly",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "196",
+                    "y": "33",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "160750471906",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        },
+                        {
+                            "id": "105790880664",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "133089471168",
+                    "indegree": 1,
+                    "outdegree": 2,
+                    "centrality": 3,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "Me feeling contempt, outrage, anger ",
+                    "notes": "",
+                    "units": "",
+                    "group": "2",
+                    "x": "709",
+                    "y": "225",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "130742826483",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        },
+                        {
+                            "id": "133089471168",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        },
+                        {
+                            "id": "196500234785",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "102360214792",
+                    "indegree": 0,
+                    "outdegree": 3,
+                    "centrality": 3,
+                    "type": "driver"
+                },
+                {
+                    "name": "Sneezing or coughing",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "28",
+                    "y": "360",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "160750471906",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.74",
+                            "name": ""
+                        },
+                        {
+                            "id": "105790880664",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.75",
+                            "name": ""
+                        },
+                        {
+                            "id": "121057364523",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.68",
+                            "name": ""
+                        }
+                    ],
+                    "id": "184150304649",
+                    "indegree": 0,
+                    "outdegree": 2.17,
+                    "centrality": 2.17,
+                    "type": "driver"
+                },
+                {
+                    "name": "People dying or getting sick",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "315",
+                    "y": "420",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "105790880664",
+                    "indegree": 1.75,
+                    "outdegree": 0,
+                    "centrality": 1.75,
+                    "type": "receiver"
+                },
+                {
+                    "name": "My personal risk of becoming infected ",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "4",
+                    "y": "141",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "160750471906",
+                    "indegree": 1.74,
+                    "outdegree": 0,
+                    "centrality": 1.74,
+                    "type": "receiver"
+                },
+                {
+                    "name": "People recovering ",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "173",
+                    "y": "203",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "121057364523",
+                    "indegree": 1.3900000000000001,
+                    "outdegree": 0,
+                    "centrality": 1.3900000000000001,
+                    "type": "receiver"
+                },
+                {
+                    "name": "My support of government recommendations and regulations ",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "668",
+                    "y": "376",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "130742826483",
+                    "indegree": 1,
+                    "outdegree": 0,
+                    "centrality": 1,
+                    "type": "receiver"
+                }
+            ]
         },
         "id-66691381ffb58": {
             "id": "id-66691381ffb58",
@@ -2472,8 +3073,8 @@
                             "name": "people recovering"
                         },
                         "toNode": {
-                            "id": "115413813534",
-                            "name": "people dying or getting sick"
+                            "name": "people dying or getting sick",
+                            "id": "115413813534"
                         },
                         "relationship": {
                             "id": "115413813534",
@@ -2488,8 +3089,8 @@
                             "name": "my support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "172060642370",
-                            "name": "taking the virus seriously"
+                            "name": "taking the virus seriously",
+                            "id": "172060642370"
                         },
                         "relationship": {
                             "id": "172060642370",
@@ -2504,8 +3105,8 @@
                             "name": "my support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "170289839780",
-                            "name": "me feeling worry, fear, helplessness"
+                            "name": "me feeling worry, fear, helplessness",
+                            "id": "170289839780"
                         },
                         "relationship": {
                             "id": "170289839780",
@@ -2520,8 +3121,8 @@
                             "name": "gathering in large groups"
                         },
                         "toNode": {
-                            "id": "164349318507",
-                            "name": "spreading the virus"
+                            "name": "spreading the virus",
+                            "id": "164349318507"
                         },
                         "relationship": {
                             "id": "164349318507",
@@ -2536,8 +3137,8 @@
                             "name": "gathering in large groups"
                         },
                         "toNode": {
-                            "id": "109468582497",
-                            "name": "everyone's safety"
+                            "name": "everyone's safety",
+                            "id": "109468582497"
                         },
                         "relationship": {
                             "id": "109468582497",
@@ -2552,8 +3153,8 @@
                             "name": "gathering in large groups"
                         },
                         "toNode": {
-                            "id": "147763004179",
-                            "name": "my personal risk of becoming infected"
+                            "name": "my personal risk of becoming infected",
+                            "id": "147763004179"
                         },
                         "relationship": {
                             "id": "147763004179",
@@ -2568,8 +3169,8 @@
                             "name": "taking the virus seriously"
                         },
                         "toNode": {
-                            "id": "109468582497",
-                            "name": "everyone's safety"
+                            "name": "everyone's safety",
+                            "id": "109468582497"
                         },
                         "relationship": {
                             "id": "109468582497",
@@ -2584,8 +3185,8 @@
                             "name": "taking the virus seriously"
                         },
                         "toNode": {
-                            "id": "103236122058",
-                            "name": "people recovering"
+                            "name": "people recovering",
+                            "id": "103236122058"
                         },
                         "relationship": {
                             "id": "103236122058",
@@ -2600,8 +3201,8 @@
                             "name": "country splitting because of their views"
                         },
                         "toNode": {
-                            "id": "172060642370",
-                            "name": "taking the virus seriously"
+                            "name": "taking the virus seriously",
+                            "id": "172060642370"
                         },
                         "relationship": {
                             "id": "172060642370",
@@ -2616,8 +3217,8 @@
                             "name": "country splitting because of their views"
                         },
                         "toNode": {
-                            "id": "109468582497",
-                            "name": "everyone's safety"
+                            "name": "everyone's safety",
+                            "id": "109468582497"
                         },
                         "relationship": {
                             "id": "109468582497",
@@ -2632,8 +3233,8 @@
                             "name": "wearing masks properly"
                         },
                         "toNode": {
-                            "id": "103236122058",
-                            "name": "people recovering"
+                            "name": "people recovering",
+                            "id": "103236122058"
                         },
                         "relationship": {
                             "id": "103236122058",
@@ -2648,8 +3249,8 @@
                             "name": "wearing masks properly"
                         },
                         "toNode": {
-                            "id": "115413813534",
-                            "name": "people dying or getting sick"
+                            "name": "people dying or getting sick",
+                            "id": "115413813534"
                         },
                         "relationship": {
                             "id": "115413813534",
@@ -2664,8 +3265,8 @@
                             "name": "wearing masks properly"
                         },
                         "toNode": {
-                            "id": "164349318507",
-                            "name": "spreading the virus"
+                            "name": "spreading the virus",
+                            "id": "164349318507"
                         },
                         "relationship": {
                             "id": "164349318507",
@@ -2680,8 +3281,8 @@
                             "name": "shutdown of non essential businesses"
                         },
                         "toNode": {
-                            "id": "164349318507",
-                            "name": "spreading the virus"
+                            "name": "spreading the virus",
+                            "id": "164349318507"
                         },
                         "relationship": {
                             "id": "164349318507",
@@ -2696,8 +3297,8 @@
                             "name": "shutdown of non essential businesses"
                         },
                         "toNode": {
-                            "id": "147763004179",
-                            "name": "my personal risk of becoming infected"
+                            "name": "my personal risk of becoming infected",
+                            "id": "147763004179"
                         },
                         "relationship": {
                             "id": "147763004179",
@@ -2712,8 +3313,8 @@
                             "name": "shutdown of non essential businesses"
                         },
                         "toNode": {
-                            "id": "199742686580",
-                            "name": "individual freedom to choose how to behave"
+                            "name": "individual freedom to choose how to behave",
+                            "id": "199742686580"
                         },
                         "relationship": {
                             "id": "199742686580",
@@ -2728,8 +3329,8 @@
                             "name": "spreading the virus"
                         },
                         "toNode": {
-                            "id": "170289839780",
-                            "name": "me feeling worry, fear, helplessness"
+                            "name": "me feeling worry, fear, helplessness",
+                            "id": "170289839780"
                         },
                         "relationship": {
                             "id": "170289839780",
@@ -2744,8 +3345,8 @@
                             "name": "spreading the virus"
                         },
                         "toNode": {
-                            "id": "147763004179",
-                            "name": "my personal risk of becoming infected"
+                            "name": "my personal risk of becoming infected",
+                            "id": "147763004179"
                         },
                         "relationship": {
                             "id": "147763004179",
@@ -2760,8 +3361,8 @@
                             "name": "developing a vaccine"
                         },
                         "toNode": {
-                            "id": "164349318507",
-                            "name": "spreading the virus"
+                            "name": "spreading the virus",
+                            "id": "164349318507"
                         },
                         "relationship": {
                             "id": "164349318507",
@@ -2776,8 +3377,8 @@
                             "name": "developing a vaccine"
                         },
                         "toNode": {
-                            "id": "109468582497",
-                            "name": "everyone's safety"
+                            "name": "everyone's safety",
+                            "id": "109468582497"
                         },
                         "relationship": {
                             "id": "109468582497",
@@ -2792,8 +3393,8 @@
                             "name": "developing a vaccine"
                         },
                         "toNode": {
-                            "id": "103236122058",
-                            "name": "people recovering"
+                            "name": "people recovering",
+                            "id": "103236122058"
                         },
                         "relationship": {
                             "id": "103236122058",
@@ -2808,8 +3409,8 @@
                             "name": "individual freedom to choose how to behave"
                         },
                         "toNode": {
-                            "id": "170289839780",
-                            "name": "me feeling worry, fear, helplessness"
+                            "name": "me feeling worry, fear, helplessness",
+                            "id": "170289839780"
                         },
                         "relationship": {
                             "id": "170289839780",
@@ -2824,8 +3425,8 @@
                             "name": "following social distancing"
                         },
                         "toNode": {
-                            "id": "164349318507",
-                            "name": "spreading the virus"
+                            "name": "spreading the virus",
+                            "id": "164349318507"
                         },
                         "relationship": {
                             "id": "164349318507",
@@ -2840,8 +3441,8 @@
                             "name": "following social distancing"
                         },
                         "toNode": {
-                            "id": "115413813534",
-                            "name": "people dying or getting sick"
+                            "name": "people dying or getting sick",
+                            "id": "115413813534"
                         },
                         "relationship": {
                             "id": "115413813534",
@@ -2856,8 +3457,8 @@
                             "name": "declaring a national lockdown"
                         },
                         "toNode": {
-                            "id": "147763004179",
-                            "name": "my personal risk of becoming infected"
+                            "name": "my personal risk of becoming infected",
+                            "id": "147763004179"
                         },
                         "relationship": {
                             "id": "147763004179",
@@ -2872,8 +3473,8 @@
                             "name": "declaring a national lockdown"
                         },
                         "toNode": {
-                            "id": "170289839780",
-                            "name": "me feeling worry, fear, helplessness"
+                            "name": "me feeling worry, fear, helplessness",
+                            "id": "170289839780"
                         },
                         "relationship": {
                             "id": "170289839780",
@@ -2888,8 +3489,8 @@
                             "name": "declaring a national lockdown"
                         },
                         "toNode": {
-                            "id": "164349318507",
-                            "name": "spreading the virus"
+                            "name": "spreading the virus",
+                            "id": "164349318507"
                         },
                         "relationship": {
                             "id": "164349318507",
@@ -2904,8 +3505,8 @@
                             "name": "declaring a national lockdown"
                         },
                         "toNode": {
-                            "id": "199742686580",
-                            "name": "individual freedom to choose how to behave"
+                            "name": "individual freedom to choose how to behave",
+                            "id": "199742686580"
                         },
                         "relationship": {
                             "id": "199742686580",
@@ -2922,8 +3523,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "159641825586",
-                            "name": "Me feeling worry and fear "
+                            "name": "Me feeling worry and fear ",
+                            "id": "159641825586"
                         },
                         "relationship": {
                             "id": "159641825586",
@@ -2938,8 +3539,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -2954,8 +3555,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -2970,8 +3571,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "104095433527",
-                            "name": "Me feeling sympathy, sadness, anger"
+                            "name": "Me feeling sympathy, sadness, anger",
+                            "id": "104095433527"
                         },
                         "relationship": {
                             "id": "104095433527",
@@ -2986,8 +3587,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "163216478675",
-                            "name": "Everyone's safety"
+                            "name": "Everyone's safety",
+                            "id": "163216478675"
                         },
                         "relationship": {
                             "id": "163216478675",
@@ -3002,8 +3603,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "169913761824",
-                            "name": "Fatality rate "
+                            "name": "Fatality rate ",
+                            "id": "169913761824"
                         },
                         "relationship": {
                             "id": "169913761824",
@@ -3018,8 +3619,8 @@
                             "name": "People recovering"
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -3034,8 +3635,8 @@
                             "name": "People recovering"
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -3050,8 +3651,8 @@
                             "name": "People recovering"
                         },
                         "toNode": {
-                            "id": "140888439015",
-                            "name": "People building immunity to the virus "
+                            "name": "People building immunity to the virus ",
+                            "id": "140888439015"
                         },
                         "relationship": {
                             "id": "140888439015",
@@ -3066,8 +3667,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "104095433527",
-                            "name": "Me feeling sympathy, sadness, anger"
+                            "name": "Me feeling sympathy, sadness, anger",
+                            "id": "104095433527"
                         },
                         "relationship": {
                             "id": "104095433527",
@@ -3082,8 +3683,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "119907787667",
-                            "name": "Country splitting because of their views"
+                            "name": "Country splitting because of their views",
+                            "id": "119907787667"
                         },
                         "relationship": {
                             "id": "119907787667",
@@ -3098,8 +3699,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "182808600336",
-                            "name": "Shutdown of non-essential businesses, schools, public transportation \n"
+                            "name": "Shutdown of non-essential businesses, schools, public transportation \n",
+                            "id": "182808600336"
                         },
                         "relationship": {
                             "id": "182808600336",
@@ -3114,8 +3715,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "147129742013",
-                            "name": "Mandating people follow safety guidelines "
+                            "name": "Mandating people follow safety guidelines ",
+                            "id": "147129742013"
                         },
                         "relationship": {
                             "id": "147129742013",
@@ -3130,8 +3731,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "169913761824",
-                            "name": "Fatality rate "
+                            "name": "Fatality rate ",
+                            "id": "169913761824"
                         },
                         "relationship": {
                             "id": "169913761824",
@@ -3146,8 +3747,8 @@
                             "name": "My personal risk of becoming infected"
                         },
                         "toNode": {
-                            "id": "159641825586",
-                            "name": "Me feeling worry and fear "
+                            "name": "Me feeling worry and fear ",
+                            "id": "159641825586"
                         },
                         "relationship": {
                             "id": "159641825586",
@@ -3162,8 +3763,8 @@
                             "name": "Me feeling worry and fear "
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -3178,8 +3779,8 @@
                             "name": "Me feeling worry and fear "
                         },
                         "toNode": {
-                            "id": "147129742013",
-                            "name": "Mandating people follow safety guidelines "
+                            "name": "Mandating people follow safety guidelines ",
+                            "id": "147129742013"
                         },
                         "relationship": {
                             "id": "147129742013",
@@ -3194,8 +3795,8 @@
                             "name": "Gathering in large groups "
                         },
                         "toNode": {
-                            "id": "188338681714",
-                            "name": "People dying or getting sick"
+                            "name": "People dying or getting sick",
+                            "id": "188338681714"
                         },
                         "relationship": {
                             "id": "188338681714",
@@ -3210,8 +3811,8 @@
                             "name": "Gathering in large groups "
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -3226,8 +3827,8 @@
                             "name": "Wearing masks properly "
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -3242,8 +3843,8 @@
                             "name": "Wearing masks properly "
                         },
                         "toNode": {
-                            "id": "188338681714",
-                            "name": "People dying or getting sick"
+                            "name": "People dying or getting sick",
+                            "id": "188338681714"
                         },
                         "relationship": {
                             "id": "188338681714",
@@ -3258,8 +3859,8 @@
                             "name": "Following social distancing "
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -3274,8 +3875,8 @@
                             "name": "Following social distancing "
                         },
                         "toNode": {
-                            "id": "188338681714",
-                            "name": "People dying or getting sick"
+                            "name": "People dying or getting sick",
+                            "id": "188338681714"
                         },
                         "relationship": {
                             "id": "188338681714",
@@ -3290,8 +3891,8 @@
                             "name": "Country splitting because of their views"
                         },
                         "toNode": {
-                            "id": "159641825586",
-                            "name": "Me feeling worry and fear "
+                            "name": "Me feeling worry and fear ",
+                            "id": "159641825586"
                         },
                         "relationship": {
                             "id": "159641825586",
@@ -3306,8 +3907,8 @@
                             "name": "Taking the virus seriously "
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -3322,8 +3923,8 @@
                             "name": "Taking the virus seriously "
                         },
                         "toNode": {
-                            "id": "119907787667",
-                            "name": "Country splitting because of their views"
+                            "name": "Country splitting because of their views",
+                            "id": "119907787667"
                         },
                         "relationship": {
                             "id": "119907787667",
@@ -3338,8 +3939,8 @@
                             "name": "Sneezing / coughing"
                         },
                         "toNode": {
-                            "id": "188338681714",
-                            "name": "People dying or getting sick"
+                            "name": "People dying or getting sick",
+                            "id": "188338681714"
                         },
                         "relationship": {
                             "id": "188338681714",
@@ -3354,8 +3955,8 @@
                             "name": "Sneezing / coughing"
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -3370,8 +3971,8 @@
                             "name": "Fatality rate "
                         },
                         "toNode": {
-                            "id": "159641825586",
-                            "name": "Me feeling worry and fear "
+                            "name": "Me feeling worry and fear ",
+                            "id": "159641825586"
                         },
                         "relationship": {
                             "id": "159641825586",
@@ -3386,8 +3987,8 @@
                             "name": "Overall Economic Health"
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -3402,8 +4003,8 @@
                             "name": "Everyone's safety"
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -3420,8 +4021,8 @@
                             "name": "my support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "147763004179",
-                            "name": "my personal risk of becoming infected"
+                            "name": "my personal risk of becoming infected",
+                            "id": "147763004179"
                         },
                         "relationship": {
                             "id": "147763004179",
@@ -3432,7 +4033,807 @@
                     }
                 ],
                 "incorrectlySigned": []
-            }
+            },
+            "numNodes": 16,
+            "numRelationships": 29,
+            "numDrivers": 8,
+            "numReceivers": 4,
+            "numOrdinay": 4,
+            "density": 0.1208333333,
+            "relationshipsPerNode": 1.8125,
+            "complexity": 0.5,
+            "drivers": [
+                {
+                    "name": "my support of government recommendations and regulations",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "277",
+                    "y": "333",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "172060642370",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.9",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.58",
+                            "name": ""
+                        },
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.53",
+                            "name": ""
+                        }
+                    ],
+                    "id": "156763661235",
+                    "indegree": 0,
+                    "outdegree": 2.01,
+                    "centrality": 2.01,
+                    "type": "driver"
+                },
+                {
+                    "name": "gathering in large groups",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "610",
+                    "y": "199",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.57",
+                            "name": ""
+                        },
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.69",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.64",
+                            "name": ""
+                        }
+                    ],
+                    "id": "144605138513",
+                    "indegree": 0,
+                    "outdegree": 1.9,
+                    "centrality": 1.9,
+                    "type": "driver"
+                },
+                {
+                    "name": "country splitting because of their views",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "63",
+                    "y": "341",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "172060642370",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.69",
+                            "name": ""
+                        },
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.65",
+                            "name": ""
+                        }
+                    ],
+                    "id": "188147558003",
+                    "indegree": 0,
+                    "outdegree": 1.3399999999999999,
+                    "centrality": 1.3399999999999999,
+                    "type": "driver"
+                },
+                {
+                    "name": "wearing masks properly",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "256",
+                    "y": "159",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "103236122058",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.45",
+                            "name": ""
+                        },
+                        {
+                            "id": "115413813534",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.62",
+                            "name": ""
+                        },
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.97",
+                            "name": ""
+                        }
+                    ],
+                    "id": "126146737939",
+                    "indegree": 0,
+                    "outdegree": 2.04,
+                    "centrality": 2.04,
+                    "type": "driver"
+                },
+                {
+                    "name": "shutdown of non essential businesses",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "26",
+                    "y": "133",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.84",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.65",
+                            "name": ""
+                        },
+                        {
+                            "id": "199742686580",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.57",
+                            "name": ""
+                        }
+                    ],
+                    "id": "196864198395",
+                    "indegree": 0,
+                    "outdegree": 2.06,
+                    "centrality": 2.06,
+                    "type": "driver"
+                },
+                {
+                    "name": "developing a vaccine",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "834",
+                    "y": "196",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.65",
+                            "name": ""
+                        },
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.36",
+                            "name": ""
+                        },
+                        {
+                            "id": "103236122058",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.52",
+                            "name": ""
+                        }
+                    ],
+                    "id": "113388004139",
+                    "indegree": 0,
+                    "outdegree": 1.53,
+                    "centrality": 1.53,
+                    "type": "driver"
+                },
+                {
+                    "name": "following social distancing",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "47",
+                    "y": "439",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.78",
+                            "name": ""
+                        },
+                        {
+                            "id": "115413813534",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.48",
+                            "name": ""
+                        }
+                    ],
+                    "id": "125960179278",
+                    "indegree": 0,
+                    "outdegree": 1.26,
+                    "centrality": 1.26,
+                    "type": "driver"
+                },
+                {
+                    "name": "declaring a national lockdown",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "386",
+                    "y": "483",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.76",
+                            "name": ""
+                        },
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.59",
+                            "name": ""
+                        },
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.82",
+                            "name": ""
+                        },
+                        {
+                            "id": "199742686580",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.71",
+                            "name": ""
+                        }
+                    ],
+                    "id": "178311343572",
+                    "indegree": 0,
+                    "outdegree": 2.88,
+                    "centrality": 2.88,
+                    "type": "driver"
+                }
+            ],
+            "driversRanked": [
+                {
+                    "name": "declaring a national lockdown",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "386",
+                    "y": "483",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.76",
+                            "name": ""
+                        },
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.59",
+                            "name": ""
+                        },
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.82",
+                            "name": ""
+                        },
+                        {
+                            "id": "199742686580",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.71",
+                            "name": ""
+                        }
+                    ],
+                    "id": "178311343572",
+                    "indegree": 0,
+                    "outdegree": 2.88,
+                    "centrality": 2.88,
+                    "type": "driver"
+                },
+                {
+                    "name": "shutdown of non essential businesses",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "26",
+                    "y": "133",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.84",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.65",
+                            "name": ""
+                        },
+                        {
+                            "id": "199742686580",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.57",
+                            "name": ""
+                        }
+                    ],
+                    "id": "196864198395",
+                    "indegree": 0,
+                    "outdegree": 2.06,
+                    "centrality": 2.06,
+                    "type": "driver"
+                },
+                {
+                    "name": "wearing masks properly",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "256",
+                    "y": "159",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "103236122058",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.45",
+                            "name": ""
+                        },
+                        {
+                            "id": "115413813534",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.62",
+                            "name": ""
+                        },
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.97",
+                            "name": ""
+                        }
+                    ],
+                    "id": "126146737939",
+                    "indegree": 0,
+                    "outdegree": 2.04,
+                    "centrality": 2.04,
+                    "type": "driver"
+                },
+                {
+                    "name": "my support of government recommendations and regulations",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "277",
+                    "y": "333",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "172060642370",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.9",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.58",
+                            "name": ""
+                        },
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.53",
+                            "name": ""
+                        }
+                    ],
+                    "id": "156763661235",
+                    "indegree": 0,
+                    "outdegree": 2.01,
+                    "centrality": 2.01,
+                    "type": "driver"
+                },
+                {
+                    "name": "gathering in large groups",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "610",
+                    "y": "199",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.57",
+                            "name": ""
+                        },
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.69",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.64",
+                            "name": ""
+                        }
+                    ],
+                    "id": "144605138513",
+                    "indegree": 0,
+                    "outdegree": 1.9,
+                    "centrality": 1.9,
+                    "type": "driver"
+                }
+            ],
+            "receiversRanked": [
+                {
+                    "name": "spreading the virus",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "656",
+                    "y": "69",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.68",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.85",
+                            "name": ""
+                        }
+                    ],
+                    "id": "164349318507",
+                    "indegree": 4.63,
+                    "outdegree": 1.53,
+                    "centrality": 6.16,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "my personal risk of becoming infected",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "155",
+                    "y": "60",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "147763004179",
+                    "indegree": 3.4800000000000004,
+                    "outdegree": 0,
+                    "centrality": 3.4800000000000004,
+                    "type": "receiver"
+                },
+                {
+                    "name": "everyone's safety",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "725",
+                    "y": "346",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "109468582497",
+                    "indegree": 2.6799999999999997,
+                    "outdegree": 0,
+                    "centrality": 2.6799999999999997,
+                    "type": "receiver"
+                },
+                {
+                    "name": "me feeling worry, fear, helplessness",
+                    "notes": "",
+                    "units": "",
+                    "group": "2",
+                    "x": "457",
+                    "y": "140",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "170289839780",
+                    "indegree": 2.3899999999999997,
+                    "outdegree": 0,
+                    "centrality": 2.3899999999999997,
+                    "type": "receiver"
+                },
+                {
+                    "name": "people dying or getting sick",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "77",
+                    "y": "237",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "115413813534",
+                    "indegree": 2.1,
+                    "outdegree": 0,
+                    "centrality": 2.1,
+                    "type": "receiver"
+                }
+            ],
+            "centralityRanked": [
+                {
+                    "name": "spreading the virus",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "656",
+                    "y": "69",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.68",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.85",
+                            "name": ""
+                        }
+                    ],
+                    "id": "164349318507",
+                    "indegree": 4.63,
+                    "outdegree": 1.53,
+                    "centrality": 6.16,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "my personal risk of becoming infected",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "155",
+                    "y": "60",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "147763004179",
+                    "indegree": 3.4800000000000004,
+                    "outdegree": 0,
+                    "centrality": 3.4800000000000004,
+                    "type": "receiver"
+                },
+                {
+                    "name": "taking the virus seriously",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "615",
+                    "y": "459",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.98",
+                            "name": ""
+                        },
+                        {
+                            "id": "103236122058",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.48",
+                            "name": ""
+                        }
+                    ],
+                    "id": "172060642370",
+                    "indegree": 1.5899999999999999,
+                    "outdegree": 1.46,
+                    "centrality": 3.05,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "declaring a national lockdown",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "386",
+                    "y": "483",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.76",
+                            "name": ""
+                        },
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.59",
+                            "name": ""
+                        },
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.82",
+                            "name": ""
+                        },
+                        {
+                            "id": "199742686580",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.71",
+                            "name": ""
+                        }
+                    ],
+                    "id": "178311343572",
+                    "indegree": 0,
+                    "outdegree": 2.88,
+                    "centrality": 2.88,
+                    "type": "driver"
+                },
+                {
+                    "name": "everyone's safety",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "725",
+                    "y": "346",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "109468582497",
+                    "indegree": 2.6799999999999997,
+                    "outdegree": 0,
+                    "centrality": 2.6799999999999997,
+                    "type": "receiver"
+                },
+                {
+                    "name": "people recovering",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "369",
+                    "y": "254",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "115413813534",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "103236122058",
+                    "indegree": 1.45,
+                    "outdegree": 1,
+                    "centrality": 2.45,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "me feeling worry, fear, helplessness",
+                    "notes": "",
+                    "units": "",
+                    "group": "2",
+                    "x": "457",
+                    "y": "140",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "170289839780",
+                    "indegree": 2.3899999999999997,
+                    "outdegree": 0,
+                    "centrality": 2.3899999999999997,
+                    "type": "receiver"
+                },
+                {
+                    "name": "people dying or getting sick",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "77",
+                    "y": "237",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "115413813534",
+                    "indegree": 2.1,
+                    "outdegree": 0,
+                    "centrality": 2.1,
+                    "type": "receiver"
+                }
+            ]
         },
         "id-068ca4bf80689": {
             "id": "id-068ca4bf80689",
@@ -3549,8 +4950,8 @@
                             "name": "people recovering"
                         },
                         "toNode": {
-                            "id": "115413813534",
-                            "name": "people dying or getting sick"
+                            "name": "people dying or getting sick",
+                            "id": "115413813534"
                         },
                         "relationship": {
                             "id": "115413813534",
@@ -3565,8 +4966,8 @@
                             "name": "my support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "172060642370",
-                            "name": "taking the virus seriously"
+                            "name": "taking the virus seriously",
+                            "id": "172060642370"
                         },
                         "relationship": {
                             "id": "172060642370",
@@ -3581,8 +4982,8 @@
                             "name": "my support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "170289839780",
-                            "name": "me feeling worry, fear, helplessness"
+                            "name": "me feeling worry, fear, helplessness",
+                            "id": "170289839780"
                         },
                         "relationship": {
                             "id": "170289839780",
@@ -3597,8 +4998,8 @@
                             "name": "gathering in large groups"
                         },
                         "toNode": {
-                            "id": "164349318507",
-                            "name": "spreading the virus"
+                            "name": "spreading the virus",
+                            "id": "164349318507"
                         },
                         "relationship": {
                             "id": "164349318507",
@@ -3613,8 +5014,8 @@
                             "name": "gathering in large groups"
                         },
                         "toNode": {
-                            "id": "109468582497",
-                            "name": "everyone's safety"
+                            "name": "everyone's safety",
+                            "id": "109468582497"
                         },
                         "relationship": {
                             "id": "109468582497",
@@ -3629,8 +5030,8 @@
                             "name": "gathering in large groups"
                         },
                         "toNode": {
-                            "id": "147763004179",
-                            "name": "my personal risk of becoming infected"
+                            "name": "my personal risk of becoming infected",
+                            "id": "147763004179"
                         },
                         "relationship": {
                             "id": "147763004179",
@@ -3645,8 +5046,8 @@
                             "name": "taking the virus seriously"
                         },
                         "toNode": {
-                            "id": "109468582497",
-                            "name": "everyone's safety"
+                            "name": "everyone's safety",
+                            "id": "109468582497"
                         },
                         "relationship": {
                             "id": "109468582497",
@@ -3661,8 +5062,8 @@
                             "name": "taking the virus seriously"
                         },
                         "toNode": {
-                            "id": "103236122058",
-                            "name": "people recovering"
+                            "name": "people recovering",
+                            "id": "103236122058"
                         },
                         "relationship": {
                             "id": "103236122058",
@@ -3677,8 +5078,8 @@
                             "name": "country splitting because of their views"
                         },
                         "toNode": {
-                            "id": "172060642370",
-                            "name": "taking the virus seriously"
+                            "name": "taking the virus seriously",
+                            "id": "172060642370"
                         },
                         "relationship": {
                             "id": "172060642370",
@@ -3693,8 +5094,8 @@
                             "name": "country splitting because of their views"
                         },
                         "toNode": {
-                            "id": "109468582497",
-                            "name": "everyone's safety"
+                            "name": "everyone's safety",
+                            "id": "109468582497"
                         },
                         "relationship": {
                             "id": "109468582497",
@@ -3709,8 +5110,8 @@
                             "name": "wearing masks properly"
                         },
                         "toNode": {
-                            "id": "103236122058",
-                            "name": "people recovering"
+                            "name": "people recovering",
+                            "id": "103236122058"
                         },
                         "relationship": {
                             "id": "103236122058",
@@ -3725,8 +5126,8 @@
                             "name": "wearing masks properly"
                         },
                         "toNode": {
-                            "id": "115413813534",
-                            "name": "people dying or getting sick"
+                            "name": "people dying or getting sick",
+                            "id": "115413813534"
                         },
                         "relationship": {
                             "id": "115413813534",
@@ -3741,8 +5142,8 @@
                             "name": "wearing masks properly"
                         },
                         "toNode": {
-                            "id": "164349318507",
-                            "name": "spreading the virus"
+                            "name": "spreading the virus",
+                            "id": "164349318507"
                         },
                         "relationship": {
                             "id": "164349318507",
@@ -3757,8 +5158,8 @@
                             "name": "shutdown of non essential businesses"
                         },
                         "toNode": {
-                            "id": "164349318507",
-                            "name": "spreading the virus"
+                            "name": "spreading the virus",
+                            "id": "164349318507"
                         },
                         "relationship": {
                             "id": "164349318507",
@@ -3773,8 +5174,8 @@
                             "name": "shutdown of non essential businesses"
                         },
                         "toNode": {
-                            "id": "147763004179",
-                            "name": "my personal risk of becoming infected"
+                            "name": "my personal risk of becoming infected",
+                            "id": "147763004179"
                         },
                         "relationship": {
                             "id": "147763004179",
@@ -3789,8 +5190,8 @@
                             "name": "shutdown of non essential businesses"
                         },
                         "toNode": {
-                            "id": "199742686580",
-                            "name": "individual freedom to choose how to behave"
+                            "name": "individual freedom to choose how to behave",
+                            "id": "199742686580"
                         },
                         "relationship": {
                             "id": "199742686580",
@@ -3805,8 +5206,8 @@
                             "name": "spreading the virus"
                         },
                         "toNode": {
-                            "id": "170289839780",
-                            "name": "me feeling worry, fear, helplessness"
+                            "name": "me feeling worry, fear, helplessness",
+                            "id": "170289839780"
                         },
                         "relationship": {
                             "id": "170289839780",
@@ -3821,8 +5222,8 @@
                             "name": "spreading the virus"
                         },
                         "toNode": {
-                            "id": "147763004179",
-                            "name": "my personal risk of becoming infected"
+                            "name": "my personal risk of becoming infected",
+                            "id": "147763004179"
                         },
                         "relationship": {
                             "id": "147763004179",
@@ -3837,8 +5238,8 @@
                             "name": "developing a vaccine"
                         },
                         "toNode": {
-                            "id": "164349318507",
-                            "name": "spreading the virus"
+                            "name": "spreading the virus",
+                            "id": "164349318507"
                         },
                         "relationship": {
                             "id": "164349318507",
@@ -3853,8 +5254,8 @@
                             "name": "developing a vaccine"
                         },
                         "toNode": {
-                            "id": "109468582497",
-                            "name": "everyone's safety"
+                            "name": "everyone's safety",
+                            "id": "109468582497"
                         },
                         "relationship": {
                             "id": "109468582497",
@@ -3869,8 +5270,8 @@
                             "name": "developing a vaccine"
                         },
                         "toNode": {
-                            "id": "103236122058",
-                            "name": "people recovering"
+                            "name": "people recovering",
+                            "id": "103236122058"
                         },
                         "relationship": {
                             "id": "103236122058",
@@ -3885,8 +5286,8 @@
                             "name": "individual freedom to choose how to behave"
                         },
                         "toNode": {
-                            "id": "170289839780",
-                            "name": "me feeling worry, fear, helplessness"
+                            "name": "me feeling worry, fear, helplessness",
+                            "id": "170289839780"
                         },
                         "relationship": {
                             "id": "170289839780",
@@ -3901,8 +5302,8 @@
                             "name": "following social distancing"
                         },
                         "toNode": {
-                            "id": "164349318507",
-                            "name": "spreading the virus"
+                            "name": "spreading the virus",
+                            "id": "164349318507"
                         },
                         "relationship": {
                             "id": "164349318507",
@@ -3917,8 +5318,8 @@
                             "name": "following social distancing"
                         },
                         "toNode": {
-                            "id": "115413813534",
-                            "name": "people dying or getting sick"
+                            "name": "people dying or getting sick",
+                            "id": "115413813534"
                         },
                         "relationship": {
                             "id": "115413813534",
@@ -3933,8 +5334,8 @@
                             "name": "declaring a national lockdown"
                         },
                         "toNode": {
-                            "id": "147763004179",
-                            "name": "my personal risk of becoming infected"
+                            "name": "my personal risk of becoming infected",
+                            "id": "147763004179"
                         },
                         "relationship": {
                             "id": "147763004179",
@@ -3949,8 +5350,8 @@
                             "name": "declaring a national lockdown"
                         },
                         "toNode": {
-                            "id": "170289839780",
-                            "name": "me feeling worry, fear, helplessness"
+                            "name": "me feeling worry, fear, helplessness",
+                            "id": "170289839780"
                         },
                         "relationship": {
                             "id": "170289839780",
@@ -3965,8 +5366,8 @@
                             "name": "declaring a national lockdown"
                         },
                         "toNode": {
-                            "id": "164349318507",
-                            "name": "spreading the virus"
+                            "name": "spreading the virus",
+                            "id": "164349318507"
                         },
                         "relationship": {
                             "id": "164349318507",
@@ -3981,8 +5382,8 @@
                             "name": "declaring a national lockdown"
                         },
                         "toNode": {
-                            "id": "199742686580",
-                            "name": "individual freedom to choose how to behave"
+                            "name": "individual freedom to choose how to behave",
+                            "id": "199742686580"
                         },
                         "relationship": {
                             "id": "199742686580",
@@ -3999,8 +5400,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "159641825586",
-                            "name": "Me feeling worry and fear "
+                            "name": "Me feeling worry and fear ",
+                            "id": "159641825586"
                         },
                         "relationship": {
                             "id": "159641825586",
@@ -4015,8 +5416,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -4031,8 +5432,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -4047,8 +5448,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "104095433527",
-                            "name": "Me feeling sympathy, sadness, anger"
+                            "name": "Me feeling sympathy, sadness, anger",
+                            "id": "104095433527"
                         },
                         "relationship": {
                             "id": "104095433527",
@@ -4063,8 +5464,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "163216478675",
-                            "name": "Everyone's safety"
+                            "name": "Everyone's safety",
+                            "id": "163216478675"
                         },
                         "relationship": {
                             "id": "163216478675",
@@ -4079,8 +5480,8 @@
                             "name": "People dying or getting sick"
                         },
                         "toNode": {
-                            "id": "169913761824",
-                            "name": "Fatality rate "
+                            "name": "Fatality rate ",
+                            "id": "169913761824"
                         },
                         "relationship": {
                             "id": "169913761824",
@@ -4095,8 +5496,8 @@
                             "name": "People recovering"
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -4111,8 +5512,8 @@
                             "name": "People recovering"
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -4127,8 +5528,8 @@
                             "name": "People recovering"
                         },
                         "toNode": {
-                            "id": "140888439015",
-                            "name": "People building immunity to the virus "
+                            "name": "People building immunity to the virus ",
+                            "id": "140888439015"
                         },
                         "relationship": {
                             "id": "140888439015",
@@ -4143,8 +5544,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "104095433527",
-                            "name": "Me feeling sympathy, sadness, anger"
+                            "name": "Me feeling sympathy, sadness, anger",
+                            "id": "104095433527"
                         },
                         "relationship": {
                             "id": "104095433527",
@@ -4159,8 +5560,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "119907787667",
-                            "name": "Country splitting because of their views"
+                            "name": "Country splitting because of their views",
+                            "id": "119907787667"
                         },
                         "relationship": {
                             "id": "119907787667",
@@ -4175,8 +5576,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "182808600336",
-                            "name": "Shutdown of non-essential businesses, schools, public transportation \n"
+                            "name": "Shutdown of non-essential businesses, schools, public transportation \n",
+                            "id": "182808600336"
                         },
                         "relationship": {
                             "id": "182808600336",
@@ -4191,8 +5592,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "147129742013",
-                            "name": "Mandating people follow safety guidelines "
+                            "name": "Mandating people follow safety guidelines ",
+                            "id": "147129742013"
                         },
                         "relationship": {
                             "id": "147129742013",
@@ -4207,8 +5608,8 @@
                             "name": "My support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "169913761824",
-                            "name": "Fatality rate "
+                            "name": "Fatality rate ",
+                            "id": "169913761824"
                         },
                         "relationship": {
                             "id": "169913761824",
@@ -4223,8 +5624,8 @@
                             "name": "My personal risk of becoming infected"
                         },
                         "toNode": {
-                            "id": "159641825586",
-                            "name": "Me feeling worry and fear "
+                            "name": "Me feeling worry and fear ",
+                            "id": "159641825586"
                         },
                         "relationship": {
                             "id": "159641825586",
@@ -4239,8 +5640,8 @@
                             "name": "Me feeling worry and fear "
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -4255,8 +5656,8 @@
                             "name": "Me feeling worry and fear "
                         },
                         "toNode": {
-                            "id": "147129742013",
-                            "name": "Mandating people follow safety guidelines "
+                            "name": "Mandating people follow safety guidelines ",
+                            "id": "147129742013"
                         },
                         "relationship": {
                             "id": "147129742013",
@@ -4271,8 +5672,8 @@
                             "name": "Gathering in large groups "
                         },
                         "toNode": {
-                            "id": "188338681714",
-                            "name": "People dying or getting sick"
+                            "name": "People dying or getting sick",
+                            "id": "188338681714"
                         },
                         "relationship": {
                             "id": "188338681714",
@@ -4287,8 +5688,8 @@
                             "name": "Gathering in large groups "
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -4303,8 +5704,8 @@
                             "name": "Wearing masks properly "
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -4319,8 +5720,8 @@
                             "name": "Wearing masks properly "
                         },
                         "toNode": {
-                            "id": "188338681714",
-                            "name": "People dying or getting sick"
+                            "name": "People dying or getting sick",
+                            "id": "188338681714"
                         },
                         "relationship": {
                             "id": "188338681714",
@@ -4335,8 +5736,8 @@
                             "name": "Following social distancing "
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -4351,8 +5752,8 @@
                             "name": "Following social distancing "
                         },
                         "toNode": {
-                            "id": "188338681714",
-                            "name": "People dying or getting sick"
+                            "name": "People dying or getting sick",
+                            "id": "188338681714"
                         },
                         "relationship": {
                             "id": "188338681714",
@@ -4367,8 +5768,8 @@
                             "name": "Country splitting because of their views"
                         },
                         "toNode": {
-                            "id": "159641825586",
-                            "name": "Me feeling worry and fear "
+                            "name": "Me feeling worry and fear ",
+                            "id": "159641825586"
                         },
                         "relationship": {
                             "id": "159641825586",
@@ -4383,8 +5784,8 @@
                             "name": "Taking the virus seriously "
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -4399,8 +5800,8 @@
                             "name": "Taking the virus seriously "
                         },
                         "toNode": {
-                            "id": "119907787667",
-                            "name": "Country splitting because of their views"
+                            "name": "Country splitting because of their views",
+                            "id": "119907787667"
                         },
                         "relationship": {
                             "id": "119907787667",
@@ -4415,8 +5816,8 @@
                             "name": "Sneezing / coughing"
                         },
                         "toNode": {
-                            "id": "188338681714",
-                            "name": "People dying or getting sick"
+                            "name": "People dying or getting sick",
+                            "id": "188338681714"
                         },
                         "relationship": {
                             "id": "188338681714",
@@ -4431,8 +5832,8 @@
                             "name": "Sneezing / coughing"
                         },
                         "toNode": {
-                            "id": "196313714421",
-                            "name": "My personal risk of becoming infected"
+                            "name": "My personal risk of becoming infected",
+                            "id": "196313714421"
                         },
                         "relationship": {
                             "id": "196313714421",
@@ -4447,8 +5848,8 @@
                             "name": "Fatality rate "
                         },
                         "toNode": {
-                            "id": "159641825586",
-                            "name": "Me feeling worry and fear "
+                            "name": "Me feeling worry and fear ",
+                            "id": "159641825586"
                         },
                         "relationship": {
                             "id": "159641825586",
@@ -4463,8 +5864,8 @@
                             "name": "Overall Economic Health"
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -4479,8 +5880,8 @@
                             "name": "Everyone's safety"
                         },
                         "toNode": {
-                            "id": "149216775749",
-                            "name": "My support of government recommendations and regulations"
+                            "name": "My support of government recommendations and regulations",
+                            "id": "149216775749"
                         },
                         "relationship": {
                             "id": "149216775749",
@@ -4497,8 +5898,8 @@
                             "name": "my support of government recommendations and regulations"
                         },
                         "toNode": {
-                            "id": "147763004179",
-                            "name": "my personal risk of becoming infected"
+                            "name": "my personal risk of becoming infected",
+                            "id": "147763004179"
                         },
                         "relationship": {
                             "id": "147763004179",
@@ -4509,7 +5910,807 @@
                     }
                 ],
                 "incorrectlySigned": []
-            }
+            },
+            "numNodes": 16,
+            "numRelationships": 29,
+            "numDrivers": 8,
+            "numReceivers": 4,
+            "numOrdinay": 4,
+            "density": 0.1208333333,
+            "relationshipsPerNode": 1.8125,
+            "complexity": 0.5,
+            "drivers": [
+                {
+                    "name": "my support of government recommendations and regulations",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "277",
+                    "y": "333",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "172060642370",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.9",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.58",
+                            "name": ""
+                        },
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.53",
+                            "name": ""
+                        }
+                    ],
+                    "id": "156763661235",
+                    "indegree": 0,
+                    "outdegree": 2.01,
+                    "centrality": 2.01,
+                    "type": "driver"
+                },
+                {
+                    "name": "gathering in large groups",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "610",
+                    "y": "199",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.57",
+                            "name": ""
+                        },
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.69",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.64",
+                            "name": ""
+                        }
+                    ],
+                    "id": "144605138513",
+                    "indegree": 0,
+                    "outdegree": 1.9,
+                    "centrality": 1.9,
+                    "type": "driver"
+                },
+                {
+                    "name": "country splitting because of their views",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "63",
+                    "y": "341",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "172060642370",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.69",
+                            "name": ""
+                        },
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.65",
+                            "name": ""
+                        }
+                    ],
+                    "id": "188147558003",
+                    "indegree": 0,
+                    "outdegree": 1.3399999999999999,
+                    "centrality": 1.3399999999999999,
+                    "type": "driver"
+                },
+                {
+                    "name": "wearing masks properly",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "256",
+                    "y": "159",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "103236122058",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.45",
+                            "name": ""
+                        },
+                        {
+                            "id": "115413813534",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.62",
+                            "name": ""
+                        },
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.97",
+                            "name": ""
+                        }
+                    ],
+                    "id": "126146737939",
+                    "indegree": 0,
+                    "outdegree": 2.04,
+                    "centrality": 2.04,
+                    "type": "driver"
+                },
+                {
+                    "name": "shutdown of non essential businesses",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "26",
+                    "y": "133",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.84",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.65",
+                            "name": ""
+                        },
+                        {
+                            "id": "199742686580",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.57",
+                            "name": ""
+                        }
+                    ],
+                    "id": "196864198395",
+                    "indegree": 0,
+                    "outdegree": 2.06,
+                    "centrality": 2.06,
+                    "type": "driver"
+                },
+                {
+                    "name": "developing a vaccine",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "834",
+                    "y": "196",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.65",
+                            "name": ""
+                        },
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.36",
+                            "name": ""
+                        },
+                        {
+                            "id": "103236122058",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.52",
+                            "name": ""
+                        }
+                    ],
+                    "id": "113388004139",
+                    "indegree": 0,
+                    "outdegree": 1.53,
+                    "centrality": 1.53,
+                    "type": "driver"
+                },
+                {
+                    "name": "following social distancing",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "47",
+                    "y": "439",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.78",
+                            "name": ""
+                        },
+                        {
+                            "id": "115413813534",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.48",
+                            "name": ""
+                        }
+                    ],
+                    "id": "125960179278",
+                    "indegree": 0,
+                    "outdegree": 1.26,
+                    "centrality": 1.26,
+                    "type": "driver"
+                },
+                {
+                    "name": "declaring a national lockdown",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "386",
+                    "y": "483",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.76",
+                            "name": ""
+                        },
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.59",
+                            "name": ""
+                        },
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.82",
+                            "name": ""
+                        },
+                        {
+                            "id": "199742686580",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.71",
+                            "name": ""
+                        }
+                    ],
+                    "id": "178311343572",
+                    "indegree": 0,
+                    "outdegree": 2.88,
+                    "centrality": 2.88,
+                    "type": "driver"
+                }
+            ],
+            "driversRanked": [
+                {
+                    "name": "declaring a national lockdown",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "386",
+                    "y": "483",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.76",
+                            "name": ""
+                        },
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.59",
+                            "name": ""
+                        },
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.82",
+                            "name": ""
+                        },
+                        {
+                            "id": "199742686580",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.71",
+                            "name": ""
+                        }
+                    ],
+                    "id": "178311343572",
+                    "indegree": 0,
+                    "outdegree": 2.88,
+                    "centrality": 2.88,
+                    "type": "driver"
+                },
+                {
+                    "name": "shutdown of non essential businesses",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "26",
+                    "y": "133",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.84",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.65",
+                            "name": ""
+                        },
+                        {
+                            "id": "199742686580",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.57",
+                            "name": ""
+                        }
+                    ],
+                    "id": "196864198395",
+                    "indegree": 0,
+                    "outdegree": 2.06,
+                    "centrality": 2.06,
+                    "type": "driver"
+                },
+                {
+                    "name": "wearing masks properly",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "256",
+                    "y": "159",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "103236122058",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.45",
+                            "name": ""
+                        },
+                        {
+                            "id": "115413813534",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.62",
+                            "name": ""
+                        },
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.97",
+                            "name": ""
+                        }
+                    ],
+                    "id": "126146737939",
+                    "indegree": 0,
+                    "outdegree": 2.04,
+                    "centrality": 2.04,
+                    "type": "driver"
+                },
+                {
+                    "name": "my support of government recommendations and regulations",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "277",
+                    "y": "333",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "172060642370",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.9",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.58",
+                            "name": ""
+                        },
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.53",
+                            "name": ""
+                        }
+                    ],
+                    "id": "156763661235",
+                    "indegree": 0,
+                    "outdegree": 2.01,
+                    "centrality": 2.01,
+                    "type": "driver"
+                },
+                {
+                    "name": "gathering in large groups",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "610",
+                    "y": "199",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.57",
+                            "name": ""
+                        },
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.69",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.64",
+                            "name": ""
+                        }
+                    ],
+                    "id": "144605138513",
+                    "indegree": 0,
+                    "outdegree": 1.9,
+                    "centrality": 1.9,
+                    "type": "driver"
+                }
+            ],
+            "receiversRanked": [
+                {
+                    "name": "spreading the virus",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "656",
+                    "y": "69",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.68",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.85",
+                            "name": ""
+                        }
+                    ],
+                    "id": "164349318507",
+                    "indegree": 4.63,
+                    "outdegree": 1.53,
+                    "centrality": 6.16,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "my personal risk of becoming infected",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "155",
+                    "y": "60",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "147763004179",
+                    "indegree": 3.4800000000000004,
+                    "outdegree": 0,
+                    "centrality": 3.4800000000000004,
+                    "type": "receiver"
+                },
+                {
+                    "name": "everyone's safety",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "725",
+                    "y": "346",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "109468582497",
+                    "indegree": 2.6799999999999997,
+                    "outdegree": 0,
+                    "centrality": 2.6799999999999997,
+                    "type": "receiver"
+                },
+                {
+                    "name": "me feeling worry, fear, helplessness",
+                    "notes": "",
+                    "units": "",
+                    "group": "2",
+                    "x": "457",
+                    "y": "140",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "170289839780",
+                    "indegree": 2.3899999999999997,
+                    "outdegree": 0,
+                    "centrality": 2.3899999999999997,
+                    "type": "receiver"
+                },
+                {
+                    "name": "people dying or getting sick",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "77",
+                    "y": "237",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "115413813534",
+                    "indegree": 2.1,
+                    "outdegree": 0,
+                    "centrality": 2.1,
+                    "type": "receiver"
+                }
+            ],
+            "centralityRanked": [
+                {
+                    "name": "spreading the virus",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "656",
+                    "y": "69",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.68",
+                            "name": ""
+                        },
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.85",
+                            "name": ""
+                        }
+                    ],
+                    "id": "164349318507",
+                    "indegree": 4.63,
+                    "outdegree": 1.53,
+                    "centrality": 6.16,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "my personal risk of becoming infected",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "155",
+                    "y": "60",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "147763004179",
+                    "indegree": 3.4800000000000004,
+                    "outdegree": 0,
+                    "centrality": 3.4800000000000004,
+                    "type": "receiver"
+                },
+                {
+                    "name": "taking the virus seriously",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "615",
+                    "y": "459",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "109468582497",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.98",
+                            "name": ""
+                        },
+                        {
+                            "id": "103236122058",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.48",
+                            "name": ""
+                        }
+                    ],
+                    "id": "172060642370",
+                    "indegree": 1.5899999999999999,
+                    "outdegree": 1.46,
+                    "centrality": 3.05,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "declaring a national lockdown",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "386",
+                    "y": "483",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "147763004179",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.76",
+                            "name": ""
+                        },
+                        {
+                            "id": "170289839780",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "0.59",
+                            "name": ""
+                        },
+                        {
+                            "id": "164349318507",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.82",
+                            "name": ""
+                        },
+                        {
+                            "id": "199742686580",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-0.71",
+                            "name": ""
+                        }
+                    ],
+                    "id": "178311343572",
+                    "indegree": 0,
+                    "outdegree": 2.88,
+                    "centrality": 2.88,
+                    "type": "driver"
+                },
+                {
+                    "name": "everyone's safety",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "725",
+                    "y": "346",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "109468582497",
+                    "indegree": 2.6799999999999997,
+                    "outdegree": 0,
+                    "centrality": 2.6799999999999997,
+                    "type": "receiver"
+                },
+                {
+                    "name": "people recovering",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "369",
+                    "y": "254",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "115413813534",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "103236122058",
+                    "indegree": 1.45,
+                    "outdegree": 1,
+                    "centrality": 2.45,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "me feeling worry, fear, helplessness",
+                    "notes": "",
+                    "units": "",
+                    "group": "2",
+                    "x": "457",
+                    "y": "140",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "170289839780",
+                    "indegree": 2.3899999999999997,
+                    "outdegree": 0,
+                    "centrality": 2.3899999999999997,
+                    "type": "receiver"
+                },
+                {
+                    "name": "people dying or getting sick",
+                    "notes": "",
+                    "units": "",
+                    "group": "1",
+                    "x": "77",
+                    "y": "237",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "115413813534",
+                    "indegree": 2.1,
+                    "outdegree": 0,
+                    "centrality": 2.1,
+                    "type": "receiver"
+                }
+            ]
         }
     },
     "canonicalId": "id-a62d74e6785d2",

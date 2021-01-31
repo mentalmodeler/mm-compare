@@ -1,5 +1,5 @@
-import {compareModels, makeId} from 'mm-modules';
-import {initScenario} from './utils';
+// import {initScenario} from './utils';
+import {makeId, compareModels} from 'mm-modules';
 
 const appReducer = (oldState, newState) => {
     const {action} = newState;
@@ -30,6 +30,7 @@ const appReducer = (oldState, newState) => {
                 canonicalId: updatedState.canonicalId,
                 scenario: updatedState.scenario,
             });
+            console.log('results:', results);
             updatedState = {
                 ...updatedState,
                 results,
@@ -47,14 +48,15 @@ const appReducer = (oldState, newState) => {
             };
         }
     }
+    // not running the scenario anymore - JME 2021/01/31
     // if we are setting the canonicalId, set up the scenario data
-    if (newState.hasOwnProperty('canonicalId') && updatedState.canonicalId !== oldState.canonicalId) {
-        const canonicalModel = updatedState.modelsJSON.find((model) => model.id === updatedState.canonicalId);
-        updatedState = {
-            ...updatedState,
-            scenario: initScenario(canonicalModel || {concepts: []}),
-        };
-    }
+    // if (newState.hasOwnProperty('canonicalId') && updatedState.canonicalId !== oldState.canonicalId) {
+    //     const canonicalModel = updatedState.modelsJSON.find((model) => model.id === updatedState.canonicalId);
+    //     updatedState = {
+    //         ...updatedState,
+    //         scenario: initScenario(canonicalModel || {concepts: []}),
+    //     };
+    // }
 
     return updatedState;
 };

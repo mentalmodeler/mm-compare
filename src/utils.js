@@ -19,10 +19,7 @@ export const initScenario = ({concepts = [], scenarios = []}) => {
                 id,
                 selected: true,
                 influence: 0,
-                // expectedChange: 0,
                 preferredState,
-                // influence: '1',
-                // expectedChange: 'decrease',
                 points: 0,
             }
         )),

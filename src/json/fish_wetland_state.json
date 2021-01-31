@@ -2,8 +2,8 @@
     "modelsJSON": [
         {
             "info": {
-                "name": "Model",
-                "author": "",
+                "name": "Fish Wetland",
+                "author": "Ozesmi",
                 "description": "",
                 "version": "1.1",
                 "date": "Mon Jan 09 2017 19:35:21 GMT-0600 (Central Standard Time)"
@@ -164,7 +164,7 @@
         },
         {
             "info": {
-                "name": "FCM",
+                "name": "Fish Wetland",
                 "author": "arousset",
                 "description": "",
                 "version": "1.0",
@@ -353,7 +353,7 @@
         }
     ],
     "results": {},
-    "canonicalId": "id-1c67f325a955b",
+    "canonicalId": "id-63492cf0806b2",
     "viewResultId": null,
     "mode": "files"
 }

@@ -4,12 +4,13 @@ import classnames from 'classnames';
 import Controls from '../Controls/Controls';
 import Models from '../Models/Models';
 import Result from '../Result/Result';
+import ResultsAll from '../ResultsAll/ResultsAll';
 import Scenario from '../Scenario/Scenario';
 import appReducer from '../../appReducer';
 // import json from '../../json/andrew_state.json';
 // import json from '../../json/steven_state.json';
-// import json from '../../json/steven_state_results.json';
-import json from '../../json/fish_wetland_state.json';
+import json from '../../json/steven_state_results.json';
+// import json from '../../json/fish_wetland_state.json';
 import {getKeys, isDevEnv} from '../../utils';
 
 import './App.css';
@@ -40,8 +41,12 @@ function App() {
             const resultsKeys = getKeys(loadState.results);
             setState({
                 ...loadState,
-                ...(resultsKeys.length > 0 && {viewResultId: resultsKeys[0], mode: 'result'}),
-                ...(resultsKeys.length < 1 && {mode: 'scenario'})
+                // this would trigger it to start with the results all view shown
+                // ...(resultsKeys.length > 0 && {mode: 'results'}),
+                // this would trigger it to start with the individual results view shown
+                // ...(resultsKeys.length > 0 && {viewResultId: resultsKeys[0], mode: 'result'}),
+                // this would trigger it to start with the scenario config view shown
+                // ...(resultsKeys.length < 1 && {mode: 'scenario'})
             });
         }
     }, []);
@@ -63,6 +68,7 @@ function App() {
                     <Models />
                     {mode === 'result' && (<Result />)}
                     {mode === 'scenario' && (<Scenario />)}
+                    {mode === 'results' && (<ResultsAll />)}
                 </main>
             </div>
         </AppContext.Provider>
