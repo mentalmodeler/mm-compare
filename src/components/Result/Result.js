@@ -29,7 +29,7 @@ const getPointsTitle = (title, collection, affect) =>
         : title;
 
 function Result() {
-    const {state, setState} = useContext(AppContext);
+    const {state} = useContext(AppContext);
     const {results, modelsJSON, viewResultId} = state;
     const model = modelsJSON.find((model) => model.id === viewResultId);
     const result = results[viewResultId];

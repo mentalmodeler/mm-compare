@@ -1,24 +1,13 @@
 import {useContext, useRef} from 'react';
-import {loadAndParse, loadAndParseURL} from 'mm-modules';
+import {loadAndParse} from 'mm-modules';
 import {isDevEnv, updateClipboard} from '../../utils';
 import {AppContext} from '../App/App';
 import './Controls.css';
 
 function Controls() {
     const inputFile = useRef(null);
-    const inputURL = useRef('');
     const {state, setState, dispatch} = useContext(AppContext);
     const handleLoadLocal = () => inputFile.current.click();
-
-    const handleLoadURL = async () => {
-        const json = await loadAndParseURL(inputURL.current.value);
-        dispatch({
-            action: {
-                type: 'addJSON',
-                json
-            }
-        });
-    };
 
     const loadAndParseLocalModels = evt => {
         const fileList = evt.target.files;
@@ -27,7 +16,7 @@ function Controls() {
             dispatch({action: {type: 'addJSON', json}});
         });
     };
-    console.log('state.results:', state.results)
+
     return (
         <div className="controls">
             {isDevEnv() && (

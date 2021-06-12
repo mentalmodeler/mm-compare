@@ -1,11 +1,10 @@
 import {useContext} from 'react';
 import {AppContext} from '../App/App';
-import {getDataId, getConcept} from '../../utils';
 import './Scenario.css';
 
 function ScenarioRow({concept, index}) {
     const {dispatch} = useContext(AppContext);
-    let {name, id, selected, influence, expectedChange, points} = concept;
+    let {name, id, selected, influence, points} = concept;
     // name = index % 2 === 0 ? `${name} ${name} ${name} ${name} ${name} ${name}` : name;
     const hasInfluence = parseInt(influence, 10) !== 0;
     const useDisableTextStyle = hasInfluence || !selected;

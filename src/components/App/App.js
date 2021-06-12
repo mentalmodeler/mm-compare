@@ -1,5 +1,4 @@
 import React, {useEffect, useReducer} from 'react';
-import classnames from 'classnames';
 
 import Controls from '../Controls/Controls';
 import Models from '../Models/Models';
@@ -33,12 +32,12 @@ function App() {
         viewResultId: null,
         mode: 'files',
     });
-    const {mode, results, modelsJSON, showInternalTools} = state;
+    const {mode} = state;
 
     // load state if indicated
     useEffect(() => {
         if (isDevEnv() && loadState) {
-            const resultsKeys = getKeys(loadState.results);
+            // const resultsKeys = getKeys(loadState.results);
             setState({
                 ...loadState,
                 // this would trigger it to start with the results all view shown

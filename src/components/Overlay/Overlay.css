@@ -173,7 +173,7 @@
 .Overlay__close {
   position: fixed;
   top: 16px;
-  right: 16px;
+  right: 32px;
   z-index: 1;
 }
 .Overlay__body {

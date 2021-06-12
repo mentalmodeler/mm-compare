@@ -30,7 +30,6 @@ const appReducer = (oldState, newState) => {
                 canonicalId: updatedState.canonicalId,
                 scenario: updatedState.scenario,
             });
-            console.log('results:', results);
             updatedState = {
                 ...updatedState,
                 results,

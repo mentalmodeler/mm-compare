@@ -1,11 +1,10 @@
-import {Fragment, useContext} from 'react';
+import {useContext} from 'react';
 import {AppContext} from '../App/App';
-import {getMargin} from '../../utils';
 
 import './Overlay.css';
 
 function Overlay({children, className = ''}) {
-    const {state, setState} = useContext(AppContext);
+    const {setState} = useContext(AppContext);
     
     return (
         <div className={`Overlay ${className}`}>

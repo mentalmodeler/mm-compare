@@ -161,6 +161,17 @@
   max-width: unset;
   padding: 64px 0 0 0;
 }
+.ResultsAll__export-xlsx {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 16px;
+  right: 116px;
+  z-index: 1;
+}
+.ResultsAll__export-xlsx .material-icons {
+  margin-right: 5px;
+}
 .ResultsAll__table {
   border-collapse: collapse;
 }

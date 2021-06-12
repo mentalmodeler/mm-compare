@@ -1,6 +1,7 @@
 import {Fragment, useContext} from 'react';
 import {AppContext} from '../App/App';
 import Overlay from '../Overlay/Overlay';
+import XLSX from 'xlsx';
 import './ResultsAll.css';
 
 /* results schema
@@ -21,8 +22,8 @@ import './ResultsAll.css';
 */
 
 function ResultAll() {
-    const {state, setState} = useContext(AppContext);
-    const {results, modelsJSON, viewResultId} = state;
+    const {state} = useContext(AppContext);
+    const {results, modelsJSON} = state;
     const roundingPlaces = 2;
     const columns = [
         {title: '# Nodes', display: ({numNodes}) => numNodes},
@@ -56,10 +57,24 @@ function ResultAll() {
         {title: '% incorrect concepts', display: () => '% incorrect concepts'},
         {title: '% correct linkages', display: () => '% correct linkages'},
         {title: '% incorrect linkages', display: () => '% incorrect linkages'},
-    ]
+    ];
+
+    const exportXLSX = () => {
+        const now = new Date();
+        const formatted_date = `${now.getFullYear()}-${('0' + (now.getMonth()+1)).slice(-2)}-${('0' + now.getDate()).slice(-2)}`;
+        const filename = `mm_comparison_results_${formatted_date}.xlsx`;
+        const workbook = XLSX.utils.book_new();
+        const worksheet = XLSX.utils.table_to_sheet(document.getElementsByClassName('ResultsAll__table')[0]);
+
+        XLSX.utils.book_append_sheet(workbook, worksheet, `${formatted_date} Comparison Results`);
+        XLSX.writeFile(workbook, filename);
+    }
 
     return (
         <Overlay className="ResultsAll">
+            <button className="ResultsAll__export-xlsx btn btn-ghost" onClick={exportXLSX}>
+                <span>{'Export to xlsx'}</span>
+            </button>
             <table className="ResultsAll__table">
                 {/* <thead className="ResultsAll__table-head">
                     <tr>
@@ -72,7 +87,7 @@ function ResultAll() {
                 <tbody className="ResultsAll__table-body">
                     {Object.keys(results).map((id) => {
                         const model = modelsJSON.find((model) => model.id === id);
-                        const author = model && model.info && model.info.author || id;
+                        const author = (model && model.info && model.info.author) || id;
                         return (
                             <Fragment>
                                 <tr className="ResultsAll__table-head">
