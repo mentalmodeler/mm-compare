@@ -2,6 +2,7 @@ import {useContext, useRef} from 'react';
 import {loadAndParse} from 'mm-modules';
 import {isDevEnv, updateClipboard} from '../../utils';
 import {AppContext} from '../App/App';
+
 import './Controls.css';
 
 function Controls() {
@@ -12,7 +13,11 @@ function Controls() {
     const loadAndParseLocalModels = evt => {
         const fileList = evt.target.files;
         return fileList && fileList.length > 0 && Array.from(fileList).forEach(async f => {
-            const json = await loadAndParse(f);
+            const json = {
+                filename: f.name.split('.')[0],
+                ...await loadAndParse(f)
+            };
+            
             dispatch({action: {type: 'addJSON', json}});
         });
     };

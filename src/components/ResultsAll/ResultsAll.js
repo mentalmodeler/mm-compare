@@ -60,13 +60,19 @@ function ResultAll() {
     ];
 
     const exportXLSX = () => {
+        const refModel = modelsJSON.find((model) => model.id === state.canonicalId);
+        const {info} = refModel || {info: {}};
+        const {name} = info;
+        const modelName = name && (name !== "" && name !== "Model") ? name : refModel.filename;
         const now = new Date();
-        const formatted_date = `${now.getFullYear()}-${('0' + (now.getMonth()+1)).slice(-2)}-${('0' + now.getDate()).slice(-2)}`;
-        const filename = `mm_comparison_results_${formatted_date}.xlsx`;
+        const formattedDate = `${now.getFullYear()}-${('0' + (now.getMonth()+1)).slice(-2)}-${('0' + now.getDate()).slice(-2)}`;
+        const filename = `${modelName.replace(/ /g, "_")}_comparison_results_${formattedDate}.xlsx`;
         const workbook = XLSX.utils.book_new();
         const worksheet = XLSX.utils.table_to_sheet(document.getElementsByClassName('ResultsAll__table')[0]);
 
-        XLSX.utils.book_append_sheet(workbook, worksheet, `${formatted_date} Comparison Results`);
+        // We can only write out a worksheet name of a max length of 31 characters.
+        // So, only take the model name's substring of the first 23 characters (31 - length of ' Results') 
+        XLSX.utils.book_append_sheet(workbook, worksheet, `${modelName.substring(0, 23)} Results`);
         XLSX.writeFile(workbook, filename);
     }
 
