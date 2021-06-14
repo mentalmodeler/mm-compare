@@ -24,7 +24,6 @@ import './ResultsAll.css';
 function ResultAll() {
     const {state, setState} = useContext(AppContext);
     const {results, modelsJSON, columnsShown, showConfigureColumns} = state;
-    console.log('showConfigureColumns:', showConfigureColumns);
     const roundingPlaces = 2;
     const columnsAll = [
         {title: '# Nodes', key: 'numNodes', display: ({numNodes}) => numNodes},
