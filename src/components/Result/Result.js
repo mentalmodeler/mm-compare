@@ -35,12 +35,13 @@ function Result() {
     const result = results[viewResultId];
     const {score, nodes, relationships} = result;
     const {extra: extraNodes, missing: missingNodes, present: presentNodes} = nodes;
-    const {extra: extraRelationships, missing: missingRelationships, incorrectlySigned: incorrectlySignedRelationships, correctlySigned: correctlySignedRelationships} = relationships;
+    const {extra: extraRelationships, missing: missingRelationships, reversed: reversedRelationships, incorrectlySigned: incorrectlySignedRelationships, correctlySigned: correctlySignedRelationships} = relationships;
     const {info,} = model || {info: {}};
     const {author, date, name} = info;
     const relationshipCollections = [
         {title: getPointsTitle(`Missing (${missingRelationships.length})`, missingRelationships, '-'), collection: missingRelationships},
         {title: getPointsTitle(`Extra (${extraRelationships.length})`, extraRelationships, '-'), collection: extraRelationships},
+        {title: getPointsTitle(`Reversed (${reversedRelationships.length})`, reversedRelationships, '-'), collection: reversedRelationships},
         {title: `Incorrectly signed (${incorrectlySignedRelationships.length})`, collection: incorrectlySignedRelationships},
         {title: getPointsTitle(`Correctly signed (${correctlySignedRelationships.length})`, correctlySignedRelationships, '+'), collection: correctlySignedRelationships},
     ];

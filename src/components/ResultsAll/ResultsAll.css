@@ -153,6 +153,30 @@
   transform: none !important;
   cursor: not-allowed;
 }
+.ResultsAll__configure-dialog {
+  position: fixed;
+  top: 66px;
+  right: 180px;
+  background-color: #222429;
+  border: 1px solid #00C7FF;
+  list-style-type: none;
+  margin: 0;
+  padding: 16px;
+}
+.ResultsAll__configure-item {
+  display: block;
+  padding: 4px 0;
+  user-select: none;
+}
+.ResultsAll__configure-item > label {
+  cursor: pointer;
+}
+.ResultsAll__configure-item > label:hover {
+  color: #00C7FF;
+}
+.ResultsAll__configure-item > label > input {
+  margin-right: 12px;
+}
 .ResultsAll .Overlay__body {
   justify-content: flex-start;
   padding: 0;
@@ -167,6 +191,14 @@
   position: fixed;
   top: 16px;
   right: 116px;
+  z-index: 1;
+}
+.ResultsAll__configure {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 16px;
+  right: 256px;
   z-index: 1;
 }
 .ResultsAll__export-xlsx .material-icons {

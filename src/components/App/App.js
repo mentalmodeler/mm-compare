@@ -32,6 +32,24 @@ function App() {
         canonicalId: null,
         viewResultId: null,
         mode: 'files',
+        columnsShown: {
+            numNodes: true,
+            numRelationships: true,
+            numDrivers: true,
+            numReceivers: true,
+            numOrdinay: true,
+            density: true,
+            relationshipsPerNode: true,
+            drivers: true,
+            driversRanked: true,
+            receiversRanked: true,
+            centralityRanked: true,
+            conceptsCorrect: true,
+            conceptsIncorrect: true,
+            linkagesCorrect: true,
+            linkagesIncorrect: true,
+        },
+        showConfigureColumns: false,
     });
     const {mode} = state;
 

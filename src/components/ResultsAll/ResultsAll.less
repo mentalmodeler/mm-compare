@@ -3,6 +3,35 @@
 @node-margin: 12px;
 
 .ResultsAll {
+    &__configure-dialog {
+        position: fixed;
+        top: 66px;
+        right: 180px;
+        background-color: #222429;
+        border: 1px solid #00C7FF;
+        list-style-type: none;
+        margin: 0;
+        padding: 16px;
+        
+    }
+
+    &__configure-item {
+        display: block;
+        padding: 4px 0;
+        user-select: none;
+
+        > label {
+            cursor: pointer;
+            
+            &:hover {
+                color: #00C7FF;
+            }
+            
+            > input {
+                margin-right: 12px;
+            }
+        }
+    }
 
     .Overlay__body {
         justify-content: flex-start;
@@ -20,6 +49,15 @@
         position: fixed;
         top: 16px;
         right: 116px;
+        z-index: 1;
+    }
+
+    &__configure {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 16px;
+        right: 256px;
         z-index: 1;
     }
 

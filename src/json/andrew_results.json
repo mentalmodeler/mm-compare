@@ -1,0 +1,1093 @@
+{
+    "modelsJSON": [
+        {
+            "info": {
+                "name": "Fundamentalism",
+                "author": " Henry Kissinger",
+                "description": "Kissinger's cognitive map from Kosko's FCM Paper (Fig. 1)",
+                "version": "1.1",
+                "date": "Thu Jan 14 2021 11:58:03 GMT-0600 (Central Standard Time)"
+            },
+            "groupNames": {},
+            "concepts": [
+                {
+                    "id": "2",
+                    "name": "2",
+                    "relationships": [
+                        {
+                            "id": "1",
+                            "influence": "-1",
+                            "name": "1"
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "name": "1",
+                    "relationships": [
+                        {
+                            "id": "2",
+                            "influence": "-1",
+                            "name": "2"
+                        }
+                    ]
+                },
+                {
+                    "id": "hmxE-jZ4F-eqRo-Z8mh",
+                    "name": "Fundamentalism",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "408",
+                    "y": "40",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "hIvg-9NYE-zL3B-tYaN",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "wPab-BJPQ-qLLu-64Xk",
+                    "name": "Radicalism",
+                    "notes": "Radicalism",
+                    "units": "",
+                    "group": "0",
+                    "x": "653",
+                    "y": "128",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "ymzG-cbVm-Nsi7-hGXs",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "YYFN-tulk-FAxN-5JLx",
+                    "name": "Strength of Govt",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "371",
+                    "y": "399",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "hIvg-9NYE-zL3B-tYaN",
+                    "name": "Imperialism",
+                    "notes": "Imperialism",
+                    "units": "",
+                    "group": "0",
+                    "x": "207",
+                    "y": "120",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "goxK-rGXw-6Qcc-A6Jy",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "goxK-rGXw-6Qcc-A6Jy",
+                    "name": "Foreign Control of Govt",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "212",
+                    "y": "253",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "YYFN-tulk-FAxN-5JLx",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "ymzG-cbVm-Nsi7-hGXs",
+                    "name": "Terrorism",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "656",
+                    "y": "249",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "YYFN-tulk-FAxN-5JLx",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        },
+                        {
+                            "id": "goxK-rGXw-6Qcc-A6Jy",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "scenarios": [
+                {
+                    "name": "Scenario",
+                    "concepts": [
+                        {
+                            "selected": "true",
+                            "influence": "0",
+                            "id": "hmxE-jZ4F-eqRo-Z8mh",
+                            "name": "Fundamentalism",
+                            "preferredState": "0",
+                            "actualState": "0"
+                        },
+                        {
+                            "selected": "true",
+                            "influence": "0",
+                            "id": "wPab-BJPQ-qLLu-64Xk",
+                            "name": "Radicalism",
+                            "preferredState": "0",
+                            "actualState": "0"
+                        },
+                        {
+                            "selected": "true",
+                            "influence": "0",
+                            "id": "YYFN-tulk-FAxN-5JLx",
+                            "name": "Strength of Govt",
+                            "preferredState": "0",
+                            "actualState": "0"
+                        },
+                        {
+                            "selected": "true",
+                            "influence": "0",
+                            "id": "hIvg-9NYE-zL3B-tYaN",
+                            "name": "Imperialism",
+                            "preferredState": "0",
+                            "actualState": "0"
+                        },
+                        {
+                            "selected": "true",
+                            "influence": "0",
+                            "id": "goxK-rGXw-6Qcc-A6Jy",
+                            "name": "Foreign Control of Govt",
+                            "preferredState": "0",
+                            "actualState": "0"
+                        },
+                        {
+                            "selected": "true",
+                            "influence": "0",
+                            "id": "ymzG-cbVm-Nsi7-hGXs",
+                            "name": "Terrorism",
+                            "preferredState": "0",
+                            "actualState": "0"
+                        }
+                    ]
+                }
+            ],
+            "id": "id-d3a21332bc1a6"
+        },
+        {
+            "info": {
+                "name": "Fundamentalism",
+                "author": "Bart Kosko",
+                "description": "Kissinger's cognitive map from Kosko's FCM Paper (Fig. 1)",
+                "version": "",
+                "date": ""
+            },
+            "groupNames": {},
+            "concepts": [
+                {
+                    "id": "1",
+                    "name": "1",
+                    "relationships": [
+                        {
+                            "id": "2",
+                            "influence": "-1",
+                            "name": "2"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "name": "2",
+                    "relationships": []
+                },
+                {
+                    "id": "hmxE-jZ4F-eqRo-Z8mh",
+                    "name": "Fundamentalism",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "408",
+                    "y": "40",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "wPab-BJPQ-qLLu-64Xk",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        },
+                        {
+                            "id": "hIvg-9NYE-zL3B-tYaN",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "wPab-BJPQ-qLLu-64Xk",
+                    "name": "Radicalism",
+                    "notes": "Radicalism",
+                    "units": "",
+                    "group": "0",
+                    "x": "653",
+                    "y": "128",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "ymzG-cbVm-Nsi7-hGXs",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "YYFN-tulk-FAxN-5JLx",
+                    "name": "Strength of Govt",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "371",
+                    "y": "399",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": []
+                },
+                {
+                    "id": "hIvg-9NYE-zL3B-tYaN",
+                    "name": "Imperialism",
+                    "notes": "Imperialism",
+                    "units": "",
+                    "group": "0",
+                    "x": "207",
+                    "y": "120",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "goxK-rGXw-6Qcc-A6Jy",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "goxK-rGXw-6Qcc-A6Jy",
+                    "name": "Foreign Control of Govt",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "212",
+                    "y": "253",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "YYFN-tulk-FAxN-5JLx",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "ymzG-cbVm-Nsi7-hGXs",
+                    "name": "Terrorism",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "656",
+                    "y": "249",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "YYFN-tulk-FAxN-5JLx",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        },
+                        {
+                            "id": "goxK-rGXw-6Qcc-A6Jy",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "scenarios": [
+                {
+                    "name": "Scenario",
+                    "concepts": [
+                        {
+                            "selected": "true",
+                            "influence": "0",
+                            "id": "hmxE-jZ4F-eqRo-Z8mh",
+                            "name": "Fundamentalism",
+                            "preferredState": "0",
+                            "actualState": "0"
+                        },
+                        {
+                            "selected": "true",
+                            "influence": "",
+                            "id": "wPab-BJPQ-qLLu-64Xk",
+                            "name": "Radicalism",
+                            "preferredState": "0",
+                            "actualState": "0"
+                        },
+                        {
+                            "selected": "true",
+                            "influence": "",
+                            "id": "YYFN-tulk-FAxN-5JLx",
+                            "name": "Strength of Govt",
+                            "preferredState": "0",
+                            "actualState": "0"
+                        },
+                        {
+                            "selected": "true",
+                            "influence": "",
+                            "id": "hIvg-9NYE-zL3B-tYaN",
+                            "name": "Imperialism",
+                            "preferredState": "0",
+                            "actualState": "0"
+                        },
+                        {
+                            "selected": "true",
+                            "influence": "",
+                            "id": "goxK-rGXw-6Qcc-A6Jy",
+                            "name": "Foreign Control of Govt",
+                            "preferredState": "0",
+                            "actualState": "0"
+                        },
+                        {
+                            "selected": "true",
+                            "influence": "",
+                            "id": "ymzG-cbVm-Nsi7-hGXs",
+                            "name": "Terrorism",
+                            "preferredState": "0",
+                            "actualState": "0"
+                        }
+                    ]
+                }
+            ],
+            "id": "id-044413e5a2a6a"
+        }
+    ],
+    "results": {
+        "id-d3a21332bc1a6": {
+            "id": "id-d3a21332bc1a6",
+            "score": 1,
+            "nodes": {
+                "extra": [],
+                "missing": [],
+                "present": [
+                    {
+                        "name": "2",
+                        "id": "2"
+                    },
+                    {
+                        "name": "1",
+                        "id": "1"
+                    },
+                    {
+                        "name": "Fundamentalism",
+                        "id": "hmxE-jZ4F-eqRo-Z8mh"
+                    },
+                    {
+                        "name": "Radicalism",
+                        "id": "wPab-BJPQ-qLLu-64Xk"
+                    },
+                    {
+                        "name": "Strength of Govt",
+                        "id": "YYFN-tulk-FAxN-5JLx"
+                    },
+                    {
+                        "name": "Imperialism",
+                        "id": "hIvg-9NYE-zL3B-tYaN"
+                    },
+                    {
+                        "name": "Foreign Control of Govt",
+                        "id": "goxK-rGXw-6Qcc-A6Jy"
+                    },
+                    {
+                        "name": "Terrorism",
+                        "id": "ymzG-cbVm-Nsi7-hGXs"
+                    }
+                ]
+            },
+            "relationships": {
+                "extra": [
+                    {
+                        "fromNode": {
+                            "id": "2",
+                            "name": "2"
+                        },
+                        "toNode": {
+                            "name": "1",
+                            "id": "1"
+                        },
+                        "relationship": {
+                            "id": "1",
+                            "name": "1",
+                            "influence": "-1",
+                            "fromNodeId": "2"
+                        }
+                    }
+                ],
+                "missing": [
+                    {
+                        "fromNode": {
+                            "id": "1",
+                            "name": "1"
+                        },
+                        "toNode": {
+                            "name": "2",
+                            "id": "2"
+                        },
+                        "relationship": {
+                            "id": "2",
+                            "name": "2",
+                            "influence": "-1",
+                            "fromNodeId": "1"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "hmxE-jZ4F-eqRo-Z8mh",
+                            "name": "Fundamentalism"
+                        },
+                        "toNode": {
+                            "name": "Radicalism",
+                            "id": "wPab-BJPQ-qLLu-64Xk"
+                        },
+                        "relationship": {
+                            "id": "wPab-BJPQ-qLLu-64Xk",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "hmxE-jZ4F-eqRo-Z8mh"
+                        }
+                    }
+                ],
+                "correctlySigned": [
+                    {
+                        "fromNode": {
+                            "id": "hmxE-jZ4F-eqRo-Z8mh",
+                            "name": "Fundamentalism"
+                        },
+                        "toNode": {
+                            "name": "Imperialism",
+                            "id": "hIvg-9NYE-zL3B-tYaN"
+                        },
+                        "relationship": {
+                            "id": "hIvg-9NYE-zL3B-tYaN",
+                            "name": "",
+                            "influence": "-1",
+                            "fromNodeId": "hmxE-jZ4F-eqRo-Z8mh"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "wPab-BJPQ-qLLu-64Xk",
+                            "name": "Radicalism"
+                        },
+                        "toNode": {
+                            "name": "Terrorism",
+                            "id": "ymzG-cbVm-Nsi7-hGXs"
+                        },
+                        "relationship": {
+                            "id": "ymzG-cbVm-Nsi7-hGXs",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "wPab-BJPQ-qLLu-64Xk"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "hIvg-9NYE-zL3B-tYaN",
+                            "name": "Imperialism"
+                        },
+                        "toNode": {
+                            "name": "Foreign Control of Govt",
+                            "id": "goxK-rGXw-6Qcc-A6Jy"
+                        },
+                        "relationship": {
+                            "id": "goxK-rGXw-6Qcc-A6Jy",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "hIvg-9NYE-zL3B-tYaN"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "goxK-rGXw-6Qcc-A6Jy",
+                            "name": "Foreign Control of Govt"
+                        },
+                        "toNode": {
+                            "name": "Strength of Govt",
+                            "id": "YYFN-tulk-FAxN-5JLx"
+                        },
+                        "relationship": {
+                            "id": "YYFN-tulk-FAxN-5JLx",
+                            "name": "",
+                            "influence": "-1",
+                            "fromNodeId": "goxK-rGXw-6Qcc-A6Jy"
+                        }
+                    }
+                ],
+                "incorrectlySigned": [
+                    {
+                        "fromNode": {
+                            "id": "ymzG-cbVm-Nsi7-hGXs",
+                            "name": "Terrorism"
+                        },
+                        "toNode": {
+                            "name": "Strength of Govt",
+                            "id": "YYFN-tulk-FAxN-5JLx"
+                        },
+                        "relationship": {
+                            "id": "YYFN-tulk-FAxN-5JLx",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "ymzG-cbVm-Nsi7-hGXs"
+                        }
+                    },
+                    {
+                        "fromNode": {
+                            "id": "ymzG-cbVm-Nsi7-hGXs",
+                            "name": "Terrorism"
+                        },
+                        "toNode": {
+                            "name": "Foreign Control of Govt",
+                            "id": "goxK-rGXw-6Qcc-A6Jy"
+                        },
+                        "relationship": {
+                            "id": "goxK-rGXw-6Qcc-A6Jy",
+                            "name": "",
+                            "influence": "1",
+                            "fromNodeId": "ymzG-cbVm-Nsi7-hGXs"
+                        }
+                    }
+                ]
+            },
+            "numNodes": 8,
+            "numRelationships": 7,
+            "numDrivers": 3,
+            "numReceivers": 2,
+            "numOrdinay": 3,
+            "density": 0.125,
+            "relationshipsPerNode": 0.875,
+            "complexity": 0.6666666666666666,
+            "drivers": [
+                {
+                    "name": "2",
+                    "relationships": [
+                        {
+                            "id": "1",
+                            "influence": "-1",
+                            "name": "1"
+                        }
+                    ],
+                    "id": "2",
+                    "indegree": 0,
+                    "outdegree": 1,
+                    "centrality": 1,
+                    "type": "driver"
+                },
+                {
+                    "name": "Fundamentalism",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "408",
+                    "y": "40",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "hIvg-9NYE-zL3B-tYaN",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "hmxE-jZ4F-eqRo-Z8mh",
+                    "indegree": 0,
+                    "outdegree": 1,
+                    "centrality": 1,
+                    "type": "driver"
+                },
+                {
+                    "name": "Radicalism",
+                    "notes": "Radicalism",
+                    "units": "",
+                    "group": "0",
+                    "x": "653",
+                    "y": "128",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "ymzG-cbVm-Nsi7-hGXs",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "wPab-BJPQ-qLLu-64Xk",
+                    "indegree": 0,
+                    "outdegree": 1,
+                    "centrality": 1,
+                    "type": "driver"
+                }
+            ],
+            "driversRanked": [
+                {
+                    "name": "Terrorism",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "656",
+                    "y": "249",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "YYFN-tulk-FAxN-5JLx",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        },
+                        {
+                            "id": "goxK-rGXw-6Qcc-A6Jy",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "ymzG-cbVm-Nsi7-hGXs",
+                    "indegree": 1,
+                    "outdegree": 2,
+                    "centrality": 3,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "2",
+                    "relationships": [
+                        {
+                            "id": "1",
+                            "influence": "-1",
+                            "name": "1"
+                        }
+                    ],
+                    "id": "2",
+                    "indegree": 0,
+                    "outdegree": 1,
+                    "centrality": 1,
+                    "type": "driver"
+                },
+                {
+                    "name": "Fundamentalism",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "408",
+                    "y": "40",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "hIvg-9NYE-zL3B-tYaN",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "hmxE-jZ4F-eqRo-Z8mh",
+                    "indegree": 0,
+                    "outdegree": 1,
+                    "centrality": 1,
+                    "type": "driver"
+                },
+                {
+                    "name": "Radicalism",
+                    "notes": "Radicalism",
+                    "units": "",
+                    "group": "0",
+                    "x": "653",
+                    "y": "128",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "ymzG-cbVm-Nsi7-hGXs",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "wPab-BJPQ-qLLu-64Xk",
+                    "indegree": 0,
+                    "outdegree": 1,
+                    "centrality": 1,
+                    "type": "driver"
+                },
+                {
+                    "name": "Imperialism",
+                    "notes": "Imperialism",
+                    "units": "",
+                    "group": "0",
+                    "x": "207",
+                    "y": "120",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "goxK-rGXw-6Qcc-A6Jy",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "hIvg-9NYE-zL3B-tYaN",
+                    "indegree": 1,
+                    "outdegree": 1,
+                    "centrality": 2,
+                    "type": "ordinay"
+                }
+            ],
+            "receiversRanked": [
+                {
+                    "name": "Foreign Control of Govt",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "212",
+                    "y": "253",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "YYFN-tulk-FAxN-5JLx",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "goxK-rGXw-6Qcc-A6Jy",
+                    "indegree": 2,
+                    "outdegree": 1,
+                    "centrality": 3,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "Strength of Govt",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "371",
+                    "y": "399",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "YYFN-tulk-FAxN-5JLx",
+                    "indegree": 2,
+                    "outdegree": 0,
+                    "centrality": 2,
+                    "type": "receiver"
+                },
+                {
+                    "name": "Terrorism",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "656",
+                    "y": "249",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "YYFN-tulk-FAxN-5JLx",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        },
+                        {
+                            "id": "goxK-rGXw-6Qcc-A6Jy",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "ymzG-cbVm-Nsi7-hGXs",
+                    "indegree": 1,
+                    "outdegree": 2,
+                    "centrality": 3,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "Imperialism",
+                    "notes": "Imperialism",
+                    "units": "",
+                    "group": "0",
+                    "x": "207",
+                    "y": "120",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "goxK-rGXw-6Qcc-A6Jy",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "hIvg-9NYE-zL3B-tYaN",
+                    "indegree": 1,
+                    "outdegree": 1,
+                    "centrality": 2,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "1",
+                    "relationships": [],
+                    "id": "1",
+                    "indegree": 1,
+                    "outdegree": 0,
+                    "centrality": 1,
+                    "type": "receiver"
+                }
+            ],
+            "centralityRanked": [
+                {
+                    "name": "Foreign Control of Govt",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "212",
+                    "y": "253",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "YYFN-tulk-FAxN-5JLx",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "goxK-rGXw-6Qcc-A6Jy",
+                    "indegree": 2,
+                    "outdegree": 1,
+                    "centrality": 3,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "Terrorism",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "656",
+                    "y": "249",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "YYFN-tulk-FAxN-5JLx",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        },
+                        {
+                            "id": "goxK-rGXw-6Qcc-A6Jy",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "ymzG-cbVm-Nsi7-hGXs",
+                    "indegree": 1,
+                    "outdegree": 2,
+                    "centrality": 3,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "Strength of Govt",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "371",
+                    "y": "399",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [],
+                    "id": "YYFN-tulk-FAxN-5JLx",
+                    "indegree": 2,
+                    "outdegree": 0,
+                    "centrality": 2,
+                    "type": "receiver"
+                },
+                {
+                    "name": "Imperialism",
+                    "notes": "Imperialism",
+                    "units": "",
+                    "group": "0",
+                    "x": "207",
+                    "y": "120",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "goxK-rGXw-6Qcc-A6Jy",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "hIvg-9NYE-zL3B-tYaN",
+                    "indegree": 1,
+                    "outdegree": 1,
+                    "centrality": 2,
+                    "type": "ordinay"
+                },
+                {
+                    "name": "1",
+                    "relationships": [],
+                    "id": "1",
+                    "indegree": 1,
+                    "outdegree": 0,
+                    "centrality": 1,
+                    "type": "receiver"
+                },
+                {
+                    "name": "2",
+                    "relationships": [
+                        {
+                            "id": "1",
+                            "influence": "-1",
+                            "name": "1"
+                        }
+                    ],
+                    "id": "2",
+                    "indegree": 0,
+                    "outdegree": 1,
+                    "centrality": 1,
+                    "type": "driver"
+                },
+                {
+                    "name": "Fundamentalism",
+                    "notes": "",
+                    "units": "",
+                    "group": "0",
+                    "x": "408",
+                    "y": "40",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "hIvg-9NYE-zL3B-tYaN",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "-1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "hmxE-jZ4F-eqRo-Z8mh",
+                    "indegree": 0,
+                    "outdegree": 1,
+                    "centrality": 1,
+                    "type": "driver"
+                },
+                {
+                    "name": "Radicalism",
+                    "notes": "Radicalism",
+                    "units": "",
+                    "group": "0",
+                    "x": "653",
+                    "y": "128",
+                    "preferredState": "0",
+                    "actualState": "0",
+                    "relationships": [
+                        {
+                            "id": "ymzG-cbVm-Nsi7-hGXs",
+                            "notes": "",
+                            "confidence": "0",
+                            "influence": "1",
+                            "name": ""
+                        }
+                    ],
+                    "id": "wPab-BJPQ-qLLu-64Xk",
+                    "indegree": 0,
+                    "outdegree": 1,
+                    "centrality": 1,
+                    "type": "driver"
+                }
+            ]
+        }
+    },
+    "canonicalId": "id-044413e5a2a6a",
+    "viewResultId": "id-d3a21332bc1a6",
+    "mode": "files",
+    "showInternalTools": true
+}

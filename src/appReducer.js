@@ -45,6 +45,15 @@ const appReducer = (oldState, newState) => {
                     )),
                 }
             };
+        } else if (action.type === 'columnShown') {
+            const {key} = action;
+            updatedState = {
+                ...updatedState,
+                columnsShown: {
+                    ...updatedState.columnsShown,
+                    [key]: !updatedState.columnsShown[key],
+                }
+            };
         }
     }
     // not running the scenario anymore - JME 2021/01/31

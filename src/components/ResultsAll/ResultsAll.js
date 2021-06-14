@@ -22,43 +22,49 @@ import './ResultsAll.css';
 */
 
 function ResultAll() {
-    const {state} = useContext(AppContext);
-    const {results, modelsJSON} = state;
+    const {state, setState} = useContext(AppContext);
+    const {results, modelsJSON, columnsShown, showConfigureColumns} = state;
+    console.log('showConfigureColumns:', showConfigureColumns);
     const roundingPlaces = 2;
-    const columns = [
-        {title: '# Nodes', display: ({numNodes}) => numNodes},
-        {title: '# Linkages', display: ({numRelationships}) => numRelationships},
-        {title: '# Drivers', display: ({numDrivers}) => numDrivers},
-        {title: '# Receivers', display: ({numReceivers}) => numReceivers},
-        {title: '# Ordinay', display: ({numOrdinay}) => numOrdinay},
-        {title: 'Density', display: ({density}) => density.toFixed(roundingPlaces)},
-        {title: 'Linkages/Node', display: ({relationshipsPerNode}) => relationshipsPerNode.toFixed(roundingPlaces)},
+    const columnsAll = [
+        {title: '# Nodes', key: 'numNodes', display: ({numNodes}) => numNodes},
+        {title: '# Linkages', key: 'numRelationships', display: ({numRelationships}) => numRelationships},
+        {title: '# Drivers', key: 'numDrivers', display: ({numDrivers}) => numDrivers},
+        {title: '# Receivers', key: 'numReceivers', display: ({numReceivers}) => numReceivers},
+        {title: '# Ordinary', key: 'numOrdinay', display: ({numOrdinary}) => numOrdinary},
+        {title: 'Density', key: 'density', display: ({density}) => density.toFixed(roundingPlaces)},
+        {title: 'Linkages/Node', key: 'relationshipsPerNode', display: ({relationshipsPerNode}) => relationshipsPerNode.toFixed(roundingPlaces)},
         {
             title: 'Drivers',
+            key: 'drivers', 
             display: ({drivers}) => (<ul>{drivers.map(({name}, index) => (<li key={`concept-${index}`}>{name}</li>))}</ul>),
             // display: ({drivers}) => drivers.map(({name}) => name).join(', ')
         },
         {
             title: '8 most central concepts',
+            key: 'centralityRanked', 
             display: ({centralityRanked}) => (<ol>{centralityRanked.map(({name, centrality}, index) => (<li key={`concept-${index}`}>{name}<i>{` (${centrality.toFixed(roundingPlaces)})`}</i></li>))}</ol>)
             // display: ({centralityRanked}) => centralityRanked.map(({name, centrality}) => `${name} (${centrality.toFixed(roundingPlaces)})`).join(', ')
         },
         {
             title: 'Top 5 drivers',
+            key: 'driversRanked', 
             display: ({driversRanked}) => (<ol>{driversRanked.map(({name, outdegree}, index) => (<li key={`concept-${index}`}>{name}<i>{` (${outdegree.toFixed(roundingPlaces)})`}</i></li>))}</ol>)
             // display: ({driversRanked}) => driversRanked.map(({name, outdegree}) => `${name} (${outdegree.toFixed(roundingPlaces)})`).join(', ')
         },
         {
             title: 'Top 5 receivers',
+            key: 'receiversRanked', 
             display: ({receiversRanked}) => (<ol>{receiversRanked.map(({name, indegree}, index) => (<li key={`concept-${index}`}>{name}<i>{` (${indegree.toFixed(roundingPlaces)})`}</i></li>))}</ol>)
             // display: ({receiversRanked}) => receiversRanked.map(({name, indegree}) => `${name} (${indegree.toFixed(roundingPlaces)})`).join(', ')
         },
-        {title: '% correct concepts', display: () => '% correct concepts'},
-        {title: '% incorrect concepts', display: () => '% incorrect concepts'},
-        {title: '% correct linkages', display: () => '% correct linkages'},
-        {title: '% incorrect linkages', display: () => '% incorrect linkages'},
+        {title: '% correct concepts', key: 'conceptsCorrect', display: () => '% correct concepts'},
+        {title: '% incorrect concepts', key: 'conceptsIncorrect', display: () => '% incorrect concepts'},
+        {title: '% correct linkages', key: 'linkagesCorrect', display: () => '% correct linkages'},
+        {title: '% incorrect linkages', key: 'linkagesIncorrect', display: () => '% incorrect linkages'},
     ];
-
+    const columns = columnsAll.filter((column) => columnsShown[column.key]);
+    
     const exportXLSX = () => {
         const refModel = modelsJSON.find((model) => model.id === state.canonicalId);
         const {info} = refModel || {info: {}};
@@ -75,27 +81,51 @@ function ResultAll() {
         XLSX.utils.book_append_sheet(workbook, worksheet, `${modelName.substring(0, 23)} Results`);
         XLSX.writeFile(workbook, filename);
     }
-
+    
     return (
         <Overlay className="ResultsAll">
+            <button
+                className="ResultsAll__configure btn btn-ghost"
+                onClick={() => 
+                    setState({showConfigureColumns: !showConfigureColumns})
+                }
+            >
+                <span>{'Configure columns'}</span>
+            </button>
+            {showConfigureColumns && (
+                <ul className="ResultsAll__configure-dialog">
+                    {columnsAll.map(({key, title}, i) =>
+                        <li className="ResultsAll__configure-item" key={`item-${i}`}>
+                            <label>
+                                <input
+                                    type="checkbox"
+                                    checked={columnsShown[key]}
+                                    onChange={() => 
+                                        setState({
+                                            columnsShown: {
+                                                ...columnsShown,
+                                                [key]: !columnsShown[key]
+                                            }
+                                        })
+                                    }
+                                />
+                                {title}
+                            </label>
+                        </li>    
+                    )}
+                </ul>
+            )}
             <button className="ResultsAll__export-xlsx btn btn-ghost" onClick={exportXLSX}>
                 <span>{'Export to xlsx'}</span>
             </button>
             <table className="ResultsAll__table">
-                {/* <thead className="ResultsAll__table-head">
-                    <tr>
-                        <th></th>
-                        {columns.map(({title}, index) => (
-                            <th key={`th-${index}`}>{title}</th>
-                        ))}
-                    </tr>
-                </thead> */}
                 <tbody className="ResultsAll__table-body">
-                    {Object.keys(results).map((id) => {
+                    {Object.keys(results).map((id, index) => {
                         const model = modelsJSON.find((model) => model.id === id);
                         const author = (model && model.info && model.info.author) || id;
+                        
                         return (
-                            <Fragment>
+                            <Fragment key={`result-${index}`}>
                                 <tr className="ResultsAll__table-head">
                                     <th/>
                                     {columns.map(({title}, index) => (
