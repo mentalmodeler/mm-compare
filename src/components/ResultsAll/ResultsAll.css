@@ -156,12 +156,14 @@
 .ResultsAll__configure-dialog {
   position: fixed;
   top: 66px;
-  right: 180px;
+  right: 148px;
   background-color: #222429;
   border: 1px solid #00C7FF;
   list-style-type: none;
   margin: 0;
   padding: 16px;
+  max-height: calc(100% - 66px - 24px);
+  overflow: auto;
 }
 .ResultsAll__configure-item {
   display: block;
