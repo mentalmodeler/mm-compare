@@ -57,10 +57,10 @@ function ResultAll() {
             display: ({receiversRanked}) => (<ol>{receiversRanked.map(({name, indegree}, index) => (<li key={`concept-${index}`}>{name}<i>{` (${indegree.toFixed(roundingPlaces)})`}</i></li>))}</ol>)
             // display: ({receiversRanked}) => receiversRanked.map(({name, indegree}) => `${name} (${indegree.toFixed(roundingPlaces)})`).join(', ')
         },
-        {title: '% matching components', key: 'conceptsCorrect', display: ({nodes}) => `${Math.round((nodes.present.length / (nodes.present.length + nodes.missing.length) * 100))}%`},
-        {title: '# non-matching components', key: 'conceptsIncorrect', display: ({nodes}) => nodes.extra.length},
-        {title: '% matching linkages', key: 'linkagesCorrect', display: ({relationships}) => `${Math.round((relationships.correctlySigned.length / (relationships.incorrectlySigned.length + relationships.incorrectlySigned.length + relationships.missing.length) * 100))}%`},
-        {title: '# non-matching linkages', key: 'linkagesIncorrect', display: ({relationships}) => relationships.missing.length + relationships.incorrectlySigned.length},
+        {title: <>{'% matching'}<br/>{'components'}</>, key: 'conceptsCorrect', display: ({nodes}) => `${Math.round((nodes.present.length / (nodes.present.length + nodes.missing.length) * 100))}%`},
+        {title: <>{'# non-matching'}<br/>{'components'}</>, key: 'conceptsIncorrect', display: ({nodes}) => nodes.extra.length},
+        {title: <>{'% matching'}<br/>{'linkages'}</>, key: 'linkagesCorrect', display: ({relationships}) => `${Math.round((relationships.correctlySigned.length / (relationships.incorrectlySigned.length + relationships.incorrectlySigned.length + relationships.missing.length) * 100))}%`},
+        {title: <>{'# non-matching'}<br/>{'linkages'}</>, key: 'linkagesIncorrect', display: ({relationships}) => relationships.missing.length + relationships.incorrectlySigned.length},
     ];
     const columns = columnsAll.filter((column) => columnsShown[column.key]);
     

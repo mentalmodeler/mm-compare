@@ -158,6 +158,16 @@
   border-bottom: 1px solid #00C7FF;
   margin: 40px 0 32px;
 }
+.result-type--matching .result__linkage,
+.result-type--matching .result__concept,
+.result-type--matching .result__group-title {
+  color: #EAFF00 !important;
+}
+.result-type--nonmatching .result__linkage,
+.result-type--nonmatching .result__concept,
+.result-type--nonmatching .result__group-title {
+  color: #00C7FF;
+}
 .result__group-title {
   margin-bottom: 12px;
   font-size: 22px;
@@ -184,7 +194,7 @@
   align-items: flex-start;
 }
 .result__concept {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.11);
   color: #fff;
   padding: 4px 8px;
   border-radius: 12px;
@@ -192,7 +202,7 @@
   margin-bottom: 12px;
 }
 .result__linkage {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.115);
   color: #fff;
   padding: 6px 8px;
   border-radius: 12px;

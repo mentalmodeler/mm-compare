@@ -35,20 +35,37 @@ function Result() {
     const result = results[viewResultId];
     const {score, nodes, relationships} = result;
     const {extra: extraNodes, missing: missingNodes, present: presentNodes} = nodes;
-    const {extra: extraRelationships, missing: missingRelationships, reversed: reversedRelationships, incorrectlySigned: incorrectlySignedRelationships, correctlySigned: correctlySignedRelationships} = relationships;
+    const {extra: extraRelationships, missing: missingRelationships, reversed: reversedRelationships = [], incorrectlySigned: incorrectlySignedRelationships, correctlySigned: correctlySignedRelationships} = relationships;
     const {info,} = model || {info: {}};
     const {author, date, name} = info;
-    const relationshipCollections = [
-        {title: getPointsTitle(`Missing (${missingRelationships.length})`, missingRelationships, '-'), collection: missingRelationships},
-        {title: getPointsTitle(`Extra (${extraRelationships.length})`, extraRelationships, '-'), collection: extraRelationships},
-        {title: getPointsTitle(`Reversed (${reversedRelationships.length})`, reversedRelationships, '-'), collection: reversedRelationships},
-        {title: `Incorrectly signed (${incorrectlySignedRelationships.length})`, collection: incorrectlySignedRelationships},
-        {title: getPointsTitle(`Correctly signed (${correctlySignedRelationships.length})`, correctlySignedRelationships, '+'), collection: correctlySignedRelationships},
-    ];
     const nodeCollections = [
-        {title: `Missing (${missingNodes.length})`, collection: missingNodes},
-        {title: `Extra (${extraNodes.length})`, collection: extraNodes},
-        {title: `Present (${presentNodes.length})`, collection: presentNodes},
+        {
+            title: `Matching (${presentNodes.length})`,
+            collection: [...presentNodes],
+            type: 'matching',
+        },
+        {
+            title: `Non-matching (${missingNodes.length})`,
+            collection: [...missingNodes, ...extraNodes],
+            type: 'nonmatching'
+        },
+    ];
+    const relationshipCollections = [
+        {
+            title: `Matching (${correctlySignedRelationships.length})`,
+            collection: [...correctlySignedRelationships],
+            type: 'matching',
+        },
+        {
+            title: `Non-matching (${
+                extraRelationships.length
+                + missingRelationships.length
+                + reversedRelationships.length
+                + incorrectlySignedRelationships.length
+            })`,
+            collection: [...missingRelationships, ...extraRelationships, ...incorrectlySignedRelationships, ...reversedRelationships, ...incorrectlySignedRelationships],
+            type: 'nonmatching'
+        },
     ];
     
     return (
@@ -56,24 +73,23 @@ function Result() {
             <div style={getMargin(null, 12)} className="result__author weight-300 h3 capitalize">{author || '[Author]'}</div>
             <div className="result__name weight-500 capitalize">{name || '[Name]'}</div>
             <div style={getMargin(null, 12)} className="result__date italic">{date ? new Intl.DateTimeFormat('en-US', {year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' }).format(new Date(date)) : '[Date]'}</div>
-            <div style={getMargin(null, 32)} className="font-blue h2 italic weight-300">{`SCORE: ${score}`}</div>
-            <div className="result__category uppercase weight-600 font-blue h3">{'LINKAGES'}</div>
-            {relationshipCollections.map(({title, collection}, i) => (
-                <Fragment key={`collection-${i}`}>
-                    <div className="result__group-title weight-300">{title}</div>
-                    <div className="result__linkages">
-                        {collection.map((data, i) => <Linkage {...data} key={`linkage-${i}`}/>)}
-                    </div>
-                </Fragment>
-            ))}
             <div className="result__category uppercase weight-600 font-blue h3">{'Concepts'}</div>
-            {nodeCollections.map(({title, collection}, i) => (
-                <Fragment key={`collection-${i}`}>
+            {nodeCollections.map(({title, collection, type = ''}, i) => (
+                <div className={`result-type result-type--${type}`} key={`collection-${i}`}>
                     <div className="result__group-title weight-300">{title}</div>
                     <div className="result__concepts">
                         {collection.map(({name, id}, i) => <Concept name={name} key={`linkage-${i}`}/>)}
                     </div>
-                </Fragment>
+                </div>
+            ))}
+            <div className="result__category uppercase weight-600 font-blue h3">{'LINKAGES'}</div>
+            {relationshipCollections.map(({title, collection, type = ''}, i) => (
+                <div className={`result-type result-type--${type}`} key={`collection-${i}`}>
+                    <div className="result__group-title weight-300">{title}</div>
+                    <div className="result__linkages">
+                        {collection.map((data, i) => <Linkage {...data} key={`linkage-${i}`}/>)}
+                    </div>
+                </div>
             ))}
         </Overlay>
     );

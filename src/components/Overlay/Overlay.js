@@ -8,6 +8,15 @@ function Overlay({children, className = ''}) {
     
     return (
         <div className={`Overlay ${className}`}>
+            {/* <div className="header">
+                <div className="header__primary">
+                    <div className={"logo"}>
+                        <div className="logo-inner">
+                            <span>{'MentalModeler'}</span><span>{'COMPARE'}</span>
+                        </div>
+                    </div>
+                </div>
+            </div> */}
             <button className="Overlay__close btn btn-ghost" onClick={() => setState({mode: 'files'})}>
                 <span>{'Close'}</span>
             </button>

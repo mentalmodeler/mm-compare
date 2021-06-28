@@ -30,9 +30,9 @@ function Models() {
                             </div>
                             {result && (
                                 <div className="model__score">
-                                    <div className="model__score-value">
+                                    {/* <div className="model__score-value">
                                         {`Score: ${result.score}`}
-                                    </div>
+                                    </div> */}
                                     <div className="model__score-result">
                                         <button
                                             className="link-btn"
